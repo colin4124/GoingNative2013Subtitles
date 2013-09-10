@@ -1,20 +1,3 @@
-this is by the way , describe running code, you can download a branch of gcc and try it today.
-this is not science fiction.
-
-template declaration will look bit like, you can write like this,
-
-here we have find, basically we have need a sequence S, and we need something for the value type of sequence S can compare equal to that of value type T. and so it takes a sequence and a value of that type.
-and now we can write code like that.
-
-it looks exactly as it used to.
-the only difference is, we specified find , precisely , so that all the information for checking is available at the point here.
-so lets see what happens.
-
-here, we have sortable concept some where, and takes a container. we take one container which is a vector, one container which is a list. and we sort the vector. ok, the vector is sortable. sortable ask for things like random iterator, you can do subscripting like that, every thing is fine. 
-sort a list, will fail --  because list is not actually sortable. they don't have the necessary stuff to poke in different parts of an object. 
-the best way to sort list is tern to be copy it to a vector, sort and copy it back again.
-but that's beyond .. it not on here. --  instead, it gives us an error . 
-
 so here is actual error message from this code. list<int> does not satisfy the constraint 'sortable'. and if you hit, oh . ( in response to applause ) Thank You.
 
 by the way, if you hit another compile option, it will tell you why list is not sortable.
