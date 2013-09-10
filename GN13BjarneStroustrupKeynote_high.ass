@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1100
-Active Line: 1123
+Scroll Position: 1123
+Active Line: 1146
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 134517
+Video Position: 138012
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1149,4 +1149,27 @@ Dialogue: 0,1:14:23.80,1:14:25.22,Default,,0,0,0,,and include integers.
 Dialogue: 0,1:14:25.66,1:14:36.63,Default,,0,0,0,,basically it equals the square root function has been specified with the predicate that it's argument has be able to behave like a double.
 Dialogue: 0,1:14:26.40,1:14:30.51,Default,,0,0,0,,\{think of the sort function .. as been the \} <-- 多说的废话
 Dialogue: 0,1:14:38.45,1:14:48.36,Default,,0,0,0,,so, we do the same thing more general, with  sort, it requires something that can behave like a container. and we have these predicate for testing it.
-Dialogue: 0,1:14:49.48,1:14:52.22,Default,,0,0,0,,now we back to where I want it to be.\N
+Dialogue: 0,1:14:49.48,1:14:52.22,Default,,0,0,0,,now we back to where I want it to be.
+Dialogue: 0,1:14:52.38,1:14:52.91,Default,,0,0,0,,here
+Dialogue: 0,1:14:52.91,1:15:00.04,Default,,0,0,0,,sqrt doubles, this works, it doesn't. sort containers  , this works, and this doesn't
+Dialogue: 0,1:15:00.04,1:15:03.13,Default,,0,0,0,,and we get one liner message there.
+Dialogue: 0,1:15:03.48,1:15:12.94,Default,,0,0,0,,so, we can start thinking about generic function exactly like other functions, and you know they look like other functions.
+Dialogue: 0,1:15:14.87,1:15:18.53,Default,,0,0,0,,now going form the simplest cases to the the more complicated one.
+Dialogue: 0,1:15:18.63,1:15:22.44,Default,,0,0,0,,lets see that this actually how well handle the complicated one
+Dialogue: 0,1:15:22.44,1:15:26.90,Default,,0,0,0,,here is ... em.... here is merge.
+Dialogue: 0,1:15:28.05,1:15:29.45,Default,,0,0,0,,it's a .. 
+Dialogue: 0,1:15:30.35,1:15:32.73,Default,,0,0,0,,yeah, it's merge, right there
+Dialogue: 0,1:15:33.08,1:15:34.84,Default,,0,0,0,,it's pretty ugly.
+Dialogue: 0,1:15:35.14,1:15:38.52,Default,,0,0,0,,it has given many people headaches, including me.
+Dialogue: 0,1:15:38.93,1:15:42.67,Default,,0,0,0,,  if you think that's too easy, try accumulate().
+Dialogue: 0,1:15:42.80,1:15:43.76,Default,,0,0,0,, it's even worse.
+Dialogue: 0,1:15:44.11,1:15:45.34,Default,,0,0,0,,so
+Dialogue: 0,1:15:45.34,1:15:49.48,Default,,0,0,0,,we need to get this stuff under control. and we look that's .... 
+Dialogue: 0,1:15:51.83,1:16:00.02,Default,,0,0,0,,that's just too ugly , too easy to make mistakes, too repetitive , ah, not good enough. so let's try simplify it a bit.
+Dialogue: 0,1:16:00.29,1:16:04.20,Default,,0,0,0,,we can say forward iterator for , forward iterator for to be used as shorthand.
+Dialogue: 0,1:16:04.44,1:16:14.77,Default,,0,0,0,,and we use one requires that predicates these three and check the connections between them.
+Dialogue: 0,1:16:15.17,1:16:23.92,Default,,0,0,0,,for complicated algorithm that take many arguments, very often you have predicates that takes all of these arguments and works some relation between them.
+Dialogue: 0,1:16:24.55,1:16:30.50,Default,,0,0,0,,it's a matter fact, i don't think you'll have a good algorithm where there was no relationship at all.
+Dialogue: 0,1:16:30.89,1:16:33.44,Default,,0,0,0,, at least it's rare and these domain.
+Dialogue: 0,1:16:33.76,1:16:44.99,Default,,0,0,0,,and so, this is quite readable, and we are try to attack this problem. if that's your solution, we know what your problem is. you have to simplify. we can simplify even further.
+Dialogue: 0,1:16:44.99,1:16:46.99,Default,,0,0,0,,

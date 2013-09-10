@@ -1,24 +1,3 @@
-now we back to where I want it to be.
-here sqrt doubles, this works, it doesn't. sort containers  , this works, and this doesn't
-and we get one liner message there.
-
-so, we can start thinking about generic function exactly like other functions, and you know they look like other functions.
-
-now going form the simplest cases to the the more complicated one.
-lets see that this actually how well handle the complicated one here. 
-
-here is merge.
-
-it's a .. yeah, it's merge, right there.
-
-it's pretty ugly. it has given many people headaches, including me. if you think that's too easy, try accumulate(). it's even worse.
-
-so we need to get this stuff under control. we look that's just too ugly , too easy to make mistakes, too repetitive , ah, not good enough. so let's try simplify it a bit.
-
-we can say forward iterator for , forward iterator as the shorthand, and we use one requires that predicates these three and check the connections between them. for complicated algorithm that take many arguments, very often you have predicates that takes all of these arguments and works some relation between them. it's a matter fact, i don't think you'll have a good algorithm where there was no relationship at all. at least it's rare and these domain.
-
-and so, this is quite readable, and we are try to attack this problem. if that's your solution, we know what your problem is. you have to simplify. we can simplify even further.
-
 I just said we had a concept that test that three types for mergeable. 
 so we have a little notation using ??? it says, give me three types that meet this.
 and here are the way i'm using these three types.
