@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.875
-Scroll Position: 951
-Active Line: 967
+Scroll Position: 986
+Active Line: 1002
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 110335
+Video Position: 116893
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -698,7 +698,7 @@ Dialogue: 0,0:41:04.42,0:41:09.81,Default,,0,0,0,,I want to return that in vecto
 Dialogue: 0,0:41:10.12,0:41:11.54,Default,,0,0,0,,I know that the pointer is.
 Dialogue: 0,0:41:11.54,0:41:21.72,Default,,0,0,0,,so basically I'm gathering the addressees, the pointers to all the elements that ad value v, in a container. that's fine
 Dialogue: 0,0:41:22.16,0:41:23.23,Default,,0,0,0,,what's what I do.
-Dialogue: 0,0:41:23.23,0:41:27.19,Default,,0,0,0,,then I implemented it by making a local variable  
+Dialogue: 0,0:41:23.23,0:41:27.19,Default,,0,0,0,,then I implemented it by making a local variable
 Dialogue: 0,0:41:27.70,0:41:28.60,Default,,0,0,0,,and I filled it up
 Dialogue: 0,0:41:28.60,0:41:31.59,Default,,0,0,0,,i use the new for loop,
 Dialogue: 0,0:41:31.59,0:41:45.43,Default,,0,0,0,,and I said , for x(es) in C, and x is of course of the reference type of the elements in C, the compiler knows that so I don't have to tell it, that's what "auto" says
@@ -718,7 +718,7 @@ Dialogue: 0,0:42:33.79,0:42:37.16,Default,,0,0,0,,a string is container of chara
 Dialogue: 0,0:42:37.44,0:42:39.77,Default,,0,0,0,,and then I say ....
 Dialogue: 0,0:42:39.83,0:42:42.44,Default,,0,0,0,,find_all p(es) in ...
 Dialogue: 0,0:42:42.50,0:42:43.03,Default,,0,0,0,,sorry
-Dialogue: 0,0:42:43.46,0:42:46.75,Default,,0,0,0,,for all p(s) in the result of find_all 
+Dialogue: 0,0:42:43.46,0:42:46.75,Default,,0,0,0,,for all p(s) in the result of find_all
 Dialogue: 0,0:42:47.01,0:42:52.47,Default,,0,0,0,,so I just going over the result, which happens to be a vector of pointers
 Dialogue: 0,0:42:52.73,0:42:58.45,Default,,0,0,0,,and if it doesn't points to an 'a', we have something serious here
 Dialogue: 0,0:42:58.45,0:43:07.56,Default,,0,0,0,,because I'm saying the 'a', and so it's a bug. string related. it's a bug in string and it's a bug in find_all or something like that.
@@ -753,21 +753,21 @@ Dialogue: 0,0:45:16.94,0:45:18.68,Default,,0,0,0,,there is no universal base cla
 Dialogue: 0,0:45:18.68,0:45:23.65,Default,,0,0,0,,because I consider I universal base class an implementation oriented artifact
 Dialogue: 0,0:45:24.03,0:45:27.34,Default,,0,0,0,,there simply {\b1}is{\b0} nothing that is common to all types
 Dialogue: 0,0:45:27.75,0:45:30.99,Default,,0,0,0,,in terms of representation or interface
-Dialogue: 0,0:45:31.42,0:45:36.66,Default,,0,0,0,,If you say that it has to be, you are imposing time and space overhead 
+Dialogue: 0,0:45:31.42,0:45:36.66,Default,,0,0,0,,If you say that it has to be, you are imposing time and space overhead
 Dialogue: 0,0:45:36.83,0:45:41.13,Default,,0,0,0,,it might be right thing for a limited domain stuff
 Dialogue: 0,0:45:41.13,0:45:44.23,Default,,0,0,0,,and  maybe very useful but it's not fundamental.
 Dialogue: 0,0:45:46.55,0:45:50.88,Default,,0,0,0,,a universal base class easily get to  become overly general
 Dialogue: 0,0:45:50.88,0:46:00.26,Default,,0,0,0,,because that is really where you put many things that are common for everything, and  so you get more and more, and get hard and harder to maintain.
 Dialogue: 0,0:46:00.52,0:46:02.12,Default,,0,0,0,,there is multiple inheritance
 Dialogue: 0,0:46:02.12,0:46:04.66,Default,,0,0,0,,this is considered  contravention places
-Dialogue: 0,0:46:04.89,0:46:12.61,Default,,0,0,0,,but everybody who has static type in any form, has multiple inheritance of interfaces. 
+Dialogue: 0,0:46:04.89,0:46:12.61,Default,,0,0,0,,but everybody who has static type in any form, has multiple inheritance of interfaces.
 Dialogue: 0,0:46:12.89,0:46:15.83,Default,,0,0,0,,so I consider that non-controversial.
 Dialogue: 0,0:46:16.11,0:46:16.96,Default,,0,0,0,,and
 Dialogue: 0,0:46:16.96,0:46:29.53,Default,,0,0,0,,so abstract classes provide most stable interfaces, and the best separation between users and implementers. we need multiple inheritance for that.
 Dialogue: 0,0:46:29.53,0:46:33.28,Default,,0,0,0,,some times it's also useful for data.
 Dialogue: 0,0:46:33.39,0:46:36.21,Default,,0,0,0,,there are some minimal runtime type identification
 Dialogue: 0,0:46:36.42,0:46:37.68,Default,,0,0,0,,so basically,
-Dialogue: 0,0:46:37.93,0:46:41.54,Default,,0,0,0,,you use inheritance when the domain concepts are heritable. 
+Dialogue: 0,0:46:37.93,0:46:41.54,Default,,0,0,0,,you use inheritance when the domain concepts are heritable.
 Dialogue: 0,0:46:41.54,0:46:42.78,Default,,0,0,0,,so basically
 Dialogue: 0,0:46:43.85,0:46:55.16,Default,,0,0,0,,you have to think not in terms of programming languages about whether to use inheritance, you have to think in terms of the problem you try to solve, the information you're trying to represent.
 Dialogue: 0,0:46:55.47,0:46:58.23,Default,,0,0,0,,if you have an general hierarchical system
@@ -790,13 +790,13 @@ Dialogue: 0,0:47:23.59,0:47:23.81,Default,,0,0,0,,{\fs70\c&H0000FF&\pos(741,232)
 Dialogue: 0,0:47:23.81,0:47:24.07,Default,,0,0,0,,{\fs70\c&H0000FF&\pos(802,257)}NO!
 Dialogue: 0,0:47:24.07,0:47:24.31,Default,,0,0,0,,{\fs70\c&H0000FF&\pos(830,252)}NO!
 Dialogue: 0,0:47:24.31,0:47:24.44,Default,,0,0,0,,{\fs70\c&H0000FF&\pos(827,265)}NO!
-Dialogue: 0,0:47:24.19,0:47:31.29,Default,,0,0,0,,if your domain is a deep hierarchy, representing it with inheritance is just right. 
+Dialogue: 0,0:47:24.19,0:47:31.29,Default,,0,0,0,,if your domain is a deep hierarchy, representing it with inheritance is just right.
 Dialogue: 0,0:47:31.56,0:47:40.92,Default,,0,0,0,,if your domain is a shallow hierarchy, maybe what you need is what looks like, just an interface to implementations.
-Dialogue: 0,0:47:41.16,0:47:43.87,Default,,0,0,0,,and maybe there is not inheritance necessary 
+Dialogue: 0,0:47:41.16,0:47:43.87,Default,,0,0,0,,and maybe there is not inheritance necessary
 Dialogue: 0,0:47:43.87,0:47:47.71,Default,,0,0,0,,in which case you probably don't need a virtual function you don't need any hierarchy
 Dialogue: 0,0:47:49.10,0:47:53.65,Default,,0,0,0,,don't over do it , think before you you make a member.
 Dialogue: 0,0:47:53.78,0:47:55.64,Default,,0,0,0,,so ~~
-Dialogue: 0,0:47:55.64,0:47:57.55,Default,,0,0,0,,lets get to generic programming. 
+Dialogue: 0,0:47:55.64,0:47:57.55,Default,,0,0,0,,lets get to generic programming.
 Dialogue: 0,0:47:57.55,0:48:04.50,Default,,0,0,0,,this is the area that has seen most progress evolution over the many years.
 Dialogue: 0,0:48:05.23,0:48:07.38,Default,,0,0,0,,and there's  something to say here.
 Dialogue: 0,0:48:07.57,0:48:08.36,Default,,0,0,0,,basically
@@ -804,7 +804,7 @@ Dialogue: 0,0:48:08.36,0:48:14.09,Default,,0,0,0,,in 1980, I wrote the first pap
 Dialogue: 0,0:48:14.42,0:48:15.31,Default,,0,0,0,,and
 Dialogue: 0,0:48:15.40,0:48:25.96,Default,,0,0,0,,it had a vector in it, it was parametrized with element type, there are statements there, and the macro will do the job.
 Dialogue: 0,0:48:26.37,0:48:29.00,Default,,0,0,0,,I was wrong about that.
-Dialogue: 0,0:48:28.23,0:48:30.16,Default,,0,0,0,,always wrong about that.  
+Dialogue: 0,0:48:28.23,0:48:30.16,Default,,0,0,0,,always wrong about that.
 Dialogue: 0,0:48:30.16,0:48:31.68,Default,,0,0,0,,on the other hand, I had right problem
 Dialogue: 0,0:48:32.01,0:48:33.82,Default,,0,0,0,,I want generic programming
 Dialogue: 0,0:48:34.22,0:48:43.76,Default,,0,0,0,,I wanted , my vector, to be parametrized on the element type, not my sort function, to work independently which element type it was.
@@ -813,7 +813,7 @@ Dialogue: 0,0:48:49.43,0:48:56.83,Default,,0,0,0,,I wrote out the aims and desig
 Dialogue: 0,0:48:56.99,0:49:02.07,Default,,0,0,0,,if it only can do what I imagine, that's something wrong
 Dialogue: 0,0:49:02.07,0:49:09.82,Default,,0,0,0,,because my imagination is not equal to the needs of even a room of people like this. let along all the programmers at all.
 Dialogue: 0,0:49:10.29,0:49:12.01,Default,,0,0,0,,there has to be zero overhead.
-Dialogue: 0,0:49:12.58,0:49:17.63,Default,,0,0,0,,the reason was, that my least favorite data type in c and c++ is the array. 
+Dialogue: 0,0:49:12.58,0:49:17.63,Default,,0,0,0,,the reason was, that my least favorite data type in c and c++ is the array.
 Dialogue: 0,0:49:18.51,0:49:25.16,Default,,0,0,0,,and the array in C , is a data type that so stupid it doesn't even know how many elements it got.
 Dialogue: 0,0:49:25.62,0:49:33.85,Default,,0,0,0,, that's a source for a lot of problems. it also converts in strange ways, it .. it .. it's problematic.
 Dialogue: 0,0:49:33.85,0:49:43.15,Default,,0,0,0,,so i would like to have a vector or matrix that would be a useful replacement for arrays in most cases.
@@ -822,10 +822,10 @@ Dialogue: 0,0:49:54.68,0:49:55.20,Default,,0,0,0,,so
 Dialogue: 0,0:49:55.20,0:49:56.84,Default,,0,0,0,,we have to be able to do that.
 Dialogue: 0,0:49:57.22,0:50:00.56,Default,,0,0,0,,you have to remember that most people will think about abstraction
 Dialogue: 0,0:50:00.68,0:50:01.71,Default,,0,0,0,,and generic code
-Dialogue: 0,0:50:01.71,0:50:03.61,Default,,0,0,0,,thinks about indirect function calls. 
+Dialogue: 0,0:50:01.71,0:50:03.61,Default,,0,0,0,,thinks about indirect function calls.
 Dialogue: 0,0:50:04.12,0:50:12.27,Default,,0,0,0,,you can't go through a jump table and still have performance comparable with manipulating arrays.
 Dialogue: 0,0:50:12.62,0:50:23.12,Default,,0,0,0,,imagination if you are operation for subscripting or you are operation for going two elements over in an arrays, was a virtual function call.
-Dialogue: 0,0:50:23.28,0:50:29.29,Default,,0,0,0,,you're dead in the world that compare to arrays, and the arrays will live forever. 
+Dialogue: 0,0:50:23.28,0:50:29.29,Default,,0,0,0,,you're dead in the world that compare to arrays, and the arrays will live forever.
 Dialogue: 0,0:50:29.29,0:50:30.10,Default,,0,0,0,,so
 Dialogue: 0,0:50:30.10,0:50:39.64,Default,,0,0,0,,and also of course I want well specified interfaces like everybody else.{\n}I knew that well specified interface is the foundation for a lot of good architecture stuff.
 Dialogue: 0,0:50:40.02,0:50:47.56,Default,,0,0,0,,I was the one who put function argument checking and conversion into c++
@@ -849,7 +849,7 @@ Dialogue: 0,0:51:29.70,0:51:30.95,Default,,0,0,0,,what we have from templates?
 Dialogue: 0,0:51:30.95,0:51:33.46,Default,,0,0,0,,they do compile time duck typing
 Dialogue: 0,0:51:33.46,0:51:38.21,Default,,0,0,0,,basically, they expand the code, and they check the expanded code.
 Dialogue: 0,0:51:38.77,0:51:41.61,Default,,0,0,0,,and that leads to template meta programming.
-Dialogue: 0,0:51:41.61,0:51:47.05,Default,,0,0,0,, it leads to very good weaving of information from different sources. 
+Dialogue: 0,0:51:41.61,0:51:47.05,Default,,0,0,0,, it leads to very good weaving of information from different sources.
 Dialogue: 0,0:51:47.05,0:51:53.68,Default,,0,0,0,,but it also means, that an  error is found in the generated code, in the instantiated code
 Dialogue: 0,0:51:53.96,0:51:58.30,Default,,0,0,0,,and most of you while you seen these error messages, you can get out of that.
 Dialogue: 0,0:51:59.02,0:52:06.29,Default,,0,0,0,,I used to think of that, sooner or later, the compiler writers will get smart enough to write decent error messages
@@ -873,10 +873,10 @@ Dialogue: 0,0:52:51.83,0:52:55.58,Default,,0,0,0,,because template meta programm
 Dialogue: 0,0:52:55.83,0:52:59.80,Default,,0,0,0,,constexpr provides a facility in c++11
 Dialogue: 0,0:52:59.81,0:53:01.62,Default,,0,0,0,,it's  generalized const expression
 Dialogue: 0,0:53:01.62,0:53:02.25,Default,,0,0,0,,basically
-Dialogue: 0,0:53:02.25,0:53:08.18,Default,,0,0,0,,you can define functions that are to be evaluated at compile time. 
+Dialogue: 0,0:53:02.25,0:53:08.18,Default,,0,0,0,,you can define functions that are to be evaluated at compile time.
 Dialogue: 0,0:53:08.18,0:53:13.31,Default,,0,0,0,,you can force compile time evaluation in-places
 Dialogue: 0,0:53:13.72,0:53:15.37,Default,,0,0,0,,and
-Dialogue: 0,0:53:16.11,0:53:22.58,Default,,0,0,0,,you can do const expression evaluation at compile time for user defined types. 
+Dialogue: 0,0:53:16.11,0:53:22.58,Default,,0,0,0,,you can do const expression evaluation at compile time for user defined types.
 Dialogue: 0,0:53:22.93,0:53:26.39,Default,,0,0,0,,provided that user defined types are simple enough know as literal types.
 Dialogue: 0,0:53:26.61,0:53:30.34,Default,,0,0,0,,I know some of the talks there will get into some of that.
 Dialogue: 0,0:53:30.86,0:53:32.78,Default,,0,0,0,,OK, we are making progress.\N
@@ -887,10 +887,10 @@ Dialogue: 0,0:53:46.40,0:54:00.26,Default,,0,0,0,,we need to raise our level of 
 Dialogue: 0,0:54:00.52,0:54:02.58,Default,,0,0,0,,and here's sort of classic examples
 Dialogue: 0,0:54:02.58,0:54:06.62,Default,,0,0,0,,we sort a vector, and we find an element in a vector.
 Dialogue: 0,0:54:07.09,0:54:12.54,Default,,0,0,0,,the STL works on sequences of things, so we have to have the beginning and the end.
-Dialogue: 0,0:54:12.79,0:54:13.90,Default,,0,0,0,,but basically 
+Dialogue: 0,0:54:12.79,0:54:13.90,Default,,0,0,0,,but basically
 Dialogue: 0,0:54:13.90,0:54:19.20,Default,,0,0,0,,this is parametrized, it is generic or the kind of container we are dealing with
 Dialogue: 0,0:54:19.20,0:54:20.46,Default,,0,0,0,,here is a vector, here is a list
-Dialogue: 0,0:54:20.46,0:54:21.92,Default,,0,0,0,,and it's goo....  
+Dialogue: 0,0:54:20.46,0:54:21.92,Default,,0,0,0,,and it's goo....
 Dialogue: 0,0:54:21.92,0:54:25.52,Default,,0,0,0,,it's generic over the elements of those containers.
 Dialogue: 0,0:54:25.52,0:54:26.98,Default,,0,0,0,,there is ....
 Dialogue: 0,0:54:27.75,0:54:28.74,Default,,0,0,0,,let me think about
@@ -917,8 +917,8 @@ Dialogue: 0,0:56:00.05,0:56:01.05,Default,,0,0,0,,and so here
 Dialogue: 0,0:56:01.23,0:56:07.12,Default,,0,0,0,,less_than(strings) that suppose to take a string you'll compare it to , and then compare when you ask it.
 Dialogue: 0,0:56:07.39,0:56:10.34,Default,,0,0,0,,and that's how it was done.
 Dialogue: 0,0:56:10.61,0:56:12.10,Default,,0,0,0,,here
-Dialogue: 0,0:56:12.10,0:56:18.31,Default,,0,0,0,,take the "Griffin" that's what I want to compare to, and whenever I want to compare, it calls the object. 
-Dialogue: 0,0:56:18.59,0:56:23.04,Default,,0,0,0,,if you get tired to write these function objects, we can use lambda instead. 
+Dialogue: 0,0:56:12.10,0:56:18.31,Default,,0,0,0,,take the "Griffin" that's what I want to compare to, and whenever I want to compare, it calls the object.
+Dialogue: 0,0:56:18.59,0:56:23.04,Default,,0,0,0,,if you get tired to write these function objects, we can use lambda instead.
 Dialogue: 0,0:56:23.30,0:56:28.62,Default,,0,0,0,,which is basically a notation that says, give me a function object and use it right here.
 Dialogue: 0,0:56:28.97,0:56:29.76,Default,,0,0,0,,so here
 Dialogue: 0,0:56:29.76,0:56:38.67,Default,,0,0,0,,I want to , to , to do the  find_all, and I want to compare to the value "Griffin"
@@ -942,15 +942,15 @@ Dialogue: 0,0:57:52.08,0:57:56.64,Default,,0,0,0,,there is no interface that pro
 Dialogue: 0,0:57:56.64,0:57:58.14,Default,,0,0,0,,and that means that ...
 Dialogue: 0,0:57:58.14,0:58:11.56,Default,,0,0,0,,every time you change the implementation of an algorithm, some user might be affected in an surprising way, so that users interest what's inside those abstractions. they are no data abstract.
 Dialogue: 0,0:58:12.19,0:58:17.19,Default,,0,0,0,,that leads to people start generalize their implementations so that ...
-Dialogue: 0,0:58:17.67,0:58:19.12,Default,,0,0,0,,users 
-Dialogue: 0,0:58:19.12,0:58:20.60,Default,,0,0,0,,so that they have a great user base. 
+Dialogue: 0,0:58:17.67,0:58:19.12,Default,,0,0,0,,users
+Dialogue: 0,0:58:19.12,0:58:20.60,Default,,0,0,0,,so that they have a great user base.
 Dialogue: 0,0:58:20.76,0:58:23.61,Default,,0,0,0,,this gets to a mass some times.
 Dialogue: 0,0:58:23.96,0:58:27.99,Default,,0,0,0,,and further more it doesn't integrate too well with other parts of the language.
 Dialogue: 0,0:58:27.99,0:58:34.44,Default,,0,0,0,,you have to teach this kinds of coding in a different way than other kinds of coding.
 Dialogue: 0,0:58:34.65,0:58:38.71,Default,,0,0,0,,and you have to to to to think about in a different way.
 Dialogue: 0,0:58:38.71,0:58:39.54,Default,,0,0,0,,that's not good.
 Dialogue: 0,0:58:39.54,0:58:45.13,Default,,0,0,0,,we are not good at keeping one style here, and one style there. it should be better integrated.
-Dialogue: 0,0:58:45.13,0:58:51.75,Default,,0,0,0,,so, I think we have to rethink generic code, so that it become similar to the way we think about other code. 
+Dialogue: 0,0:58:45.13,0:58:51.75,Default,,0,0,0,,so, I think we have to rethink generic code, so that it become similar to the way we think about other code.
 Dialogue: 0,0:58:51.75,0:58:57.36,Default,,0,0,0,,and we need interfaces to get better error messages,  better specification of our algorithms.
 Dialogue: 0,0:58:57.36,0:58:58.22,Default,,0,0,0,,so
 Dialogue: 0,0:58:58.36,0:59:00.31,Default,,0,0,0,,here is what I like.
@@ -973,16 +973,16 @@ Dialogue: 0,0:59:40.24,0:59:40.59,Default,,0,0,0,,here
 Dialogue: 0,0:59:40.59,0:59:43.03,Default,,0,0,0,,when it's time to sort something that's not a container.
 Dialogue: 0,0:59:43.13,0:59:45.56,Default,,0,0,0,,in this case is a pointer of a container.
 Dialogue: 0,0:59:45.92,0:59:47.35,Default,,0,0,0,,and we should get an error
-Dialogue: 0,0:59:47.35,0:59:51.14,Default,,0,0,0,,we should get an error right here, and it should be comprehensive. 
+Dialogue: 0,0:59:47.35,0:59:51.14,Default,,0,0,0,,we should get an error right here, and it should be comprehensive.
 Dialogue: 0,0:59:51.14,0:59:57.41,Default,,0,0,0,, so I would like to see a generic programming that's very similar to ordinary programming.
 Dialogue: 0,0:59:58.20,0:59:59.15,Default,,0,0,0,,so
 Dialogue: 0,0:59:59.43,1:00:03.11,Default,,0,0,0,,this is what we have working with, something called concepts lite.
 Dialogue: 0,1:00:03.11,1:00:04.75,Default,,0,0,0,,it is also known as constraints
 Dialogue: 0,1:00:04.75,1:00:13.21,Default,,0,0,0,,but after people have talking about concepts for a decade, in variably they became concepts.
-Dialogue: 0,1:00:13.21,1:00:22.56,Default,,0,0,0,,but since they bundle less than 1/10 of the complexity of the old c++0x concepts, it became concept lite. 
+Dialogue: 0,1:00:13.21,1:00:22.56,Default,,0,0,0,,but since they bundle less than 1/10 of the complexity of the old c++0x concepts, it became concept lite.
 Dialogue: 0,1:00:22.98,1:00:25.79,Default,,0,0,0,,sorry to Coca-Cola what ever.
-Dialogue: 0,1:00:26.40,1:00:27.87,Default,,0,0,0,,err, so , basically 
-Dialogue: 0,1:00:27.87,1:00:38.18,Default,,0,0,0,,we are trying to answer the question how doe we specify requirements on template argument, we want to state the intent and we want point-of-use checking. 
+Dialogue: 0,1:00:26.40,1:00:27.87,Default,,0,0,0,,err, so , basically
+Dialogue: 0,1:00:27.87,1:00:38.18,Default,,0,0,0,,we are trying to answer the question how doe we specify requirements on template argument, we want to state the intent and we want point-of-use checking.
 Dialogue: 0,1:00:38.27,1:00:38.58,Default,,0,0,0,, so
 Dialogue: 0,1:00:38.58,1:00:46.40,Default,,0,0,0,,we are basically providing set of functions that states what we are requiring of an algorithm.
 Dialogue: 0,1:00:46.63,1:00:47.36,Default,,0,0,0,,so
@@ -993,4 +993,39 @@ Dialogue: 0,1:01:05.65,1:01:09.11,Default,,0,0,0,,this is voted as c++14 technic
 Dialogue: 0,1:01:09.11,1:01:12.15,Default,,0,0,0,,technical specification, I believe it's the technical term.
 Dialogue: 0,1:01:12.40,1:01:16.49,Default,,0,0,0,,It designed by me, Gonçalo dos Reis and Andrew Sutton.
 Dialogue: 0,1:01:16.49,1:01:21.51,Default,,0,0,0,,Andrew Sutton has the basic implementation of all the basic stuff and most of the details
-Dialogue: 0,1:01:21.51,1:01:23.51,Default,,0,0,0,,
+Dialogue: 0,1:01:21.90,1:01:22.43,Default,,0,0,0,,and
+Dialogue: 0,1:01:22.46,1:01:30.72,Default,,0,0,0,,basically for those of you who have lift through the c++0x concepts,
+Dialogue: 0,1:01:30.72,1:01:37.46,Default,,0,0,0,,there are not concept maps, there are no new syntax, and there are no scope and look up issues.
+Dialogue: 0,1:01:37.46,1:01:40.23,Default,,0,0,0,,the specification is very much simpler.
+Dialogue: 0,1:01:40.23,1:01:45.05,Default,,0,0,0,,so, the first thing we have to ask ourself when working on those,
+Dialogue: 0,1:01:45.06,1:01:45.96,Default,,0,0,0,,what are concepts?
+Dialogue: 0,1:01:46.03,1:01:50.25,Default,,0,0,0,, and one of the notions that we came up with what is concepts are fundamental.
+Dialogue: 0,1:01:51.16,1:01:57.38,Default,,0,0,0,,people were writing specifications that were very very detail in theory.
+Dialogue: 0,1:01:58.40,1:02:03.29,Default,,0,0,0,,there literally  was 120 concepts in c++ standard library. 
+Dialogue: 0,1:02:03.56,1:02:15.23,Default,,0,0,0,,and look at it, how many concepts are there in the algebra ? a dozen ? is c++ standard library 10 times  complicated as algebra?
+Dialogue: 0,1:02:15.44,1:02:19.76,Default,,0,0,0,,I hope not. it certainly does not have 10 time as many fundamental concepts.
+Dialogue: 0,1:02:19.80,1:02:30.56,Default,,0,0,0,,so we have to concentrate on building concepts in a language as what you have that a fundamental application area.
+Dialogue: 0,1:02:30.60,1:02:38.06,Default,,0,0,0,,you has to remember that concept comes to classes that describes that area, you don't have a free choice really.
+Dialogue: 0,1:02:38.57,1:02:41.06,Default,,0,0,0,,if you are dealing with arithmetic
+Dialogue: 0,1:02:41.12,1:02:49.61,Default,,0,0,0,,you can't define what it means to subtract independently what it means to define addition.
+Dialogue: 0,1:02:49.81,1:02:57.20,Default,,0,0,0,,you can not define multiplication independently of the first two. these things hang together.
+Dialogue: 0,1:02:57.20,1:03:03.31,Default,,0,0,0,,it is not just syntax, subtractable is not a concept, it's something you can say,
+Dialogue: 0,1:03:03.32,1:03:10.69,Default,,0,0,0,,but it doesn't make any sense except in the context of something that's specified , say arithmetic.
+Dialogue: 0,1:03:10.69,1:03:18.43,Default,,0,0,0,,and we always have concepts. notice that, C have concepts. integer, arithmetic ,
+Dialogue: 0,1:03:19.33,1:03:29.64,Default,,0,0,0,,they are just words in the standard, just like c++ forward iterator, and predicate.
+Dialogue: 0,1:03:29.83,1:03:31.33,Default,,0,0,0,,are just words
+Dialogue: 0,1:03:31.49,1:03:35.89,Default,,0,0,0,,in the standard. we want to make it real into code.
+Dialogue: 0,1:03:36.29,1:03:42.68,Default,,0,0,0,,so, basically we are looking for some thing fundamental. don't expect to find something fundamental every year.
+Dialogue: 0,1:03:42.69,1:03:51.59,Default,,0,0,0,,I don't expect to once we got a body of concept to describe things, I don't expect to fond one every year.
+Dialogue: 0,1:03:51.59,1:03:54.96,Default,,0,0,0,,it is not the minimal requirements for an implementation.
+Dialogue: 0,1:03:54.96,1:04:02.61,Default,,0,0,0,,if every algorithm is specified as minimal requirement for it's implementation.we have a problem.
+Dialogue: 0,1:04:02.61,1:04:08.11,Default,,0,0,0,,if we want to improve the implementation we have to change the interface.that's bridle.
+Dialogue: 0,1:04:08.36,1:04:14.82,Default,,0,0,0,,what we need to do, is specify interfaces in terms of general concepts
+Dialogue: 0,1:04:14.85,1:04:19.39,Default,,0,0,0,,so that we can improve the implementations without affecting the users
+Dialogue: 0,1:04:19.39,1:04:25.56,Default,,0,0,0,,we also want to have so few concepts that we actually have a chance of remembering them.
+Dialogue: 0,1:04:25.56,1:04:32.60,Default,,0,0,0,,I couldn't remember that sole of concepts in c++0x
+Dialogue: 0,1:04:33.30,1:04:42.04,Default,,0,0,0,,I do expect to be able to remember the concepts in c++14, or 17, what ever. because there will be few hands of them.
+Dialogue: 0,1:04:42.10,1:04:49.35,Default,,0,0,0,,Andrew Sutton and me , work on something and we got the STL down to 16 concepts.
+Dialogue: 0,1:04:49.57,1:04:54.56,Default,,0,0,0,, I believe current version is that thing.
+Dialogue: 0,1:04:55.62,1:04:59.20,Default,,0,0,0,,A concept is a predicate on one or more arguments.
+Dialogue: 0,1:05:00.30,1:05:04.96,Default,,0,0,0,,we say that T suppose to be a sequence, simply at compile time,

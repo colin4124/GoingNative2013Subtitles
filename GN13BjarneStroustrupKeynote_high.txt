@@ -1,39 +1,3 @@
-basically for those of you who have lift through the c++0x concepts, there are not concept maps, there are no new syntax, and there are no scope and look up issues.  
-the specification is very much simpler.
-
-so, the first thing we have to ask ourself when working on those, what are concepts? and one of the notions that we came up with what is concepts are fundamental. people were writing specifications that were very very detail in theory. there literally  was 120 concepts in c++ standard library. and look at it, how many concepts are there in the algebra ? a dozen ? is c++ standard library 10 times  complicated as algebra?
-I hope not.
-it certainly does not have 10 time as many fundamental concepts.
-so we have to concentrate on building concepts in a language as what you have that a fundamental application area.
-
-you has to remember that concept comes to classes that describes that area, you don't have a free choice really. if you are dealing with arithmetic, you can't define what it means to subtract, independently what it means to define addition. you can not define multiplication independently of the first two. these things hang together.
-
-is not just syntax, subtractable is not a concept, it's something you can say, but it doesn't make any sense except in the context of something that's specified , say arithmetic.
-
-and we always have concepts. notice that, C have concepts. integer, arithmetic , they are just words in the standard, just like c++ forward iterator, and predicate. just words, in the standard. we want to make it real into code.
-
-so, basically we are looking for some thing fundamental. don't expect to find something fundamental every year.
-
-I don't expect to once we got a body of concept to describe things, I don't expect to fond one every year.
-
-it is not the minimal requirements for an implementation.
-if every algorithm is specified as minimal requirement for it's implementation.
-we have a problem.
-
-if we want to improve the implementation we have to change the interface.
-that's bridle.
-
-what we need to do, is specify interfaces in terms of general concepts, so that we can improve the implementations without affecting the users, we also want to have so few concepts that we actually have a chance of remembering them.
-
-I couldn't remember that sole of concepts in c++0x.
-I do expect to be able to remember the concepts in c++14, or 17, what ever. because there will be few hands of them.
-
-Andrew Sutton and me , work on something and we got the STL down to 16 concepts. I believe current version is that thing.
-
-A concept is a predicate on one or more arguments.
-
-we say that T suppose to be a sequence, simply at compile time, we check whether T is a sequence. some where, there's definition of what is it that meets sequence, has an begin an end , for instance, and we just ask if T meets that. if it's a sequence, answer is true, if it's not, answer is false. we can do that on compile time. we have constexpr functions we have functions that can be evaluated at compile time. and we can write things like that.
-
 this is by the way , describe running code, you can download a branch of gcc and try it today.
 this is not science fiction.
 
