@@ -1,9 +1,3 @@
-I want to return that in vector of pointers to the elements in there.
-
-I know that the pointer is.
-
-so basically I'm gather in the addresses of all the elements had value v, in a container. that's fine. what's what I do.
-
 then I implemented it by making a local variable, and I filled it up, i use the new for loop, the "range for" loop, and I said , for x(es) in C, and x is of course of the reference type of the elements in C, the compiler knows that so I don't have to tell it, that's what "auto" says, and its reference, because I want to collect information of where they were. if X equals v, push its pointer to it onto "res", when we finish, we return res.
 
 so this is like the matrix example, basically I just make a collection of things and I pass it by value, return it by value. and vector, in c++11, vector it has move constructor. so this is actually very efficient code. don't try this on c++98. because it will be a performance budget. but all the rest here, you can write c++11 so you are saved from that problem.
