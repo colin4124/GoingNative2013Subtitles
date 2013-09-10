@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1193
-Active Line: 1216
+Scroll Position: 1247
+Active Line: 1270
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 149304
+Video Position: 158451
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1242,4 +1242,58 @@ Dialogue: 0,1:22:45.84,1:22:49.67,Default,,0,0,0,,I want to build it from 5 year
 Dialogue: 0,1:22:49.81,1:22:52.17,Default,,0,0,0,,been an university students .
 Dialogue: 0,1:22:52.34,1:22:56.79,Default,,0,0,0,, it became too difficult to work on a problem just because it all to be solved.
 Dialogue: 0,1:22:57.07,1:23:01.75,Default,,0,0,0,,it alse has to be publishable  teachable and fashionable
-Dialogue: 0,1:23:01.75,1:23:03.75,Default,,0,0,0,,
+Dialogue: 0,1:23:02.10,1:23:05.19,Default,,0,0,0,,but we need to make exceptions more usable
+Dialogue: 0,1:23:06.13,1:23:10.01,Default,,0,0,0,,and we have to deal with multiple address spaces eventually.
+Dialogue: 0,1:23:10.46,1:23:18.90,Default,,0,0,0,,the notion that everything works in a single address space is ... it's creaking , it's difficult.
+Dialogue: 0,1:23:19.25,1:23:26.22,Default,,0,0,0,,we get these big memories with lots of cores lots of things, but they are uniform any more. 
+Dialogue: 0,1:23:27.41,1:23:33.47,Default,,0,0,0,,different memories takes different time to use in such way. I think we need to think about that. 
+Dialogue: 0,1:23:33.65,1:23:36.83,Default,,0,0,0,,we want more domain specific libraries
+Dialogue: 0,1:23:37.03,1:23:42.22,Default,,0,0,0,,and we want to develop a better specification of c++
+Dialogue: 0,1:23:42.31,1:23:48.48,Default,,0,0,0,,I think English text is.. err, is ,,, maxing out in terms of what we can handle.
+Dialogue: 0,1:23:49.23,1:23:53.40,Default,,0,0,0,,finally I just do a little rant.
+Dialogue: 0,1:23:53.40,1:23:57.09,Default,,0,0,0,,I really dislike the word paradigms.
+Dialogue: 0,1:23:57.67,1:24:08.58,Default,,0,0,0,,it was invented by coon and imply some superiority of one paradigms over another. and thins changes, everything changes, nor the older stuff became bad.
+Dialogue: 0,1:24:10.38,1:24:19.72,Default,,0,0,0,,Kristen Nygaard said, you know, addiction didn't actually become useless just because we invented multiplication
+Dialogue: 0,1:24:20.44,1:24:22.95,Default,,0,0,0,,nothing was over turned
+Dialogue: 0,1:24:22.95,1:24:27.59,Default,,0,0,0,,you incorporate the old stuff, maybe you have to re-phrase the old stuff
+Dialogue: 0,1:24:27.59,1:24:31.36,Default,,0,0,0,,newton mechanism just not disappear just because of Einstein
+Dialogue: 0,1:24:31.96,1:24:37.09,Default,,0,0,0,,it became special case, actually a very useful special case.
+Dialogue: 0,1:24:37.16,1:24:48.95,Default,,0,0,0,,similarly, I would like to see OOP, GE, and conventional programming just as differential aspects that you can use in combinations
+Dialogue: 0,1:24:49.26,1:24:59.35,Default,,0,0,0,, and I want be able to develop rules for how you do things that doesn't chock in terms of these paradigms which might become semi religions.
+Dialogue: 0,1:24:59.85,1:25:05.72,Default,,0,0,0,,and the focus has been on  language features
+Dialogue: 0,1:25:05.72,1:25:08.65,Default,,0,0,0,, do I write templates do I write virtual functions
+Dialogue: 0,1:25:08.65,1:25:12.70,Default,,0,0,0,,that's  incomplete senses.
+Dialogue: 0,1:25:12.85,1:25:18.66,Default,,0,0,0,,so I think it makes harms, it makes things complicated, it grades bad code
+Dialogue: 0,1:25:18.80,1:25:30.69,Default,,0,0,0,,and people write code for instance, if they believe object oriented is right, they are write generic code using interfaces in virtual functions, which is less convince than templates and run much slow.
+Dialogue: 0,1:25:31.78,1:25:43.45,Default,,0,0,0,,and similarly you can have people that so believing in generic programming that they make everything into statically resolved overloading 
+Dialogue: 0,1:25:43.45,1:25:50.52,Default,,0,0,0,,and they should have build hierarchy and dynamic solution will much simple and easier to debug and document.
+Dialogue: 0,1:25:50.87,1:25:52.93,Default,,0,0,0,,so here is an example of what I mean.
+Dialogue: 0,1:25:52.93,1:25:55.67,Default,,0,0,0,,I want to draw all elements in a container. 
+Dialogue: 0,1:25:57.51,1:26:05.40,Default,,0,0,0,,And I want that container to have value type that is the type of the element to be pointers to shapes.
+Dialogue: 0,1:26:06.36,1:26:13.73,Default,,0,0,0,,fine, and then I want to for each elements in the container, I want to call draw
+Dialogue: 0,1:26:14.89,1:26:21.56,Default,,0,0,0,,now, this is the generalization of the classical object oriented programming : draw all shapes. 
+Dialogue: 0,1:26:21.67,1:26:22.84,Default,,0,0,0,,that was first on..  
+Dialogue: 0,1:26:22.98,1:26:25.66,Default,,0,0,0,,way back in 67.. 
+Dialogue: 0,1:26:25.66,1:26:28.07,Default,,0,0,0,,for useful paradigm.
+Dialogue: 0,1:26:28.83,1:26:31.77,Default,,0,0,0,, before they have screens that could do this kinds of things.
+Dialogue: 0,1:26:31.77,1:26:35.33,Default,,0,0,0,, so this is an old program. it's obviously object oriented code. 
+Dialogue: 0,1:26:35.58,1:26:39.46,Default,,0,0,0,,also see here, it's clearly hierarchy of shapes. 
+Dialogue: 0,1:26:41.66,1:26:46.19,Default,,0,0,0,,and there's a virtual function that dispatches to the right kinds of shape. this is object oriented code. 
+Dialogue: 0,1:26:46.71,1:26:48.44,Default,,0,0,0,,obviously it's generic
+Dialogue: 0,1:26:48.44,1:26:49.30,Default,,0,0,0,,look
+Dialogue: 0,1:26:49.30,1:26:52.40,Default,,0,0,0,, it is parametrized on the kinds of container
+Dialogue: 0,1:26:52.58,1:26:54.62,Default,,0,0,0,, and you want to do the same
+Dialogue: 0,1:26:54.62,1:27:00.12,Default,,0,0,0,, to ..  element type ..to that ... and you call for_each algorithm. 
+Dialogue: 0,1:27:00.12,1:27:03.86,Default,,0,0,0,, it's cleanly cleanly generic programming.
+Dialogue: 0,1:27:04.10,1:27:07.39,Default,,0,0,0,, but it's also very ordinary programming
+Dialogue: 0,1:27:07.55,1:27:10.56,Default,,0,0,0,,I just want to draw everything in a container.
+Dialogue: 0,1:27:10.87,1:27:14.13,Default,,0,0,0,,and I just call a couple of functions on them
+Dialogue: 0,1:27:14.34,1:27:20.02,Default,,0,0,0,,it happens to be a lambda, but .. hey, it's just a peace of code that's called.
+Dialogue: 0,1:27:20.45,1:27:30.79,Default,,0,0,0,,so, I don't believe that you can creditably claim that this one is one and not the other two.
+Dialogue: 0,1:27:31.51,1:27:36.48,Default,,0,0,0,,it's all three and integrate rather nicely, we have to work on this integration. 
+Dialogue: 0,1:27:38.39,1:27:42.47,Default,,0,0,0,,ok, we reach the Q&A time
+Dialogue: 0,1:27:43.24,1:27:49.25,Default,,0,0,0,,and .. I'm not sure.. do we have some microphones that people can use?
+Dialogue: 0,1:27:49.25,1:27:54.74,Default,,0,0,0,,because I barely see people in the back, I certainly can't hear you out there. 
+Dialogue: 0,1:28:01.92,1:28:03.18,Default,,0,0,0,,so any questions?
+Dialogue: 0,1:28:03.18,1:28:06.98,Default,,0,0,0,,this one up there. ah. 
+Dialogue: 0,1:28:06.98,1:28:08.98,Default,,0,0,0,,
