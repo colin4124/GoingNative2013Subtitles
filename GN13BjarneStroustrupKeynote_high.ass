@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1154
-Active Line: 1177
+Scroll Position: 1167
+Active Line: 1190
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 143245
+Video Position: 145303
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1203,4 +1203,17 @@ Dialogue: 0,1:19:18.39,1:19:22.60,Default,,0,0,0,,we can't eliminate the c++ maj
 Dialogue: 0,1:19:22.78,1:19:30.39,Default,,0,0,0,,that is a lot of people has a solutions that ends up been worse that the problem for a large number of people.
 Dialogue: 0,1:19:31.10,1:19:34.28,Default,,0,0,0,,compatibility is a feature in itself.
 Dialogue: 0,1:19:34.33,1:19:39.60,Default,,0,0,0,,that means that ugly things will not go away even when you provide good alternatives. 
-Dialogue: 0,1:19:39.60,1:19:41.60,Default,,0,0,0,,
+Dialogue: 0,1:19:39.60,1:19:43.90,Default,,0,0,0,,we just have to get people to use the good alternatives where they can. 
+Dialogue: 0,1:19:44.09,1:19:46.35,Default,,0,0,0,,so compatibility is necessary.\N
+Dialogue: 0,1:19:46.35,1:19:57.27,Default,,0,0,0,,performance, uncompromising , portability where appropriate , and we would like to increase, not restrict, the application areas.
+Dialogue: 0,1:19:57.50,1:20:04.70,Default,,0,0,0,,if we could restrict the ranges of application , we could be get a ??? language.
+Dialogue: 0,1:20:04.74,1:20:05.04,Default,,0,0,0,,but 
+Dialogue: 0,1:20:05.64,1:20:11.74,Default,,0,0,0,,actually there is a crew by me from about 1984, then even I can decide a ??? language.
+Dialogue: 0,1:20:12.26,1:20:14.53,Default,,0,0,0,,that just wasn't the exercise
+Dialogue: 0,1:20:14.53,1:20:21.67,Default,,0,0,0,,it was not the aim of those that use by most useful language for more people for more application areas.
+Dialogue: 0,1:20:21.67,1:20:25.86,Default,,0,0,0,,and I think that is very well worth pursuing.
+Dialogue: 0,1:20:26.39,1:20:27.80,Default,,0,0,0,,so the challenge is
+Dialogue: 0,1:20:27.80,1:20:32.56,Default,,0,0,0,, I would like to close more type loopholes
+Dialogue: 0,1:20:33.29,1:20:36.62,Default,,0,0,0,,we need to address concurrent programming
+Dialogue: 0,1:20:36.62,1:20:48.26,Default,,0,0,0,,we need some thing that's higher level than the threads, locks style programming which is universal necessary
+Dialogue: 0,1:20:48.26,1:20:51.49,Default,,0,0,0,,and about the worse way writing concurrency system that I know of.
