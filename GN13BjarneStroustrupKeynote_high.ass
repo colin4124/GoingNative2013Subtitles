@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1032
-Active Line: 1055
+Scroll Position: 1041
+Active Line: 1064
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 124986
+Video Position: 126110
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1082,3 +1082,12 @@ Dialogue: 0,1:09:17.66,1:09:19.38,Default,,0,0,0,,{\pos(712,163)\c&H00FF08&}( PS
 Dialogue: 0,1:09:23.28,1:09:28.77,Default,,0,0,0,, this idea, that you look for problems that fit your tool is wrong.
 Dialogue: 0,1:09:28.77,1:09:30.34,Default,,0,0,0,,so we did the other way around.
 Dialogue: 0,1:09:30.34,1:09:36.46,Default,,0,0,0,,all of the work on concept lite is done on back applications and find how we can support it.
+Dialogue: 0,1:09:36.91,1:09:40.24,Default,,0,0,0,,and we don't have the semantic parts
+Dialogue: 0,1:09:40.24,1:09:40.86,Default,,0,0,0,,because ...
+Dialogue: 0,1:09:40.86,1:09:47.23,Default,,0,0,0,,we consider that ... would be too much to handle just now.
+Dialogue: 0,1:09:47.56,1:09:52.25,Default,,0,0,0,,we don't see problems that checking template in isolation but we don't do it.
+Dialogue: 0,1:09:52.57,1:09:55.95,Default,,0,0,0,,that is, we check the use of a template
+Dialogue: 0,1:09:55.95,1:10:02.79,Default,,0,0,0,,if a template specify to require something, we assume that the implementation will stick to that contract.
+Dialogue: 0,1:10:02.79,1:10:04.53,Default,,0,0,0,,we don't actually verify it.
+Dialogue: 0,1:10:04.66,1:10:07.86,Default,,0,0,0,,we think it can be verified bu you have to be very careful.
+Dialogue: 0,1:10:07.86,1:10:09.86,Default,,0,0,0,,
