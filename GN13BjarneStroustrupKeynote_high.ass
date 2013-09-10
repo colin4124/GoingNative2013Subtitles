@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1123
-Active Line: 1146
+Scroll Position: 1154
+Active Line: 1177
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 138012
+Video Position: 143245
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1172,4 +1172,35 @@ Dialogue: 0,1:16:15.17,1:16:23.92,Default,,0,0,0,,for complicated algorithm that
 Dialogue: 0,1:16:24.55,1:16:30.50,Default,,0,0,0,,it's a matter fact, i don't think you'll have a good algorithm where there was no relationship at all.
 Dialogue: 0,1:16:30.89,1:16:33.44,Default,,0,0,0,, at least it's rare and these domain.
 Dialogue: 0,1:16:33.76,1:16:44.99,Default,,0,0,0,,and so, this is quite readable, and we are try to attack this problem. if that's your solution, we know what your problem is. you have to simplify. we can simplify even further.
-Dialogue: 0,1:16:44.99,1:16:46.99,Default,,0,0,0,,
+Dialogue: 0,1:16:45.57,1:16:50.58,Default,,0,0,0,,I just said we had a concept that test that three types for mergeable. 
+Dialogue: 0,1:16:50.74,1:16:54.40,Default,,0,0,0,,so we have a little notation using ??? it says
+Dialogue: 0,1:16:54.40,1:16:57.21,Default,,0,0,0,,give me three types that meet this.
+Dialogue: 0,1:16:57.49,1:17:00.98,Default,,0,0,0,,\Nand here are the way i'm using these three types.
+Dialogue: 0,1:17:01.39,1:17:09.65,Default,,0,0,0,,we just rap the whole thing up and just say, give me a set of types, that meets my requirements.
+Dialogue: 0,1:17:09.85,1:17:14.58,Default,,0,0,0,,so that introduce three names in a scope 
+Dialogue: 0,1:17:14.58,1:17:17.03,Default,,0,0,0,,"For" "For2" and "Out" which will using here.
+Dialogue: 0,1:17:17.39,1:17:27.95,Default,,0,0,0,,and it says that once you give me that in a call, I'll execute the predicate "mergeable" on them to see whether it works.
+Dialogue: 0,1:17:28.67,1:17:33.96,Default,,0,0,0,,and, that's the way it looks.\N
+Dialogue: 0,1:17:34.23,1:17:44.13,Default,,0,0,0,,obviously, we take three type names, the first one have to be forward iterator, the second one have to be forward iterator too, not necessary the same forward iterator type. 
+Dialogue: 0,1:17:44.44,1:17:52.20,Default,,0,0,0,,and then we have output iterator, we have assignable requirements and comparable requirements. that's it! just the predicate.
+Dialogue: 0,1:17:53.90,1:18:00.44,Default,,0,0,0,,so, this sounds very good. 
+Dialogue: 0,1:18:00.91,1:18:04.22,Default,,0,0,0,,we are of course not finished.
+Dialogue: 0,1:18:04.34,1:18:08.28,Default,,0,0,0,, that is, there are mush more we can do to improve c++. 
+Dialogue: 0,1:18:08.28,1:18:16.63,Default,,0,0,0,,so let me finish off by looking a bit on the challenges that's facing us. there are many and complicated. 
+Dialogue: 0,1:18:17.01,1:18:23.46,Default,,0,0,0,,those of you who are to take an Ancient Greek knows this is one of the labors Hercules(Heracles). he is trying to kill a hydra.
+Dialogue: 0,1:18:24.03,1:18:25.76,Default,,0,0,0,,very hard task.
+Dialogue: 0,1:18:26.08,1:18:27.23,Default,,0,0,0,,so
+Dialogue: 0,1:18:27.23,1:18:29.94,Default,,0,0,0,, c++ challenges.
+Dialogue: 0,1:18:30.62,1:18:40.95,Default,,0,0,0,,so, we want to make a better languages , and we also want to convince programmers that the new stuff actually worth well.
+Dialogue: 0,1:18:41.42,1:18:47.21,Default,,0,0,0,,and that's relatively easy for actually getting people to use in large code bases.
+Dialogue: 0,1:18:47.21,1:18:54.00,Default,,0,0,0,,but. we first have to improve the languages and then we have convince people that use worth well.
+Dialogue: 0,1:18:54.00,1:19:04.24,Default,,0,0,0,,and then we can start seeing the partial problems of introducing it into the existing code bases that doesn't have it.
+Dialogue: 0,1:19:04.44,1:19:10.14,Default,,0,0,0,,I refer to that as source code rejuvenation, and I think that is going to be an important issue.  
+Dialogue: 0,1:19:11.01,1:19:12.40,Default,,0,0,0,,so basically
+Dialogue: 0,1:19:12.93,1:19:14.88,Default,,0,0,0,,what ever we do  to the language
+Dialogue: 0,1:19:14.88,1:19:18.07,Default,,0,0,0,,or what ever we do to change the implementations
+Dialogue: 0,1:19:18.39,1:19:22.60,Default,,0,0,0,,we can't eliminate the c++ major strength
+Dialogue: 0,1:19:22.78,1:19:30.39,Default,,0,0,0,,that is a lot of people has a solutions that ends up been worse that the problem for a large number of people.
+Dialogue: 0,1:19:31.10,1:19:34.28,Default,,0,0,0,,compatibility is a feature in itself.
+Dialogue: 0,1:19:34.33,1:19:39.60,Default,,0,0,0,,that means that ugly things will not go away even when you provide good alternatives. 
+Dialogue: 0,1:19:39.60,1:19:41.60,Default,,0,0,0,,
