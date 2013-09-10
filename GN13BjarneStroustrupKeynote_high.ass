@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1065
-Active Line: 1088
+Scroll Position: 1100
+Active Line: 1123
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 129349
+Video Position: 134517
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1114,4 +1114,39 @@ Dialogue: 0,1:11:36.54,1:11:40.65,Default,,0,0,0,,if it calls, it can call two, 
 Dialogue: 0,1:11:41.03,1:11:48.03,Default,,0,0,0,,if we can call two, an they are not specialization of each other, it's an ambiguity error 
 Dialogue: 0,1:11:48.47,1:11:49.99,Default,,0,0,0,,that's the whole set or rules.
 Dialogue: 0,1:11:50.21,1:11:55.93,Default,,0,0,0,,it's just do event diagram, that ont that ont and that one , finished.
-Dialogue: 0,1:11:55.93,1:11:57.93,Default,,0,0,0,,
+Dialogue: 0,1:11:56.19,1:12:02.43,Default,,0,0,0,,so we compute what the ambiguity resolution it suppose to be
+Dialogue: 0,1:12:02.60,1:12:04.01,Default,,0,0,0,,and the classic example here.
+Dialogue: 0,1:12:04.01,1:12:05.02,Default,,0,0,0,,we take advance. 
+Dialogue: 0,1:12:05.45,1:12:15.09,Default,,0,0,0,,here is advance that take an input iterator,  here is advance that take a bidirectional iterator, and here is advance that take a random access iterator
+Dialogue: 0,1:12:15.34,1:12:21.06,Default,,0,0,0,,the are implemented differently. and we are quite capable of piking the right one in all cases
+Dialogue: 0,1:12:21.77,1:12:23.64,Default,,0,0,0,,ok, how did we define it? 
+Dialogue: 0,1:12:23.64,1:12:33.33,Default,,0,0,0,,well that just bool expression so you write bool expressions, bool expressions get tedious so you write functions that are return booleans, this all work in.
+Dialogue: 0,1:12:33.76,1:12:40.89,Default,,0,0,0,,to help you write, there is "required(expression)" that takes a expression
+Dialogue: 0,1:12:40.89,1:12:46.02,Default,,0,0,0,,if it is valid expression then return true, if not, it just return false
+Dialogue: 0,1:12:46.02,1:12:48.42,Default,,0,0,0,,this will suppose to be implementation details
+Dialogue: 0,1:12:48.42,1:12:53.42,Default,,0,0,0,,but everybody scream, they want it,  so this not part of the technical specification.
+Dialogue: 0,1:12:54.02,1:13:03.08,Default,,0,0,0,,and to recognize them syntactically, I will show you why we need to do that, we call them concept rather than constexpr.
+Dialogue: 0,1:13:03.20,1:13:07.54,Default,,0,0,0,,we simply take the work constexpr out, and put concept in.
+Dialogue: 0,1:13:07.70,1:13:10.21,Default,,0,0,0,,so that they are the same thing except for the syntax analyzer.
+Dialogue: 0,1:13:11.10,1:13:13.98,Default,,0,0,0,,how do we get to sort a container?
+Dialogue: 0,1:13:15.96,1:13:20.13,Default,,0,0,0,, basically, it's a terse notation what I call it.
+Dialogue: 0,1:13:20.32,1:13:26.97,Default,,0,0,0,,it means, sorting a container means sorting a type that meets the container requirements.
+Dialogue: 0,1:13:27.92,1:13:29.07,Default,,0,0,0,,and basically
+Dialogue: 0,1:13:29.07,1:13:36.21,Default,,0,0,0,,that again means give me a type, check the containers requirements on it, and use that type as argument.
+Dialogue: 0,1:13:36.34,1:13:38.45,Default,,0,0,0,,so basically these three ... I ...
+Dialogue: 0,1:13:38.45,1:13:39.09,Default,,0,0,0,, ... for example ...  
+Dialogue: 0,1:13:39.09,1:13:43.61,Default,,0,0,0,,I use the underscore underscore to show that it's actually not a
+Dialogue: 0,1:13:43.61,1:13:48.10,Default,,0,0,0,, it'a generated name that you can't actually refer to
+Dialogue: 0,1:13:48.31,1:13:51.43,Default,,0,0,0,,but this is equivalent. 
+Dialogue: 0,1:13:51.43,1:13:56.48,Default,,0,0,0,,so if you like to write out the longhand yourself, you will write something like this.
+Dialogue: 0,1:13:57.26,1:14:00.27,Default,,0,0,0,,it will assert that it's a container. and we do the stuff
+Dialogue: 0,1:14:00.38,1:14:04.70,Default,,0,0,0,,so, this is part of this idea of making simple things simple
+Dialogue: 0,1:14:05.35,1:14:10.26,Default,,0,0,0,,this is the simplest algorithms work really nicely for this ?? .
+Dialogue: 0,1:14:10.26,1:14:13.15,Default,,0,0,0,,and it looks just like our traditional functions. 
+Dialogue: 0,1:14:13.15,1:14:16.29,Default,,0,0,0,,so sort , sorts, no .. sorry, 
+Dialogue: 0,1:14:17.03,1:14:22.72,Default,,0,0,0,,square root(sqrt), take a square root  of something that can behave like a double.
+Dialogue: 0,1:14:23.80,1:14:25.22,Default,,0,0,0,,and include integers.
+Dialogue: 0,1:14:25.66,1:14:36.63,Default,,0,0,0,,basically it equals the square root function has been specified with the predicate that it's argument has be able to behave like a double.
+Dialogue: 0,1:14:26.40,1:14:30.51,Default,,0,0,0,,\{think of the sort function .. as been the \} <-- 多说的废话
+Dialogue: 0,1:14:38.45,1:14:48.36,Default,,0,0,0,,so, we do the same thing more general, with  sort, it requires something that can behave like a container. and we have these predicate for testing it.
+Dialogue: 0,1:14:49.48,1:14:52.22,Default,,0,0,0,,now we back to where I want it to be.\N
