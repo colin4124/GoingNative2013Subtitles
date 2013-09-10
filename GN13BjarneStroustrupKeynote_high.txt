@@ -1,21 +1,4 @@
-we need to build libraries that provide higher model. we want to simply generic programming, I'm looking at concepts, we should .. I means some of us have them today, but we need have them all next year. and we want to simply programming using class hierarchies, I've been doing some work on  ..... multiple methods and functional style. em, some of it is available on my homepage, on the publications, and software also available.
-but it's the research work, but I hope some of it gets into the language if not now then later.
 
-you have to think in-long-term in this kinds of stuff.
-some times, you have to sort of imagine what the world would like in ten years, and try to get there.
-I suppose to thinking , oh ,dear, it will take more than a year, I can't do it. the next quarter is essential ..  on  that kind of thing.
-we have to have some longer term thinking.
-
-let's see. better support for ... object oriented generic programming .. get back to that. 
-but I don't like the way the community some time fold into different and waring camps when they don't have an need to.
-
-we have to support, combinations of programming styles.
-we have to make exception usable for real time project.
-one of the things I've said about is that exceptions are not used for hard real time, it can be used for soft real time.
-and the reason is very simple. it is, we don't have choise that allow us to estimate how long it takes to recover from an error when exception is thrown. the tools don't exist. I want to build it from 5 years ago but somehow I never get around to it.
-been an university students . it became too difficult just because it all to be solved.
-
-it has to be publishable  teachable and fashionable . 
 
 but we need to make exceptions more usable. and we have to deal with multiple address spaces eventually.
 

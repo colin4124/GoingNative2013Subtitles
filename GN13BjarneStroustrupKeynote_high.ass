@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.625
-Scroll Position: 1167
-Active Line: 1190
+Scroll Position: 1193
+Active Line: 1216
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 145303
+Video Position: 149304
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -1217,3 +1217,29 @@ Dialogue: 0,1:20:27.80,1:20:32.56,Default,,0,0,0,, I would like to close more ty
 Dialogue: 0,1:20:33.29,1:20:36.62,Default,,0,0,0,,we need to address concurrent programming
 Dialogue: 0,1:20:36.62,1:20:48.26,Default,,0,0,0,,we need some thing that's higher level than the threads, locks style programming which is universal necessary
 Dialogue: 0,1:20:48.26,1:20:51.49,Default,,0,0,0,,and about the worse way writing concurrency system that I know of.
+Dialogue: 0,1:20:51.76,1:20:55.92,Default,,0,0,0,,we need to build libraries that provide higher models
+Dialogue: 0,1:20:56.39,1:20:58.91,Default,,0,0,0,,we want to simply generic programming
+Dialogue: 0,1:20:59.28,1:21:02.16,Default,,0,0,0,,I'm looking at concepts
+Dialogue: 0,1:21:02.16,1:21:03.61,Default,,0,0,0,,we should .. 
+Dialogue: 0,1:21:03.61,1:21:08.09,Default,,0,0,0,,I means some of us have them today, but we need have them all next year. 
+Dialogue: 0,1:21:09.72,1:21:13.35,Default,,0,0,0,,and we want to simply programming using class hierarchies
+Dialogue: 0,1:21:13.35,1:21:23.62,Default,,0,0,0,,I've been doing some work on  ..... multiple methods and functional style ... patten matching
+Dialogue: 0,1:21:23.91,1:21:30.21,Default,,0,0,0,,some of it is available on my homepage, on the publications and software also available.
+Dialogue: 0,1:21:30.57,1:21:37.79,Default,,0,0,0,,but that's the research work, but I hope some of it gets into the language if not now then later.
+Dialogue: 0,1:21:37.79,1:21:41.67,Default,,0,0,0,,you have to think in-long-term in this kinds of stuff.\N
+Dialogue: 0,1:21:42.25,1:21:48.93,Default,,0,0,0,,some times, you have to sort of imagine what the world would like in ten years, and try to get there.
+Dialogue: 0,1:21:49.42,1:22:00.51,Default,,0,0,0,,I suppose to thinking , oh ,dear, it will take more than a year, I can't do it. the next quarter is essential ..  on  that kind of thing. we have to have some longer term thinking.\N
+Dialogue: 0,1:22:00.86,1:22:02.78,Default,,0,0,0,,let's see. 
+Dialogue: 0,1:22:02.89,1:22:08.63,Default,,0,0,0,,better support for ... object oriented generic programming .. get back to that. 
+Dialogue: 0,1:22:08.63,1:22:17.07,Default,,0,0,0,,but I don't like the way the community some time fold into different and waring camps when they don't have an need to.
+Dialogue: 0,1:22:17.07,1:22:22.06,Default,,0,0,0,,we have to support, combinations of programming styles.
+Dialogue: 0,1:22:22.29,1:22:26.21,Default,,0,0,0,,we have to make exception usable for real time project.
+Dialogue: 0,1:22:26.21,1:22:34.06,Default,,0,0,0,,one of the things I've said about is that exceptions are not used for hard real time, it can be used for soft real time.
+Dialogue: 0,1:22:34.14,1:22:36.89,Default,,0,0,0,,and the reason is very simple. 
+Dialogue: 0,1:22:37.02,1:22:44.24,Default,,0,0,0,,it is, we don't have tools that allow us to estimate how long it takes to recover from an error when exception is thrown
+Dialogue: 0,1:22:44.24,1:22:45.84,Default,,0,0,0,,the tools don't exist
+Dialogue: 0,1:22:45.84,1:22:49.67,Default,,0,0,0,,I want to build it from 5 years ago but somehow I never get around to it.
+Dialogue: 0,1:22:49.81,1:22:52.17,Default,,0,0,0,,been an university students .
+Dialogue: 0,1:22:52.34,1:22:56.79,Default,,0,0,0,, it became too difficult to work on a problem just because it all to be solved.
+Dialogue: 0,1:22:57.07,1:23:01.75,Default,,0,0,0,,it alse has to be publishable  teachable and fashionable
+Dialogue: 0,1:23:01.75,1:23:03.75,Default,,0,0,0,,
