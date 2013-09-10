@@ -1,0 +1,757 @@
+﻿[Script Info]
+Title: Essences of c++ - BjarneStroustrup
+Original Script: microcai
+Script Type: v4.00+
+Original Editing: microcai
+Original Timing: microcai
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Tahoma,24,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00C0C0C0,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:09.04,Default,,0000,0000,0000,,{\fn新宋体\fs36\b1} {\c&HD201D6&} 本字幕由 avplayer.org 社区出品
+Dialogue: 0,0:00:00.20,0:00:04.58,Default,,0000,0000,0000,,gentleman please welcome Charles Torre
+Dialogue: 0,0:00:09.12,0:00:11.28,Default,,0000,0000,0000,,excellent. thanks for showing up
+Dialogue: 0,0:00:11.38,0:00:13.76,Default,,0000,0000,0000,,it's great to able to do goingnative again.
+Dialogue: 0,0:00:13.82,0:00:18.76,Default,,0000,0000,0000,,last year was awesome, wonderful to see all you people, all you programmers in the audience
+Dialogue: 0,0:00:19.28,0:00:20.68,Default,,0000,0000,0000,,there is people on-line
+Dialogue: 0,0:00:20.68,0:00:23.34,Default,,0000,0000,0000,,thanks to the channel9 team for streaming this live,
+Dialogue: 0,0:00:23.42,0:00:25.88,Default,,0000,0000,0000,,very appreciate that. so you can ask questions on-line.
+Dialogue: 0,0:00:25.97,0:00:29.56,Default,,0000,0000,0000,,But we gona take questions from people on this rooms priority you came.
+Dialogue: 0,0:00:29.72,0:00:30.65,Default,,0000,0000,0000,,That's excellent.
+Dialogue: 0,0:00:31.22,0:00:34.51,Default,,0000,0000,0000,,We have a great 3 days for you.
+Dialogue: 0,0:00:34.52,0:00:37.71,Default,,0000,0000,0000,,today we gona say pretty much iso for day1 and day2.
+Dialogue: 0,0:00:37.73,0:00:42.53,Default,,0000,0000,0000,,mainly focus on standard c++.
+Dialogue: 0,0:00:42.92,0:00:46.90,Default,,0000,0000,0000,,day3 we gonna kind of  some windows
+Dialogue: 0,0:00:47.05,0:00:50.74,Default,,0000,0000,0000,,some more vc++.
+Dialogue: 0,0:00:52.84,0:00:57.36,Default,,0000,0000,0000,,I'd like to introduce our key note speaker.
+Dialogue: 0,0:00:57.39,0:00:59.79,Default,,0000,0000,0000,,so we want to have Bjarne Stroupstrup to appear.
+Dialogue: 0,0:01:00.11,0:01:02.02,Default,,0000,0000,0000,,the creator of c++
+Dialogue: 0,0:01:02.27,0:01:04.88,Default,,0000,0000,0000,,he's gonna teach us a little bit about the essences.
+Dialogue: 0,0:01:05.05,0:01:06.83,Default,,0000,0000,0000,,thanks for come-ing !
+Dialogue: 0,0:01:07.10,0:01:10.12,Default,,0000,0000,0000,,------
+Dialogue: 0,0:01:11.20,0:01:15.13,Default,,0000,0000,0000,,OK, here. welcome, seams the mic working.
+Dialogue: 0,0:01:17.02,0:01:25.56,Default,,0000,0000,0000,,so, in the next couple of days, you are going to hear a lot about the latest and greatest in c++.
+Dialogue: 0,0:01:25.60,0:01:30.49,Default,,0000,0000,0000,,you are going to hear a lot about advanced tech and new features.
+Dialogue: 0,0:01:30.80,0:01:36.14,Default,,0000,0000,0000,,and I decide that in the keynote, I couldn't go too much into that.
+Dialogue: 0,0:01:36.21,0:01:38.62,Default,,0000,0000,0000,,so I'm going to try to do the opposite.
+Dialogue: 0,0:01:38.84,0:01:43.07,Default,,0000,0000,0000,,I'm going to try and focus on what is the essence of c++ .
+Dialogue: 0,0:01:43.36,0:01:48.96,Default,,0000,0000,0000,,what is it that's been constant over the decades.
+Dialogue: 0,0:01:49.05,0:01:55.38,Default,,0000,0000,0000,,and basically that is it what kept c++ alive and kicking.
+Dialogue: 0,0:01:55.45,0:02:02.54,Default,,0000,0000,0000,,of course I cann't quite insist showing some new and nice stuff
+Dialogue: 0,0:02:02.57,0:02:08.66,Default,,0000,0000,0000,,so the last 15min or so will be about something from c++14.
+Dialogue: 0,0:02:09.25,0:02:14.86,Default,,0000,0000,0000,,but basically I'll talk about aims and constraints , and the development first.
+Dialogue: 0,0:02:15.16,0:02:19.50,Default,,0000,0000,0000,,I'm trying to explain c++ in four slides.
+Dialogue: 0,0:02:19.69,0:02:27.90,Default,,0000,0000,0000,,and then going to some details of resource management, oop , ge, what challenge ahead.
+Dialogue: 0,0:02:28.05,0:02:37.85,Default,,0000,0000,0000,,so, basically, that is what we want , out of a programming language that is aim among things for system programming.
+Dialogue: 0,0:02:38.14,0:02:39.77,Default,,0000,0000,0000,,We want type safety.
+Dialogue: 0,0:02:39.94,0:02:44.05,Default,,0000,0000,0000,,That will be ideal, we can't be perfect about that
+Dialogue: 0,0:02:44.17,0:02:48.14,Default,,0000,0000,0000,,with the need to deal close to the hardware. and with the C inheritance .
+Dialogue: 0,0:02:48.25,0:02:51.54,Default,,0000,0000,0000,,but it's an idea , it's something we aim to improve.
+Dialogue: 0,0:02:51.88,0:02:53.85,Default,,0000,0000,0000,,We want resource safety.
+Dialogue: 0,0:02:54.22,0:02:56.94,Default,,0000,0000,0000,,that is not just memory.
+Dialogue: 0,0:02:57.08,0:03:01.51,Default,,0000,0000,0000,,so i'm going to argue that we we really don't want to leak anything.
+Dialogue: 0,0:03:01.60,0:03:07.71,Default,,0000,0000,0000,,and "things" can be, things like locks and file handles, not just memory.
+Dialogue: 0,0:03:07.74,0:03:09.48,Default,,0000,0000,0000,,I'm going to talk about performance
+Dialogue: 0,0:03:09.51,0:03:10.73,Default,,0000,0000,0000,,because , well,
+Dialogue: 0,0:03:10.89,0:03:12.62,Default,,0000,0000,0000,,that is important.
+Dialogue: 0,0:03:12.78,0:03:17.04,Default,,0000,0000,0000,,if it isn't important to you , that might be better language for you to do.
+Dialogue: 0,0:03:17.22,0:03:24.33,Default,,0000,0000,0000,,predictability is very important for very large component of the c++ world.
+Dialogue: 0,0:03:24.38,0:03:30.54,Default,,0000,0000,0000,,er, dealing with hardware, dealing with things that has to be happen quickly or reliable or repeatedly .
+Dialogue: 0,0:03:30.74,0:03:33.06,Default,,0000,0000,0000,,and we can languages that can be taught.
+Dialogue: 0,0:03:33.38,0:03:39.56,Default,,0000,0000,0000,,we want something that is no more complex than the needs to be for the tasks is doing.
+Dialogue: 0,0:03:39.78,0:03:43.02,Default,,0000,0000,0000,,and of course we want to be able to read what we are doing.
+Dialogue: 0,0:03:43.11,0:03:46.16,Default,,0000,0000,0000,,you can writ unreadable code in any language of course.
+Dialogue: 0,0:03:46.40,0:03:51.80,Default,,0000,0000,0000,,but, we want to be able to write some thing on a good day
+Dialogue: 0,0:03:51.93,0:03:56.23,Default,,0000,0000,0000,,that people say, "wow, this is realy nice and clean an clear."
+Dialogue: 0,0:03:56.47,0:04:02.96,Default,,0000,0000,0000,,these are the aims we much better added today than we were 20 years ago
+Dialogue: 0,0:04:03.16,0:04:08.48,Default,,0000,0000,0000,,and will be actually much better next year when we get c++14
+Dialogue: 0,0:04:09.12,0:04:11.76,Default,,0000,0000,0000,,and , we want...
+Dialogue: 0,0:04:11.83,0:04:20.36,Default,,0000,0000,0000,,the primary concerns of mine, is system programming, embedded systems, resource constrain systems, and large systems.
+Dialogue: 0,0:04:20.54,0:04:22.26,Default,,0000,0000,0000,,that is ... err...
+Dialogue: 0,0:04:22.36,0:04:28.08,Default,,0000,0000,0000,,so, strictly, the domain of high qualified professional programmers.
+Dialogue: 0,0:04:28.41,0:04:34.35,Default,,0000,0000,0000,,and it may very well means that if you have a tool for that, it's good for a lot of other things.
+Dialogue: 0,0:04:34.38,0:04:37.51,Default,,0000,0000,0000,,that was one of my surprises early on was that
+Dialogue: 0,0:04:37.61,0:04:41.37,Default,,0000,0000,0000,,.. so many systems has a clue to it
+Dialogue: 0,0:04:41.37,0:04:44.70,Default,,0000,0000,0000,,where what I mostly interest in is essential
+Dialogue: 0,0:04:44.80,0:04:50.61,Default,,0000,0000,0000,,and then c++ is so general, that it well do the rest also.
+Dialogue: 0,0:04:50.80,0:04:59.89,Default,,0000,0000,0000,,so, c++ is expert friendly, definitely. and, the problem is , that's not enough.
+Dialogue: 0,0:05:00.07,0:05:05.13,Default,,0000,0000,0000,,if it is only expert friendly,  if it just expert friendly, that's nothing for narcosis.
+Dialogue: 0,0:05:05.60,0:05:11.16,Default,,0000,0000,0000,,we must involve the language into somthing that is a bit more friendly to narcosis
+Dialogue: 0,0:05:11.23,0:05:21.46,Default,,0000,0000,0000,,without give in an inch of / bytes and cycle for the experts, what they really needs is bytes an cycles.
+Dialogue: 0,0:05:21.67,0:05:26.91,Default,,0000,0000,0000,,so part of this is my answer to what is c++.
+Dialogue: 0,0:05:27.06,0:05:33.71,Default,,0000,0000,0000,,I .. I  .., I have my ideas that's not necessary the same as anybody else is.
+Dialogue: 0,0:05:33.92,0:05:38.59,Default,,0000,0000,0000,,there are probably a big border than what you hear in most places
+Dialogue: 0,0:05:38.83,0:05:41.43,Default,,0000,0000,0000,,that is I try to see the whole elephant
+Dialogue: 0,0:05:41.44,0:05:43.36,Default,,0000,0000,0000,,and I find that
+Dialogue: 0,0:05:43.39,0:05:46.60,Default,,0000,0000,0000,,in forums on the web and conferences as such
+Dialogue: 0,0:05:46.60,0:05:49.02,Default,,0000,0000,0000,,people play Blind Men and the Elephant
+Dialogue: 0,0:05:49.02,0:05:53.10,Default,,0000,0000,0000,,and they are absolutely certain that their part of the elephant is the whole beast.
+Dialogue: 0,0:05:53.34,0:05:54.36,Default,,0000,0000,0000,,there are wrong.
+Dialogue: 0,0:05:54.86,0:05:58.30,Default,,0000,0000,0000,,so this is my summery of c++
+Dialogue: 0,0:05:58.30,0:05:59.97,Default,,0000,0000,0000,,if you have to do in one slide.
+Dialogue: 0,0:06:00.17,0:06:04.71,Default,,0000,0000,0000,,its a language that provides light weight abstraction facilities
+Dialogue: 0,0:06:04.96,0:06:09.72,Default,,0000,0000,0000,,and its key strength scenario is where you build software infrastructure
+Dialogue: 0,0:06:09.72,0:06:14.42,Default,,0000,0000,0000,,and where you have resource constraint applications.
+Dialogue: 0,0:06:14.59,0:06:15.81,Default,,0000,0000,0000,,it's not the elephant
+Dialogue: 0,0:06:15.95,0:06:17.18,Default,,0000,0000,0000,,it's light weight
+Dialogue: 0,0:06:17.33,0:06:19.72,Default,,0000,0000,0000,,it's the abstraction you can build
+Dialogue: 0,0:06:19.84,0:06:23.60,Default,,0000,0000,0000,,that is anybody can build a really slow
+Dialogue: 0,0:06:24.02,0:06:25.80,Default,,0000,0000,0000,,big abstraction.
+Dialogue: 0,0:06:26.39,0:06:33.74,Default,,0000,0000,0000,,but, building a point or coordinate or complex number
+Dialogue: 0,0:06:33.84,0:06:39.33,Default,,0000,0000,0000,,that you can afford in competition language that is building facilities like that, is hard.
+Dialogue: 0,0:06:39.36,0:06:41.53,Default,,0000,0000,0000,,and that's what c++'s strength is.
+Dialogue: 0,0:06:41.99,0:06:45.28,Default,,0000,0000,0000,,c++ is developed
+Dialogue: 0,0:06:45.28,0:06:53.87,Default,,0000,0000,0000,,comes from two of the main lines of development of programming language.
+Dialogue: 0,0:06:54.01,0:06:56.40,Default,,0000,0000,0000,,the lower line here
+Dialogue: 0,0:06:56.40,0:06:58.62,Default,,0000,0000,0000,,were basically exploit the hardware
+Dialogue: 0,0:06:58.62,0:07:00.26,Default,,0000,0000,0000,,start with assembler
+Dialogue: 0,0:07:00.44,0:07:01.80,Default,,0000,0000,0000,,went though BCPL
+Dialogue: 0,0:07:01.80,0:07:02.39,Default,,0000,0000,0000,,and C
+Dialogue: 0,0:07:02.39,0:07:08.06,Default,,0000,0000,0000,,and C++ gets a lot of its low level stuff from C.
+Dialogue: 0,0:07:09.47,0:07:10.64,Default,,0000,0000,0000,,you can see people there
+Dialogue: 0,0:07:10.68,0:07:12.11,Default,,0000,0000,0000,,, that's of course Dennis Ritchie
+Dialogue: 0,0:07:12.11,0:07:14.23,Default,,0000,0000,0000,,that's David Wheeler
+Dialogue: 0,0:07:14.23,0:07:15.64,Default,,0000,0000,0000,,my thesis advisor
+Dialogue: 0,0:07:15.64,0:07:19.09,Default,,0000,0000,0000,,and one of the ten people claim to written the first compiler
+Dialogue: 0,0:07:19.52,0:07:24.90,Default,,0000,0000,0000,,he can also claim to have written the first program even running on a store program computer.
+Dialogue: 0,0:07:25.21,0:07:28.09,Default,,0000,0000,0000,,so this is .. a .. good thing
+Dialogue: 0,0:07:28.09,0:07:28.34,Default,,0000,0000,0000,,good
+Dialogue: 0,0:07:28.57,0:07:28.99,Default,,0000,0000,0000,,good
+Dialogue: 0,0:07:29.17,0:07:31.98,Default,,0000,0000,0000,,long tradition exploit the hardware maximally.
+Dialogue: 0,0:07:32.32,0:07:33.16,Default,,0000,0000,0000,,on the other hand
+Dialogue: 0,0:07:33.16,0:07:34.38,Default,,0000,0000,0000,,the biggest improvement
+Dialogue: 0,0:07:34.38,0:07:36.28,Default,,0000,0000,0000,,in programming languages ever
+Dialogue: 0,0:07:36.28,0:07:38.46,Default,,0000,0000,0000,,was done by Backus' team at IBM.
+Dialogue: 0,0:07:38.82,0:07:42.67,Default,,0000,0000,0000,,when they decide to improve productivity of programmers
+Dialogue: 0,0:07:42.67,0:07:46.59,Default,,0000,0000,0000,,by letting programmers write in a language that fit for humans
+Dialogue: 0,0:07:46.59,0:07:49.45,Default,,0000,0000,0000,,instead of those load&store hardware close stuff.
+Dialogue: 0,0:07:49.63,0:07:50.87,Default,,0000,0000,0000,,so they got Fortran
+Dialogue: 0,0:07:50.87,0:07:51.76,Default,,0000,0000,0000,,and you could get
+Dialogue: 0,0:07:52.09,0:07:52.99,Default,,0000,0000,0000,,... err ...
+Dialogue: 0,0:07:53.10,0:07:55.71,Default,,0000,0000,0000,,programs written in exactly your own language
+Dialogue: 0,0:07:56.03,0:07:58.91,Default,,0000,0000,0000,,provide you are certain kind of engineer
+Dialogue: 0,0:07:58.91,0:08:01.40,Default,,0000,0000,0000,,or certain kind of scientist.
+Dialogue: 0,0:08:01.70,0:08:03.82,Default,,0000,0000,0000,,so that's how we go Fortran.
+Dialogue: 0,0:08:03.96,0:08:06.86,Default,,0000,0000,0000,,and as soon as this idea was heard
+Dialogue: 0,0:08:07.00,0:08:08.68,Default,,0000,0000,0000,,everybody wanted their language
+Dialogue: 0,0:08:08.68,0:08:11.78,Default,,0000,0000,0000,,from their particular domain.
+Dialogue: 0,0:08:11.80,0:08:13.80,Default,,0000,0000,0000,,so the business people got Cobol
+Dialogue: 0,0:08:14.01,0:08:17.24,Default,,0000,0000,0000,,where you can say business like things
+Dialogue: 0,0:08:17.87,0:08:21.95,Default,,0000,0000,0000,,copy files, write to tap and things like that.
+Dialogue: 0,0:08:22.30,0:08:22.78,Default,,0000,0000,0000,,err ....
+Dialogue: 0,0:08:22.81,0:08:23.03,Default,,0000,0000,0000,,and
+Dialogue: 0,0:08:23.07,0:08:23.38,Default,,0000,0000,0000,,and
+Dialogue: 0,0:08:23.43,0:08:26.04,Default,,0000,0000,0000,,very soon , there was a couple of hundreds of languages.
+Dialogue: 0,0:08:26.33,0:08:27.97,Default,,0000,0000,0000,,and it is a terrible mess.
+Dialogue: 0,0:08:28.10,0:08:30.81,Default,,0000,0000,0000,,because, every language that was good at one thing
+Dialogue: 0,0:08:31.14,0:08:36.81,Default,,0000,0000,0000,,you speak one language of one subset of the computing community.
+Dialogue: 0,0:08:37.28,0:08:39.69,Default,,0000,0000,0000,,and, so the brilliant ideal here
+Dialogue: 0,0:08:40.04,0:08:42.02,Default,,0000,0000,0000,,from Kristen Nygaard
+Dialogue: 0,0:08:42.33,0:08:45.35,Default,,0000,0000,0000,,was to generalize these thing
+Dialogue: 0,0:08:45.35,0:08:45.85,Default,,0000,0000,0000,,ok
+Dialogue: 0,0:08:46.15,0:08:47.54,Default,,0000,0000,0000,,if you have a concept
+Dialogue: 0,0:08:47.84,0:08:49.08,Default,,0000,0000,0000,,if you have an idea
+Dialogue: 0,0:08:49.50,0:08:50.61,Default,,0000,0000,0000,,in your head
+Dialogue: 0,0:08:50.72,0:08:52.07,Default,,0000,0000,0000,,on you blackboard
+Dialogue: 0,0:08:52.30,0:08:53.06,Default,,0000,0000,0000,,or what ever
+Dialogue: 0,0:08:53.06,0:08:56.09,Default,,0000,0000,0000,,you should be able to put it into a language in general.
+Dialogue: 0,0:08:56.27,0:09:00.37,Default,,0000,0000,0000,,so instead of building language around special purpose concept
+Dialogue: 0,0:09:00.37,0:09:03.68,Default,,0000,0000,0000,,you provide the facility for building new things.
+Dialogue: 0,0:09:03.84,0:09:06.48,Default,,0000,0000,0000,,they called it classes, and class hierarchies
+Dialogue: 0,0:09:07.98,0:09:13.03,Default,,0000,0000,0000,,here comes the line of general purpose abstraction from the hardware
+Dialogue: 0,0:09:13.40,0:09:14.73,Default,,0000,0000,0000,,and I brow that
+Dialogue: 0,0:09:14.87,0:09:16.73,Default,,0000,0000,0000,,and got the initial c++.
+Dialogue: 0,0:09:16.81,0:09:19.62,Default,,0000,0000,0000,,we've been developing that ever since
+Dialogue: 0,0:09:20.00,0:09:23.56,Default,,0000,0000,0000,,and that's been a lot of development in the world of course
+Dialogue: 0,0:09:23.79,0:09:25.63,Default,,0000,0000,0000,,but I'm talking about this line here.
+Dialogue: 0,0:09:25.98,0:09:26.30,Default,,0000,0000,0000,,so
+Dialogue: 0,0:09:26.46,0:09:30.48,Default,,0000,0000,0000,,what we need, is to be able to do things really well close to the hardware
+Dialogue: 0,0:09:30.56,0:09:31.63,Default,,0000,0000,0000,,as well as anybody
+Dialogue: 0,0:09:31.97,0:09:32.60,Default,,0000,0000,0000,,and
+Dialogue: 0,0:09:32.75,0:09:43.42,Default,,0000,0000,0000,,provide general purpose abstraction so that we can actually get the concepts we need in our program as opposed to always talk about bits and bytes.
+Dialogue: 0,0:09:44.03,0:09:46.36,Default,,0000,0000,0000,,so, c++ is of course not perfect
+Dialogue: 0,0:09:46.52,0:09:50.15,Default,,0000,0000,0000,,anybody who will claims to have a prefect language
+Dialogue: 0,0:09:51.10,0:09:52.36,Default,,0000,0000,0000,,is either sale man
+Dialogue: 0,0:09:52.45,0:09:53.32,Default,,0000,0000,0000,,or fool
+Dialogue: 0,0:09:53.40,0:09:54.08,Default,,0000,0000,0000,,or both
+Dialogue: 0,0:09:57.29,0:10:03.75,Default,,0000,0000,0000,,c++ doesn't actually aim to do everything for everybody.
+Dialogue: 0,0:10:03.87,0:10:08.28,Default,,0000,0000,0000,,there are things that are less interesting and things that
+Dialogue: 0,0:10:08.68,0:10:10.07,Default,,0000,0000,0000,,you just don't need
+Dialogue: 0,0:10:10.14,0:10:11.31,Default,,0000,0000,0000,,say, the efficiency
+Dialogue: 0,0:10:11.50,0:10:12.40,Default,,0000,0000,0000,,close to hardware things
+Dialogue: 0,0:10:13.21,0:10:14.96,Default,,0000,0000,0000,,or you don't need the abstraction.
+Dialogue: 0,0:10:15.33,0:10:16.60,Default,,0000,0000,0000,,there are alternatives
+Dialogue: 0,0:10:16.84,0:10:18.87,Default,,0000,0000,0000,,we are not trying to be every thing for everybody.
+Dialogue: 0,0:10:19.29,0:10:21.76,Default,,0000,0000,0000,,you has a solid fundamental model
+Dialogue: 0,0:10:22.13,0:10:26.39,Default,,0000,0000,0000,,despite what you might have heard, or what your professors might have told you in class.
+Dialogue: 0,0:10:26.60,0:10:31.47,Default,,0000,0000,0000,,that quite solid model for what c++ is not try to conventional about that
+Dialogue: 0,0:10:32.00,0:10:32.37,Default,,0000,0000,0000,,but
+Dialogue: 0,0:10:32.77,0:10:36.87,Default,,0000,0000,0000,,basically has C's model of the hardware
+Dialogue: 0,0:10:36.87,0:10:43.78,Default,,0000,0000,0000,,and has facilities for principle to add new concept to a program.
+Dialogue: 0,0:10:44.16,0:10:48.39,Default,,0000,0000,0000,,and then this has been refined for 30+ years
+Dialogue: 0,0:10:48.68,0:10:49.72,Default,,0000,0000,0000,,that is it works
+Dialogue: 0,0:10:51.70,0:10:54.51,Default,,0000,0000,0000,,this also means, that it has a lot of "what's"
+Dialogue: 0,0:10:54.86,0:10:56.86,Default,,0000,0000,0000,,it also means we know the "what's".
+Dialogue: 0,0:10:57.34,0:10:59.67,Default,,0000,0000,0000,,people very often shows something new
+Dialogue: 0,0:10:59.85,0:11:02.59,Default,,0000,0000,0000,,because, well, they haven't learn it's weakness yet
+Dialogue: 0,0:11:02.75,0:11:03.75,Default,,0000,0000,0000,,so it looks perfect.
+Dialogue: 0,0:11:04.30,0:11:07.00,Default,,0000,0000,0000,,we know the problems of c++
+Dialogue: 0,0:11:07.25,0:11:09.18,Default,,0000,0000,0000,,that's partly an advantage
+Dialogue: 0,0:11:09.39,0:11:11.93,Default,,0000,0000,0000,,long term stability is a feature.
+Dialogue: 0,0:11:12.55,0:11:17.30,Default,,0000,0000,0000,,that is in the despoil compatibility stuff and crud
+Dialogue: 0,0:11:17.73,0:11:19.52,Default,,0000,0000,0000,,you find that
+Dialogue: 0,0:11:20.18,0:11:25.76,Default,,0000,0000,0000,,it is really nice that, my programs from ten years ago still runs.
+Dialogue: 0,0:11:26.09,0:11:31.86,Default,,0000,0000,0000,,it is really nice because it's sort of assures that our program will run in ten years again.
+Dialogue: 0,0:11:32.09,0:11:36.10,Default,,0000,0000,0000,,we trying not to break old code
+Dialogue: 0,0:11:36.30,0:11:40.80,Default,,0000,0000,0000,,and performance we want to be a match for everything in usually we are.
+Dialogue: 0,0:11:41.01,0:11:49.64,Default,,0000,0000,0000,,and this leads to a set of interesting applications for instance that are very widely used.
+Dialogue: 0,0:11:49.89,0:11:51.46,Default,,0000,0000,0000,,it actually
+Dialogue: 0,0:11:51.68,0:11:56.44,Default,,0000,0000,0000,,what c++ offers cleanly pays off for somebody
+Dialogue: 0,0:11:56.66,0:11:59.24,Default,,0000,0000,0000,,otherwise they wouldn't be using it.
+Dialogue: 0,0:11:59.55,0:12:03.32,Default,,0000,0000,0000,,so i'm going to go into this a little bit detail.
+Dialogue: 0,0:12:04.25,0:12:09.62,Default,,0000,0000,0000,,i'm going to try and get c++ down to just four slides.
+Dialogue: 0,0:12:10.08,0:12:11.49,Default,,0000,0000,0000,,and the rest is details.
+Dialogue: 0,0:12:11.77,0:12:13.40,Default,,0000,0000,0000,,if you understand int and vector
+Dialogue: 0,0:12:13.98,0:12:15.61,Default,,0000,0000,0000,,you understand c++
+Dialogue: 0,0:12:15.61,0:12:17.41,Default,,0000,0000,0000,,and there are a lot of details.
+Dialogue: 0,0:12:17.54,0:12:19.10,Default,,0000,0000,0000,,but don't get lost in them
+Dialogue: 0,0:12:20.10,0:12:20.82,Default,,0000,0000,0000,,that's the point.
+Dialogue: 0,0:12:21.00,0:12:22.18,Default,,0000,0000,0000,,btw
+Dialogue: 0,0:12:22.71,0:12:24.86,Default,,0000,0000,0000,,I've just written another book
+Dialogue: 0,0:12:24.86,0:12:25.80,Default,,0000,0000,0000,,it's very thin
+Dialogue: 0,0:12:26.07,0:12:30.09,Default,,0000,0000,0000,,180 pages of stuff plus an index
+Dialogue: 0,0:12:30.35,0:12:34.43,Default,,0000,0000,0000,,which claims to present all of c++
+Dialogue: 0,0:12:34.73,0:12:37.40,Default,,0000,0000,0000,,at certain level of detail.
+Dialogue: 0,0:12:37.61,0:12:40.36,Default,,0000,0000,0000,,so, if you actually are an inexperienced programmer
+Dialogue: 0,0:12:40.58,0:12:43.20,Default,,0000,0000,0000,,here is where you can get an idea of c++.
+Dialogue: 0,0:12:43.33,0:12:46.39,Default,,0000,0000,0000,,so, that's the end of the advertising.  for now.
+Dialogue: 0,0:12:46.96,0:12:47.59,Default,,0000,0000,0000,,er
+Dialogue: 0,0:12:47.75,0:12:48.19,Default,,0000,0000,0000,,so
+Dialogue: 0,0:12:48.39,0:12:49.18,Default,,0000,0000,0000,,what do we do
+Dialogue: 0,0:12:49.18,0:12:50.70,Default,,0000,0000,0000,,the c++ first of all,
+Dialogue: 0,0:12:50.94,0:12:53.08,Default,,0000,0000,0000,,we have to map things to hardware
+Dialogue: 0,0:12:53.34,0:12:55.96,Default,,0000,0000,0000,,the hardware is where programs run.
+Dialogue: 0,0:12:56.53,0:13:00.64,Default,,0000,0000,0000,,they don't run in mathematical abstractions. the run on hardware.
+Dialogue: 0,0:13:00.96,0:13:05.54,Default,,0000,0000,0000,,and basically the primitives operation are instructions of the machine.
+Dialogue: 0,0:13:09.66,0:13:18.47,Default,,0000,0000,0000,,we have value types (many of them) map directly to machine instructions, some don't. but they are simple. they are values.
+Dialogue: 0,0:13:18.84,0:13:23.88,Default,,0000,0000,0000,,if you understand integer , you understand about anything that is a values
+Dialogue: 0,0:13:23.88,0:13:28.04,Default,,0000,0000,0000,,you can copy an integer, you can do things to it.
+Dialogue: 0,0:13:28.30,0:13:30.11,Default,,0000,0000,0000,,the other kinds are handles
+Dialogue: 0,0:13:30.28,0:13:35.37,Default,,0000,0000,0000,,they have handle to control access to values.
+Dialogue: 0,0:13:35.68,0:13:36.61,Default,,0000,0000,0000,,so, here for instance
+Dialogue: 0,0:13:36.61,0:13:40.35,Default,,0000,0000,0000,,we have a vector that keeps track of how many elements that are
+Dialogue: 0,0:13:41.07,0:13:47.00,Default,,0000,0000,0000,,and give you a subscript operation and copy operation and things like that to manipulate the value.
+Dialogue: 0,0:13:47.20,0:13:49.07,Default,,0000,0000,0000,,and there is a lot of things like that
+Dialogue: 0,0:13:49.39,0:13:52.32,Default,,0000,0000,0000,,but those are two fundamental building blocks we've got
+Dialogue: 0,0:13:52.62,0:13:55.60,Default,,0000,0000,0000,,and we compose them by simple concatenation.
+Dialogue: 0,0:13:55.87,0:13:59.86,Default,,0000,0000,0000,,that's what happens to an array, you put objects next to each other.
+Dialogue: 0,0:14:00.04,0:14:06.31,Default,,0000,0000,0000,,and classes/structs where you put them next to each other usually considered different dimension.
+Dialogue: 0,0:14:06.53,0:14:08.76,Default,,0000,0000,0000,,but basically there is nothing more to it.
+Dialogue: 0,0:14:08.88,0:14:12.22,Default,,0000,0000,0000,,there're ways of composing these basic things
+Dialogue: 0,0:14:12.46,0:14:18.61,Default,,0000,0000,0000,,and when you look at your code. you can sort of think about what is in the memory and understand it
+Dialogue: 0,0:14:18.81,0:14:23.80,Default,,0000,0000,0000,,and when it comes to an primitive operation you can see which primitive operations are done.
+Dialogue: 0,0:14:25.16,0:14:30.54,Default,,0000,0000,0000,,then, to get away from this very concrete low level view
+Dialogue: 0,0:14:31.38,0:14:32.69,Default,,0000,0000,0000,,we have classes
+Dialogue: 0,0:14:33.08,0:14:37.48,Default,,0000,0000,0000,,the most important part of  classes I think acturally is constructors and destructors.
+Dialogue: 0,0:14:38.76,0:14:40.52,Default,,0000,0000,0000,,we define ourself a new type
+Dialogue: 0,0:14:41.22,0:14:44.45,Default,,0000,0000,0000,,and when we initialize it
+Dialogue: 0,0:14:44.86,0:14:45.89,Default,,0000,0000,0000,,with some value
+Dialogue: 0,0:14:46.24,0:14:48.20,Default,,0000,0000,0000,,that's called construction
+Dialogue: 0,0:14:49.69,0:14:51.54,Default,,0000,0000,0000,,when we're finished, clean up the mess.
+Dialogue: 0,0:14:51.96,0:14:56.92,Default,,0000,0000,0000,,if this is a resource handle, this will acquire resources and this will release it.
+Dialogue: 0,0:14:57.10,0:15:02.89,Default,,0000,0000,0000,,so, basically there is a clue form about two weak insulate design we've seen in classes long time ago.
+Dialogue: 0,0:15:02.93,0:15:06.28,Default,,0000,0000,0000,,a constructor establishes the environment for the members to run in
+Dialogue: 0,0:15:06.53,0:15:08.48,Default,,0000,0000,0000,,the destructor reverse its actions.
+Dialogue: 0,0:15:08.70,0:15:10.29,Default,,0000,0000,0000,,it's like a pair of pants phrase
+Dialogue: 0,0:15:10.29,0:15:14.20,Default,,0000,0000,0000,,because I haven't invent the word constructor and destructor yet.
+Dialogue: 0,0:15:14.57,0:15:19.90,Default,,0000,0000,0000,,but, that's where a lot of c++ comes from. right there.
+Dialogue: 0,0:15:20.74,0:15:23.05,Default,,0000,0000,0000,,and .. now ..
+Dialogue: 0,0:15:23.05,0:15:28.50,Default,,0000,0000,0000,,once we've got classes, eventually we get abstract classes and inheritance.
+Dialogue: 0,0:15:28.66,0:15:36.00,Default,,0000,0000,0000,,here's the wey we define a interface that is complete insulate users from the implementation or visa versa.
+Dialogue: 0,0:15:36.28,0:15:38.07,Default,,0000,0000,0000,,it has couple of virtual functions that of
+Dialogue: 0,0:15:38.12,0:15:39.52,Default,,0000,0000,0000,,pure virtual functions.
+Dialogue: 0,0:15:39.84,0:15:43.04,Default,,0000,0000,0000,,there is no data members so it's not a brittle base class
+Dialogue: 0,0:15:43.37,0:15:47.36,Default,,0000,0000,0000,,you have to manipulate these things through pointers
+Dialogue: 0,0:15:50.64,0:15:54.49,Default,,0000,0000,0000,,and references at least that's what essentially every body does.
+Dialogue: 0,0:15:54.89,0:15:57.96,Default,,0000,0000,0000,,and that imply some overhead
+Dialogue: 0,0:15:58.26,0:16:01.36,Default,,0000,0000,0000,,and it apply some lifetime management
+Dialogue: 0,0:16:01.36,0:16:04.58,Default,,0000,0000,0000,,that can be very messy if you don't think it through.
+Dialogue: 0,0:16:04.86,0:16:08.72,Default,,0000,0000,0000,,and you can build these hierarchy base on that.
+Dialogue: 0,0:16:09.94,0:16:13.88,Default,,0000,0000,0000,,next, we have parametrized types and classes using templates
+Dialogue: 0,0:16:13.88,0:16:16.98,Default,,0000,0000,0000,,that's the essential support for generic programming.
+Dialogue: 0,0:16:17.25,0:16:22.02,Default,,0000,0000,0000,,and secondly it allows compile-time computation.
+Dialogue: 0,0:16:22.41,0:16:27.16,Default,,0000,0000,0000,,basically you can have a vector that's parametrized by element type
+Dialogue: 0,0:16:27.41,0:16:33.52,Default,,0000,0000,0000,,you can and have a sort function that's parametrized by it's container type.
+Dialogue: 0,0:16:33.78,0:16:42.04,Default,,0000,0000,0000,,and so we can make a vector of doubles like that, an we can sort some vector with that.
+Dialogue: 0,0:16:42.14,0:16:50.44,Default,,0000,0000,0000,,that's the essences of generic programming as represented in c++ and supported
+Dialogue: 0,0:16:52.57,0:16:55.94,Default,,0000,0000,0000,,there are some things said and it's not c++
+Dialogue: 0,0:16:56.36,0:16:57.93,Default,,0000,0000,0000,,it said it's not everything
+Dialogue: 0,0:16:58.80,0:17:08.01,Default,,0000,0000,0000,,some of these things that are really quite fundamental in the design of c++ for good and bad is that no crucial dependence on a garbage collector.
+Dialogue: 0,0:17:08.44,0:17:13.89,Default,,0000,0000,0000,,a garbage collector is centralize resources so that's contention for it , in a machine .
+Dialogue: 0,0:17:15.01,0:17:17.69,Default,,0000,0000,0000,,I remember the big old time machines
+Dialogue: 0,0:17:17.69,0:17:19.69,Default,,0000,0000,0000,,64 processors
+Dialogue: 0,0:17:19.69,0:17:20.60,Default,,0000,0000,0000,,real beast
+Dialogue: 0,0:17:20.60,0:17:21.45,Default,,0000,0000,0000,,what we do?
+Dialogue: 0,0:17:21.75,0:17:24.54,Default,,0000,0000,0000,,63 of them are sit waiting for the garbage collector
+Dialogue: 0,0:17:27.59,0:17:30.38,Default,,0000,0000,0000,,c++ is designed not to have this problem
+Dialogue: 0,0:17:31.97,0:17:35.29,Default,,0000,0000,0000,,it has other problems in exchange. but this is fundamental issues.
+Dialogue: 0,0:17:35.29,0:17:38.29,Default,,0000,0000,0000,,similarly, there is not guarantee type safety.
+Dialogue: 0,0:17:39.29,0:17:43.46,Default,,0000,0000,0000,,we did not want it for all constructs
+Dialogue: 0,0:17:43.46,0:17:45.01,Default,,0000,0000,0000,,we needed C compatibility
+Dialogue: 0,0:17:45.24,0:17:46.40,Default,,0000,0000,0000,,we have history
+Dialogue: 0,0:17:47.27,0:17:51.67,Default,,0000,0000,0000,,there are needs to deal with hardware that requires break in the type system
+Dialogue: 0,0:17:51.91,0:17:53.26,Default,,0000,0000,0000,,we like to minimize
+Dialogue: 0,0:17:53.26,0:17:54.69,Default,,0000,0000,0000,,we like to encapsulated it.
+Dialogue: 0,0:17:54.69,0:17:59.85,Default,,0000,0000,0000,,but there was a decision a long time ago that c++ runs on a real machine
+Dialogue: 0,0:17:59.85,0:18:03.30,Default,,0000,0000,0000,,it not a mathematical abstraction that it grounds on.
+Dialogue: 0,0:18:03.69,0:18:05.59,Default,,0000,0000,0000,,and it no virtual machines
+Dialogue: 0,0:18:05.59,0:18:08.11,Default,,0000,0000,0000,,if you wanted to run on a virtual machine
+Dialogue: 0,0:18:08.11,0:18:08.80,Default,,0000,0000,0000,,you can
+Dialogue: 0,0:18:08.80,0:18:12.99,Default,,0000,0000,0000,,but something has to run on the real machine on the real hardware
+Dialogue: 0,0:18:13.38,0:18:15.92,Default,,0000,0000,0000,,for instance the implementation of a virtual machine.
+Dialogue: 0,0:18:16.36,0:18:21.31,Default,,0000,0000,0000,,and also there are many domains in which that you can not afford a virtual machine
+Dialogue: 0,0:18:21.45,0:18:24.20,Default,,0000,0000,0000,,and you can want to exploit the facilities of the hardware.
+Dialogue: 0,0:18:24.49,0:18:29.19,Default,,0000,0000,0000,,if you running in a virtual machine, exploiting a GPU gets rather tricky
+Dialogue: 0,0:18:30.29,0:18:37.59,Default,,0000,0000,0000,,if you are on the machine itself , you can go to something that might be type unsafe, that might be an extension, but you can get there.
+Dialogue: 0,0:18:39.54,0:18:48.48,Default,,0000,0000,0000,,I have a feel, pictures on these slides, they temped us to do something with c++, so you can wonder what it is.
+Dialogue: 0,0:18:48.82,0:18:56.02,Default,,0000,0000,0000,,that, that , there is a distributed computing system with wheels.
+Dialogue: 0,0:18:58.30,0:19:05.31,Default,,0000,0000,0000,,there are also things that are not c++ for reasons that are regrettable but they are market realities.
+Dialogue: 0,0:19:05.34,0:19:07.21,Default,,0000,0000,0000,,there is no huge standard library
+Dialogue: 0,0:19:07.50,0:19:09.33,Default,,0000,0000,0000,,because we don't have a owner
+Dialogue: 0,0:19:09.33,0:19:13.54,Default,,0000,0000,0000,,we don't have a sugar dady that can produce free libraries to ensure market share.
+Dialogue: 0,0:19:14.09,0:19:16.27,Default,,0000,0000,0000,,we would like to fix that
+Dialogue: 0,0:19:16.65,0:19:19.24,Default,,0000,0000,0000,,i'm sure Herb (Herb Sutter) would say something about it
+Dialogue: 0,0:19:19.24,0:19:21.97,Default,,0000,0000,0000,,yeah he's got a big screen on this. it's one of his favorite topics.
+Dialogue: 0,0:19:22.47,0:19:28.11,Default,,0000,0000,0000,,and, we have no central authorities to approve or reject or help integration of the libraries.
+Dialogue: 0,0:19:28.22,0:19:30.70,Default,,0000,0000,0000,,integration of libraries is very difficult.
+Dialogue: 0,0:19:31.00,0:19:33.37,Default,,0000,0000,0000,,and we would like to do much better than this.
+Dialogue: 0,0:19:33.40,0:19:39.87,Default,,0000,0000,0000,,but for the moment, these are the market realities, this is the way the world have been. for c++ all the time.
+Dialogue: 0,0:19:40.09,0:19:48.59,Default,,0000,0000,0000,,so we have no standard GUI library. we have, maybe 25 competing frameworks which is just as bad as none.
+Dialogue: 0,0:19:48.59,0:19:52.25,Default,,0000,0000,0000,,awfully , again, it's unfortunate.
+Dialogue: 0,0:19:52.56,0:19:56.36,Default,,0000,0000,0000,,we don't have all of these things here standard
+Dialogue: 0,0:19:56.36,0:19:57.31,Default,,0000,0000,0000,,they exist
+Dialogue: 0,0:19:57.44,0:19:58.54,Default,,0000,0000,0000,,you can pick them up
+Dialogue: 0,0:19:58.54,0:19:59.88,Default,,0000,0000,0000,,you can use them today
+Dialogue: 0,0:20:00.22,0:20:04.33,Default,,0000,0000,0000,,but they are non-standard. we would like to do better than that.
+Dialogue: 0,0:20:04.62,0:20:07.88,Default,,0000,0000,0000,,I don't know if you remember the dragon book
+Dialogue: 0,0:20:07.88,0:20:12.75,Default,,0000,0000,0000,,that the knight is slaying dragons on complicity like that.
+Dialogue: 0,0:20:13.00,0:20:15.52,Default,,0000,0000,0000,,well, some time the dragon wins.
+Dialogue: 0,0:20:16.86,0:20:27.15,Default,,0000,0000,0000,,ok,  going to start on slightly more kicking things. we'll go look at resource management.
+Dialogue: 0,0:20:27.90,0:20:36.64,Default,,0000,0000,0000,,basically we have things that we would like to control in system
+Dialogue: 0,0:20:36.64,0:20:48.16,Default,,0000,0000,0000,,like memory, the elements of a vector, the characters of a string, the file handles that your operation system provides, threads, locks and things like that.
+Dialogue: 0,0:20:48.46,0:20:57.01,Default,,0000,0000,0000,,and basically what we want to do is to have a handle that we used to control access and make it convenient to use these things.
+Dialogue: 0,0:20:57.18,0:21:03.62,Default,,0000,0000,0000,,basically , the standard way of using this, is to uses constructor and destructor.
+Dialogue: 0,0:21:03.92,0:21:09.05,Default,,0000,0000,0000,,the constructor acquires the resource, here it's memory because it's a vector.
+Dialogue: 0,0:21:09.22,0:21:12.60,Default,,0000,0000,0000,,and the destructor, well , gives the memory back again.
+Dialogue: 0,0:21:14.48,0:21:15.50,Default,,0000,0000,0000,,so it's very simple
+Dialogue: 0,0:21:15.50,0:21:17.08,Default,,0000,0000,0000,,here we have a function
+Dialogue: 0,0:21:17.08,0:21:17.92,Default,,0000,0000,0000,,has a vector
+Dialogue: 0,0:21:18.16,0:21:19.31,Default,,0000,0000,0000,,it makes a vector
+Dialogue: 0,0:21:19.58,0:21:20.66,Default,,0000,0000,0000,,and at the end, when ever we leaves the function, how ever we leave, the destructor cleans up by releasing the memory again.
+Dialogue: 0,0:21:20.82,0:21:23.38,Default,,0000,0000,0000,,when ever we leaves the function, how ever we leave it
+Dialogue: 0,0:21:23.59,0:21:28.36,Default,,0000,0000,0000,,the destructor cleans up by releasing the memory again.
+Dialogue: 0,0:21:29.56,0:21:32.09,Default,,0000,0000,0000,,the basic idea is very very simple
+Dialogue: 0,0:21:33.53,0:21:39.40,Default,,0000,0000,0000,,details can be quite heavy depend on the resource, depend on the constraints of the  problems and as such.
+Dialogue: 0,0:21:39.78,0:21:44.48,Default,,0000,0000,0000,,but keep that picture in mind. and you can write a lot of good code.
+Dialogue: 0,0:21:46.08,0:21:48.09,Default,,0000,0000,0000,,the handle usually is scoped.
+Dialogue: 0,0:21:48.25,0:21:55.00,Default,,0000,0000,0000,,as long as the handle is in a scope, and not put on the free store itself , and it's helded by a handle
+Dialogue: 0,0:21:55.92,0:21:59.99,Default,,0000,0000,0000,,clean up is automatic and simple
+Dialogue: 0,0:22:00.27,0:22:04.94,Default,,0000,0000,0000,,the resource is held for a minimal amount of time
+Dialogue: 0,0:22:05.10,0:22:08.02,Default,,0000,0000,0000,,name is scope in which was created.
+Dialogue: 0,0:22:08.36,0:22:11.23,Default,,0000,0000,0000,,and basically this is sort of the code here
+Dialogue: 0,0:22:11.37,0:22:12.91,Default,,0000,0000,0000,,what the constructor do?
+Dialogue: 0,0:22:12.94,0:22:14.65,Default,,0000,0000,0000,,it acquire a resource
+Dialogue: 0,0:22:14.95,0:22:19.46,Default,,0000,0000,0000,,set the memory, initialize the memory needed to control things
+Dialogue: 0,0:22:19.69,0:22:24.13,Default,,0000,0000,0000,,and possibly does some initialization over what resource has acquired.
+Dialogue: 0,0:22:24.52,0:22:27.14,Default,,0000,0000,0000,,and the destructor reverse that
+Dialogue: 0,0:22:27.66,0:22:28.28,Default,,0000,0000,0000,,very simple.
+Dialogue: 0,0:22:28.70,0:22:29.11,Default,,0000,0000,0000,,so
+Dialogue: 0,0:22:30.77,0:22:36.37,Default,,0000,0000,0000,,a resource is anything you acquire and have to release. explicitly or implicitly
+Dialogue: 0,0:22:36.37,0:22:37.92,Default,,0000,0000,0000,,that's my definition of resource
+Dialogue: 0,0:22:39.26,0:22:40.81,Default,,0000,0000,0000,,and a resource should have a owner
+Dialogue: 0,0:22:40.99,0:22:44.92,Default,,0000,0000,0000,,I really dislike stuff that just flat around in the system
+Dialogue: 0,0:22:45.27,0:22:46.64,Default,,0000,0000,0000,,and well
+Dialogue: 0,0:22:46.98,0:22:50.04,Default,,0000,0000,0000,,people hope some body will take care of them. at some point.
+Dialogue: 0,0:22:50.68,0:22:51.76,Default,,0000,0000,0000,,if there is an owner
+Dialogue: 0,0:22:51.98,0:22:58.39,Default,,0000,0000,0000,,the owner's job is to make sure the life time is managed, it's initialized up properly and cleaned up properly.
+Dialogue: 0,0:22:59.05,0:23:02.75,Default,,0000,0000,0000,,and the ultimate rule for resource is it's scope handle
+Dialogue: 0,0:23:03.18,0:23:06.76,Default,,0000,0000,0000,,doesn't have to be scoped, but it's easier if you keep it scoped.
+Dialogue: 0,0:23:07.12,0:23:10.66,Default,,0000,0000,0000,,it is also know as Resource Acquisition Is Initialization.
+Dialogue: 0,0:23:11.02,0:23:16.48,Default,,0000,0000,0000,,horrible morph. often reduced to RAII.
+Dialogue: 0,0:23:16.93,0:23:21.01,Default,,0000,0000,0000,,I can say it's a horrible morph because I invented it and I name it
+Dialogue: 0,0:23:21.39,0:23:22.99,Default,,0000,0000,0000,,I should have named it something better
+Dialogue: 0,0:23:23.02,0:23:23.21,Default,,0000,0000,0000,,but
+Dialogue: 0,0:23:24.24,0:23:24.62,Default,,0000,0000,0000,,well
+Dialogue: 0,0:23:24.69,0:23:26.75,Default,,0000,0000,0000,,hand side is relatively easy.
+Dialogue: 0,0:23:27.17,0:23:34.23,Default,,0000,0000,0000,,and basically if you failed to acquire your resource
+Dialogue: 0,0:23:34.44,0:23:35.54,Default,,0000,0000,0000,,you throw an exception.
+Dialogue: 0,0:23:35.69,0:23:39.00,Default,,0000,0000,0000,,it's one of the fundamental reasons that exceptions are in c++.
+Dialogue: 0,0:23:39.26,0:23:43.67,Default,,0000,0000,0000,,it is that has to be a way of getting out of a task that you have been ask to do
+Dialogue: 0,0:23:43.97,0:23:44.72,Default,,0000,0000,0000,,can't do
+Dialogue: 0,0:23:44.80,0:23:47.68,Default,,0000,0000,0000,,like constructor can't construct its object
+Dialogue: 0,0:23:47.95,0:23:49.62,Default,,0000,0000,0000,,it has to be able to get out of there
+Dialogue: 0,0:23:50.00,0:23:52.94,Default,,0000,0000,0000,,if you don't have exceptions you have to fake them.
+Dialogue: 0,0:23:53.45,0:23:54.09,Default,,0000,0000,0000,,em
+Dialogue: 0,0:23:54.32,0:23:55.88,Default,,0000,0000,0000,,you try to construct an object, but the object
+Dialogue: 0,0:23:55.94,0:23:57.74,Default,,0000,0000,0000,,but the object  are set in a bad state
+Dialogue: 0,0:23:57.77,0:23:59.56,Default,,0000,0000,0000,,and you have to test validate
+Dialogue: 0,0:23:59.95,0:24:01.09,Default,,0000,0000,0000,,something like that
+Dialogue: 0,0:24:01.17,0:24:02.27,Default,,0000,0000,0000,,pretty horrible stuff
+Dialogue: 0,0:24:02.90,0:24:04.96,Default,,0000,0000,0000,,and basically
+Dialogue: 0,0:24:05.21,0:24:07.88,Default,,0000,0000,0000,,the rules for not leaking becomes
+Dialogue: 0,0:24:08.33,0:24:13.71,Default,,0000,0000,0000,,never throw while holding a resource that's not own by a handle
+Dialogue: 0,0:24:14.13,0:24:14.40,Default,,0000,0000,0000,,so
+Dialogue: 0,0:24:14.58,0:24:16.15,Default,,0000,0000,0000,,if you do something silly
+Dialogue: 0,0:24:16.33,0:24:21.84,Default,,0000,0000,0000,,like acquire some memory, and hold an pointer to it
+Dialogue: 0,0:24:21.97,0:24:24.22,Default,,0000,0000,0000,,and throw exception, you're are in deep trouble
+Dialogue: 0,0:24:24.50,0:24:25.73,Default,,0000,0000,0000,,we'll get back to that.
+Dialogue: 0,0:24:26.80,0:24:28.80,Default,,0000,0000,0000,,ok
+Dialogue: 0,0:24:28.80,0:24:30.53,Default,,0000,0000,0000,,here is an example
+Dialogue: 0,0:24:30.81,0:24:31.89,Default,,0000,0000,0000,,we have a mutex
+Dialogue: 0,0:24:32.10,0:24:33.92,Default,,0000,0000,0000,,it's a system resource
+Dialogue: 0,0:24:34.29,0:24:36.34,Default,,0000,0000,0000,,and..
+Dialogue: 0,0:24:37.29,0:24:38.02,Default,,0000,0000,0000,,sorry
+Dialogue: 0,0:24:38.92,0:24:42.37,Default,,0000,0000,0000,,we have something we want to share, which is a shared data here
+Dialogue: 0,0:24:42.61,0:24:44.86,Default,,0000,0000,0000,,and we want to controlle it by a mutex.
+Dialogue: 0,0:24:45.08,0:24:51.05,Default,,0000,0000,0000,,mutex is an standard system resource, and it it represented in the standard library by the mutex class
+Dialogue: 0,0:24:51.14,0:24:55.44,Default,,0000,0000,0000,,and the mutex class is actually a handle to the system resource
+Dialogue: 0,0:24:55.64,0:24:56.29,Default,,0000,0000,0000,,and so ...
+Dialogue: 0,0:24:56.66,0:24:57.44,Default,,0000,0000,0000,,what ... er ...
+Dialogue: 0,0:24:58.16,0:24:59.02,Default,,0000,0000,0000,,system resource...
+Dialogue: 0,0:24:59.05,0:24:59.53,Default,,0000,0000,0000,,yeah
+Dialogue: 0,0:24:59.96,0:25:00.78,Default,,0000,0000,0000,,just think about that
+Dialogue: 0,0:25:00.78,0:25:01.80,Default,,0000,0000,0000,,it is a system resource
+Dialogue: 0,0:25:02.13,0:25:03.20,Default,,0000,0000,0000,,we going to a scope
+Dialogue: 0,0:25:03.69,0:25:04.67,Default,,0000,0000,0000,,we take a lock on it.
+Dialogue: 0,0:25:04.90,0:25:09.19,Default,,0000,0000,0000,,that is the local object that hold the mutex.
+Dialogue: 0,0:25:09.56,0:25:10.60,Default,,0000,0000,0000,,use the data
+Dialogue: 0,0:25:10.75,0:25:12.57,Default,,0000,0000,0000,,and we go out of there.
+Dialogue: 0,0:25:12.88,0:25:14.77,Default,,0000,0000,0000,,we don't care how we go out of there.
+Dialogue: 0,0:25:14.97,0:25:17.23,Default,,0000,0000,0000,,now this is of course the overly simplified
+Dialogue: 0,0:25:17.23,0:25:17.53,Default,,0000,0000,0000,,we don't ...
+Dialogue: 0,0:25:20.13,0:25:24.46,Default,,0000,0000,0000,,we often have more code working in that critical regin just there
+Dialogue: 0,0:25:24.77,0:25:26.81,Default,,0000,0000,0000,,so we can goes out of there by
+Dialogue: 0,0:25:26.94,0:25:27.70,Default,,0000,0000,0000,,returnning
+Dialogue: 0,0:25:27.70,0:25:29.94,Default,,0000,0000,0000,,by falling off the scope
+Dialogue: 0,0:25:30.02,0:25:31.47,Default,,0000,0000,0000,,or by throwing an exception
+Dialogue: 0,0:25:31.73,0:25:33.53,Default,,0000,0000,0000,,but with all of these cases
+Dialogue: 0,0:25:33.92,0:25:35.68,Default,,0000,0000,0000,,the lock guard
+Dialogue: 0,0:25:35.89,0:25:37.53,Default,,0000,0000,0000,,will release the resource\
+Dialogue: 0,0:25:37.66,0:25:38.61,Default,,0000,0000,0000,,that's the main point.
+Dialogue: 0,0:25:39.09,0:25:42.24,Default,,0000,0000,0000,,acquire --  use  -- release
+Dialogue: 0,0:25:43.55,0:25:44.03,Default,,0000,0000,0000,,so
+Dialogue: 0,0:25:44.18,0:25:48.19,Default,,0000,0000,0000,,here is an example of
+Dialogue: 0,0:25:50.77,0:25:55.11,Default,,0000,0000,0000,,what code I found when I look around that I think is pretty awful.
+Dialogue: 0,0:25:55.78,0:25:58.10,Default,,0000,0000,0000,,it's not just written by java programmers
+Dialogue: 0,0:25:58.16,0:26:03.45,Default,,0000,0000,0000,,but it's just getting more common that it used to be.
+Dialogue: 0,0:26:03.93,0:26:07.93,Default,,0000,0000,0000,,there is always people writing code like the screen here
+Dialogue: 0,0:26:08.26,0:26:11.17,Default,,0000,0000,0000,,but unfortunately this is an increasingly problem.
+Dialogue: 0,0:26:11.38,0:26:11.83,Default,,0000,0000,0000,,so
+Dialogue: 0,0:26:12.11,0:26:13.85,Default,,0000,0000,0000,,I ... get a gadget
+Dialogue: 0,0:26:13.85,0:26:15.41,Default,,0000,0000,0000,,get it on the free store
+Dialogue: 0,0:26:15.41,0:26:17.32,Default,,0000,0000,0000,,I learned  object oriented programming
+Dialogue: 0,0:26:17.51,0:26:19.58,Default,,0000,0000,0000,,every thing has to be on the free store
+Dialogue: 0,0:26:19.59,0:26:21.18,Default,,0000,0000,0000,,I manipulate it through pointers
+Dialogue: 0,0:26:21.35,0:26:22.55,Default,,0000,0000,0000,,so that's what I'm doing.
+Dialogue: 0,0:26:22.83,0:26:23.66,Default,,0000,0000,0000,,then I go down
+Dialogue: 0,0:26:23.66,0:26:24.91,Default,,0000,0000,0000,,I may throw an exception
+Dialogue: 0,0:26:25.36,0:26:27.27,Default,,0000,0000,0000,,and I ...
+Dialogue: 0,0:26:28.10,0:26:30.24,Default,,0000,0000,0000,,some one might say why exceptions are bad
+Dialogue: 0,0:26:30.27,0:26:32.30,Default,,0000,0000,0000,,because I may leak the gadget. '
+Dialogue: 0,0:26:32.70,0:26:35.00,Default,,0000,0000,0000,,No, I'm saying you did something else wrong
+Dialogue: 0,0:26:35.05,0:26:37.40,Default,,0000,0000,0000,,because you can get the same problem just from returning.
+Dialogue: 0,0:26:38.28,0:26:39.24,Default,,0000,0000,0000,,in other words
+Dialogue: 0,0:26:39.68,0:26:44.09,Default,,0000,0000,0000,,i have this gadget here  that i have acquired I have to delete it
+Dialogue: 0,0:26:44.40,0:26:49.37,Default,,0000,0000,0000,,and some how that puts major constraint on what I can write in the function.
+Dialogue: 0,0:26:49.64,0:26:52.84,Default,,0000,0000,0000,,in particular, I mustn't leave without deleting p
+Dialogue: 0,0:26:53.93,0:26:56.19,Default,,0000,0000,0000,,and people then say they want the garbage collector
+Dialogue: 0,0:26:56.44,0:26:57.09,Default,,0000,0000,0000,,which you known
+Dialogue: 0,0:26:57.28,0:26:59.51,Default,,0000,0000,0000,,I didn't tell you what is inside the gadget
+Dialogue: 0,0:27:00.17,0:27:02.71,Default,,0000,0000,0000,,if that's just memory, a garbage collector will help you.
+Dialogue: 0,0:27:03.43,0:27:04.96,Default,,0000,0000,0000,,if it's a file handle
+Dialogue: 0,0:27:05.33,0:27:06.17,Default,,0000,0000,0000,,a socket
+Dialogue: 0,0:27:06.85,0:27:07.63,Default,,0000,0000,0000,,and a lock
+Dialogue: 0,0:27:09.04,0:27:09.80,Default,,0000,0000,0000,,err....
+Dialogue: 0,0:27:10.15,0:27:11.92,Default,,0000,0000,0000,,the garbage collector will not help you.
+Dialogue: 0,0:27:12.17,0:27:12.48,Default,,0000,0000,0000,,so
+Dialogue: 0,0:27:12.56,0:27:13.86,Default,,0000,0000,0000,,this code is bad.
+Dialogue: 0,0:27:13.86,0:27:14.99,Default,,0000,0000,0000,,if I throw here
+Dialogue: 0,0:27:15.37,0:27:18.04,Default,,0000,0000,0000,,I have leak the gadget, and gadget holds a lot of thing.
+Dialogue: 0,0:27:19.55,0:27:21.33,Default,,0000,0000,0000,,so, naked pointers are bad.
+Dialogue: 0,0:27:21.64,0:27:23.25,Default,,0000,0000,0000,,because they are hard to manage.
+Dialogue: 0,0:27:23.25,0:27:25.59,Default,,0000,0000,0000,,so people say, let's use a share pointer.
+Dialogue: 0,0:27:25.96,0:27:29.70,Default,,0000,0000,0000,,a share pointer is one of these handles, they hold a  pointer
+Dialogue: 0,0:27:30.51,0:27:43.14,Default,,0000,0000,0000,,and when you acquire a pointer, It holds it. and if you goes out of the scope, the share pointer will release the resource
+Dialogue: 0,0:27:43.17,0:27:47.38,Default,,0000,0000,0000,,if it io the last one, that holds it
+Dialogue: 0,0:27:48.10,0:27:48.92,Default,,0000,0000,0000,,in other words
+Dialogue: 0,0:27:49.01,0:27:51.17,Default,,0000,0000,0000,,a share pointer is a form of garbage collection.
+Dialogue: 0,0:27:51.87,0:27:53.17,Default,,0000,0000,0000,,If i have a share pointer
+Dialogue: 0,0:27:53.48,0:27:55.84,Default,,0000,0000,0000,,I give you a copy, i give you a copy
+Dialogue: 0,0:27:56.13,0:28:02.22,Default,,0000,0000,0000,,and the last one of us that gives up the copy , will destroy the object.\Nthat's the idea of share pointer.
+Dialogue: 0,0:28:04.61,0:28:05.31,Default,,0000,0000,0000,,but you know
+Dialogue: 0,0:28:05.61,0:28:08.25,Default,,0000,0000,0000,,i'm not actually share anything with anybody here
+Dialogue: 0,0:28:08.55,0:28:10.54,Default,,0000,0000,0000,,that gadget is mine on mine.
+Dialogue: 0,0:28:11.50,0:28:12.09,Default,,0000,0000,0000,,and so
+Dialogue: 0,0:28:12.49,0:28:15.18,Default,,0000,0000,0000,,why am i dealing with garbage collection here?
+Dialogue: 0,0:28:15.18,0:28:18.25,Default,,0000,0000,0000,,even the shared pointer version of garbage collection
+Dialogue: 0,0:28:18.68,0:28:21.36,Default,,0000,0000,0000,,if you people think I misused the word garbage collection
+Dialogue: 0,0:28:21.58,0:28:28.16,Default,,0000,0000,0000,,remember that original garbage collection is defined by share pointer, counted pointers.
+Dialogue: 0,0:28:28.60,0:28:34.43,Default,,0000,0000,0000,,and because the language calles them self garbage collected, because every thing is a shared pointer.
+Dialogue: 0,0:28:35.71,0:28:37.20,Default,,0000,0000,0000,,this is a form of garbage collection.
+Dialogue: 0,0:28:37.51,0:28:42.39,Default,,0000,0000,0000,,but , you know, that the use count for the gadget goes from 0 to 1
+Dialogue: 0,0:28:42.97,0:28:45.94,Default,,0000,0000,0000,,and eventualy from 1 to 0 , which is what it does
+Dialogue: 0,0:28:47.07,0:28:48.25,Default,,0000,0000,0000,,I'm not sharing anything.
+Dialogue: 0,0:28:48.32,0:28:50.66,Default,,0000,0000,0000,,there is standard library unique pointer
+Dialogue: 0,0:28:51.08,0:28:54.12,Default,,0000,0000,0000,,that would allow me to say just hold on this one
+Dialogue: 0,0:28:55.27,0:28:57.91,Default,,0000,0000,0000,,destroy it if i leave this scope
+Dialogue: 0,0:28:58.08,0:29:04.38,Default,,0000,0000,0000,,when I leave the scope,  that's all , that's unique pointer. don't share with any body, that's fine.
+Dialogue: 0,0:29:04.70,0:29:05.21,Default,,0000,0000,0000,,but, do you know?
+Dialogue: 0,0:29:06.86,0:29:08.64,Default,,0000,0000,0000,,why am I dealing with pointers here?
+Dialogue: 0,0:29:10.01,0:29:13.12,Default,,0000,0000,0000,,actually the code I would like to become common and ??
+Dialogue: 0,0:29:13.38,0:29:14.07,Default,,0000,0000,0000,,is actually like this
+Dialogue: 0,0:29:14.07,0:29:15.12,Default,,0000,0000,0000,,I make an gadget
+Dialogue: 0,0:29:15.79,0:29:17.05,Default,,0000,0000,0000,,what should the gadget be ?
+Dialogue: 0,0:29:17.24,0:29:23.02,Default,,0000,0000,0000,,a gedget should be nice thing. if it hold some thing, it would be an handle to what it holds
+Dialogue: 0,0:29:23.34,0:29:32.14,Default,,0000,0000,0000,,if is a file handle in it , the constructor will initialize the file handle and the destructor will close the file again.
+Dialogue: 0,0:29:32.54,0:29:36.06,Default,,0000,0000,0000,,if it has a lock, it will do locks unlocks as needed,
+Dialogue: 0,0:29:36.36,0:29:39.94,Default,,0000,0000,0000,,if owns a memory, it will acquire memory on construct and release the memory in destructor.
+Dialogue: 0,0:29:40.25,0:29:46.82,Default,,0000,0000,0000,,all of those automatic is gadget's job to maintain the gadget's resource. right ?
+Dialogue: 0,0:29:47.48,0:29:48.07,Default,,0000,0000,0000,,I mean
+Dialogue: 0,0:29:48.14,0:29:50.50,Default,,0000,0000,0000,,i have an abstraction should be proper abstract
+Dialogue: 0,0:29:50.50,0:29:52.87,Default,,0000,0000,0000,,these should be no longer a problem.
+Dialogue: 0,0:29:53.32,0:29:56.77,Default,,0000,0000,0000,,because the destructor for the gadget, will take care of it.
+Dialogue: 0,0:29:57.39,0:29:58.75,Default,,0000,0000,0000,,and some, things are simple.
+Dialogue: 0,0:29:59.09,0:30:02.92,Default,,0000,0000,0000,,I really like it when you take some complicated code like that
+Dialogue: 0,0:30:03.58,0:30:04.69,Default,,0000,0000,0000,,and improve it
+Dialogue: 0,0:30:05.77,0:30:07.73,Default,,0000,0000,0000,,by make it much more simpler.
+Dialogue: 0,0:30:08.21,0:30:11.41,Default,,0000,0000,0000,,that's the idea. we want to have simple things simple.
+Dialogue: 0,0:30:11.92,0:30:19.82,Default,,0000,0000,0000,,there are things can not do, with just RAII model. there are complicated data structures that require more thought
+Dialogue: 0,0:30:20.08,0:30:23.31,Default,,0000,0000,0000,,there are places where you require share pointer etc, etc.
+Dialogue: 0,0:30:23.65,0:30:25.32,Default,,0000,0000,0000,,but simple things should be simple.
+Dialogue: 0,0:30:25.60,0:30:27.00,Default,,0000,0000,0000,,and this is am example of it.
+Dialogue: 0,0:30:28.10,0:30:30.16,Default,,0000,0000,0000,,so, what do we actually use pointers for?
+Dialogue: 0,0:30:30.66,0:30:34.80,Default,,0000,0000,0000,,if i'm saying, pointers should not represent ownership.
+Dialogue: 0,0:30:35.85,0:30:38.69,Default,,0000,0000,0000,,handles represent ownership
+Dialogue: 0,0:30:39.03,0:30:42.69,Default,,0000,0000,0000,,and pointers live inside handler, and are used by them
+Dialogue: 0,0:30:43.21,0:30:46.97,Default,,0000,0000,0000,,also, you represent resource inside a handle.
+Dialogue: 0,0:30:47.35,0:30:49.08,Default,,0000,0000,0000,,you represent positions.
+Dialogue: 0,0:30:49.18,0:30:50.27,Default,,0000,0000,0000,,so that's why we have .... ..
+Dialogue: 0,0:30:52.52,0:30:55.57,Default,,0000,0000,0000,,pointers into arrays  like we use indexes.
+Dialogue: 0,0:30:55.71,0:31:00.54,Default,,0000,0000,0000,,and we have iterators, all of these god stuff which are pointers in disguise
+Dialogue: 0,0:31:00.76,0:31:01.76,Default,,0000,0000,0000,,by and large
+Dialogue: 0,0:31:01.76,0:31:08.06,Default,,0000,0000,0000,,represent positions we have to be careful, we can have range checking.
+Dialogue: 0,0:31:08.61,0:31:12.26,Default,,0000,0000,0000,,they (pointers) are really good to pass in large amount of data around.
+Dialogue: 0,0:31:12.49,0:31:15.85,Default,,0000,0000,0000,,usually in the form of reference or const reference.
+Dialogue: 0,0:31:16.13,0:31:21.15,Default,,0000,0000,0000,,that's how we get to say two matries into a add function
+Dialogue: 0,0:31:21.16,0:31:23.37,Default,,0000,0000,0000,,for matrices, we pass const references.
+Dialogue: 0,0:31:23.74,0:31:28.29,Default,,0000,0000,0000,,pointers in various guises  are really good thing to pass things to others.
+Dialogue: 0,0:31:30.01,0:31:35.95,Default,,0000,0000,0000,,people use pointers to pass things out of functions' results
+Dialogue: 0,0:31:36.62,0:31:41.34,Default,,0000,0000,0000,,and I'm going to show alternative to that.
+Dialogue: 0,0:31:42.23,0:31:43.93,Default,,0000,0000,0000,,so here is the problem
+Dialogue: 0,0:31:45.73,0:31:54.13,Default,,0000,0000,0000,,we can get informations, representatives inside functions, we can get informations into functions, but how do we get it out again?
+Dialogue: 0,0:31:55.73,0:31:58.90,Default,,0000,0000,0000,,the idea of getting things out of a function
+Dialogue: 0,0:31:59.64,0:32:03.23,Default,,0000,0000,0000,,usually if it's a lot of data
+Dialogue: 0,0:32:03.53,0:32:05.19,Default,,0000,0000,0000,,or if it is a complicated object
+Dialogue: 0,0:32:05.39,0:32:13.07,Default,,0000,0000,0000,,we put it on the free store, and return a pointer to the object we put on the free store
+Dialogue: 0,0:32:13.20,0:32:19.15,Default,,0000,0000,0000,,the problem is, we use "new" to get things on free store, so who delete?
+Dialogue: 0,0:32:20.16,0:32:28.90,Default,,0000,0000,0000,,is the operation that create the object? or the code that call the object?
+Dialogue: 0,0:32:29.30,0:32:34.52,Default,,0000,0000,0000,,neither of those solutions are ideal
+Dialogue: 0,0:32:35.23,0:32:38.05,Default,,0000,0000,0000,,neither of those solutions are un-manageable
+Dialogue: 0,0:32:38.51,0:32:44.67,Default,,0000,0000,0000,,but a lot of the un-manageable resource management using a lot of pointers. has a root in these problems.
+Dialogue: 0,0:32:44.76,0:32:48.30,Default,,0000,0000,0000,,people don't decide who owns what and who cleans what
+Dialogue: 0,0:32:48.72,0:32:51.81,Default,,0000,0000,0000,,so things pass to an interface, and disappear
+Dialogue: 0,0:32:52.67,0:32:56.61,Default,,0000,0000,0000,,we can try and solve by references. that's even worse.
+Dialogue: 0,0:32:57.07,0:33:01.52,Default,,0000,0000,0000,,because I return some reference to something that's on the free store
+Dialogue: 0,0:33:02.17,0:33:04.17,Default,,0000,0000,0000,,omebody still has to leak the pointer.
+Dialogue: 0,0:33:04.31,0:33:08.35,Default,,0000,0000,0000,,and the obverse question is, what pointer? I don't see any pointer.
+Dialogue: 0,0:33:08.73,0:33:16.54,Default,,0000,0000,0000,,A reference looks -- when used -- use like an object. and you have disguise the problem rather that solve it.
+Dialogue: 0,0:33:17.12,0:33:19.24,Default,,0000,0000,0000,,we can pass a target object
+Dialogue: 0,0:33:19.63,0:33:22.93,Default,,0000,0000,0000,,so instead of adding two matrices and returning a result
+Dialogue: 0,0:33:23.43,0:33:28.40,Default,,0000,0000,0000,,we can say add(a,b,c);
+Dialogue: 0,0:33:28.40,0:33:32.99,Default,,0000,0000,0000,,it takes a + b and put the result to what ever c points to.
+Dialogue: 0,0:33:33.53,0:33:35.69,Default,,0000,0000,0000,,that's a popular way of doing it.
+Dialogue: 0,0:33:35.90,0:33:38.59,Default,,0000,0000,0000,,the problem is where it regress towards simply code.
+Dialogue: 0,0:33:39.07,0:33:45.31,Default,,0000,0000,0000,,and output parameters is one of sources to complex and confusion.
+Dialogue: 0,0:33:45.68,0:33:51.39,Default,,0000,0000,0000,,when I say  plus(a,b,c), what does that mean?
+Dialogue: 0,0:33:51.58,0:33:53.14,Default,,0000,0000,0000,,I have to read the documentation.
+Dialogue: 0,0:33:53.62,0:33:59.43,Default,,0000,0000,0000,,at least we have const, so that we can tell which one is suppose to be inputs and which one is not.
+Dialogue: 0,0:33:59.86,0:34:03.96,Default,,0000,0000,0000,,but if people are not consistent and they just look at the code.
+Dialogue: 0,0:34:05.60,0:34:06.66,Default,,0000,0000,0000,,what's what ?
+Dialogue: 0,0:34:06.92,0:34:08.16,Default,,0000,0000,0000,,this is source of bugs.
+Dialogue: 0,0:34:08.39,0:34:13.56,Default,,0000,0000,0000,,\Nsimilarly, the code before hand just looks like a becomes b + c
+Dialogue: 0,0:34:13.81,0:34:19.67,Default,,0000,0000,0000,,now looks declare some result type c, and then plus a become b become c
+Dialogue: 0,0:34:19.67,0:34:22.93,Default,,0000,0000,0000,,that some time it doubles the amount of code you have to write.
+Dialogue: 0,0:34:22.93,0:34:24.67,Default,,0000,0000,0000,,I don't like the solution
+Dialogue: 0,0:34:24.82,0:34:27.09,Default,,0000,0000,0000,,it works, some time it's the best we can do.
+Dialogue: 0,0:34:27.24,0:34:28.38,Default,,0000,0000,0000,,but we are regression
+Dialogue: 0,0:34:28.38,0:34:33.45,Default,,0000,0000,0000,,we throwing away few hundred years of progress in notation.
+Dialogue: 0,0:34:34.27,0:34:38.33,Default,,0000,0000,0000,,and we can return an object. when we try that, that works nice.
+Dialogue: 0,0:34:38.33,0:34:43.11,Default,,0000,0000,0000,,if the object we are returning is an integer, or complex number (: std::complex<>）that's not a problem.
+Dialogue: 0,0:34:43.58,0:34:49.85,Default,,0000,0000,0000,,if it is a matrix of a million elements, even a modern process can ... can feel the pain
+Dialogue: 0,0:34:50.37,0:34:57.45,Default,,0000,0000,0000,,and so, copies can be expensive, and then we start eventing tricks for returning objects cheaply.
+Dialogue: 0,0:34:57.81,0:34:58.39,Default,,0000,0000,0000,,well
+Dialogue: 0,0:34:58.44,0:35:06.74,Default,,0000,0000,0000,,that sort of works in the hand of competence programmer in a code base strictly controlled by somebody knows well  doing it works
+Dialogue: 0,0:35:07.08,0:35:09.19,Default,,0000,0000,0000,,but in this area here
+Dialogue: 0,0:35:09.23,0:35:20.65,Default,,0000,0000,0000,,is where we found a lot of the awful code that, for not solving this problem permanence a million line  code base and become sources of problems.
+Dialogue: 0,0:35:20.91,0:35:21.34,Default,,0000,0000,0000,,
+Dialogue: 0,0:35:21.72,0:35:24.24,Default,,0000,0000,0000,,we can return a handle
+Dialogue: 0,0:35:24.72,0:35:31.21,Default,,0000,0000,0000,,don't return the elements of the matrix, don't return pointer to the elements
+Dialogue: 0,0:35:31.30,0:35:33.38,Default,,0000,0000,0000,,return the matrix which is the handle
+Dialogue: 0,0:35:34.25,0:35:36.10,Default,,0000,0000,0000,,ok, so, how do we do this.
+Dialogue: 0,0:35:36.25,0:35:36.65,Default,,0000,0000,0000,,here,
+Dialogue: 0,0:35:36.81,0:35:38.50,Default,,0000,0000,0000,,this is what the way we want the code to work.
+Dialogue: 0,0:35:39.09,0:35:45.30,Default,,0000,0000,0000,,i want a matrix that takes two .. (BS纠正口误)... plus operation that takes two inputs and produces the result.
+Dialogue: 0,0:35:45.31,0:35:47.75,Default,,0000,0000,0000,,I want to do that by making up a local variable
+Dialogue: 0,0:35:48.12,0:35:54.53,Default,,0000,0000,0000,,I want to fill it up with the good stuff i want to get out. and I want to return it.\Nand I write my code like this.
+Dialogue: 0,0:35:54.90,0:35:55.46,Default,,0000,0000,0000,,and
+Dialogue: 0,0:35:55.65,0:35:57.35,Default,,0000,0000,0000,,this , this works nicely.
+Dialogue: 0,0:35:57.96,0:36:01.29,Default,,0000,0000,0000,,n here, "r" is a handle to all the elements
+Dialogue: 0,0:36:01.71,0:36:03.88,Default,,0000,0000,0000,,and the return operation is simply
+Dialogue: 0,0:36:04.35,0:36:06.77,Default,,0000,0000,0000,,take that point there and give it "res".
+Dialogue: 0,0:36:07.52,0:36:15.11,Default,,0000,0000,0000,,and then put a nullptr in its place. that's know as move operation.
+Dialogue: 0,0:36:15.33,0:36:17.29,Default,,0000,0000,0000,,even little kids can understand this
+Dialogue: 0,0:36:17.29,0:36:17.64,Default,,0000,0000,0000,,look！
+Dialogue: 0,0:36:17.64,0:36:21.35,Default,,0000,0000,0000,,here is an object right, I moved it over here.  it not here.
+Dialogue: 0,0:36:22.42,0:36:29.83,Default,,0000,0000,0000,,ok. only a computer scientist would make a copy, move the copy over here, and destroy the original.
+Dialogue: 0,0:36:30.76,0:36:34.23,Default,,0000,0000,0000,,You actually need a degree to figure that one out.
+Dialogue: 0,0:36:34.69,0:36:37.96,Default,,0000,0000,0000,,little kids at about 8 - 6 month can do this.
+Dialogue: 0,0:36:38.71,0:36:44.92,Default,,0000,0000,0000,,ok, that does it look like in code？
+Dialogue: 0,0:36:45.29,0:36:49.75,Default,,0000,0000,0000,,this is a funny notation, that this one is a move constructor.
+Dialogue: 0,0:36:50.12,0:36:55.35,Default,,0000,0000,0000,,a move constructor is called from some thing that we don't need any more.
+Dialogue: 0,0:36:55.75,0:36:57.75,Default,,0000,0000,0000,,like the source of a return statement.
+Dialogue: 0,0:36:58.04,0:37:00.69,Default,,0000,0000,0000,,and it does exactly this as I said.
+Dialogue: 0,0:37:01.07,0:37:05.31,Default,,0000,0000,0000,,here, it copies the representation and zeros out the representation.
+Dialogue: 0,0:37:05.66,0:37:06.32,Default,,0000,0000,0000,,
+Dialogue: 0,0:37:06.81,0:37:14.60,Default,,0000,0000,0000,,it copies because that's what hardware does well for small things like a pointer, or integer.
+Dialogue: 0,0:37:14.60,0:37:17.11,Default,,0000,0000,0000,,and the matrix simply is just integer
+Dialogue: 0,0:37:17.34,0:37:25.94,Default,,0000,0000,0000,,it may be ... a pointer ...  and it may be a pointer and a couple of dimensions -- its small.
+Dialogue: 0,0:37:26.25,0:37:27.08,Default,,0000,0000,0000,,so
+Dialogue: 0,0:37:27.22,0:37:27.51,Default,,0000,0000,0000,,we...
+Dialogue: 0,0:37:27.54,0:37:34.76,Default,,0000,0000,0000,,this operation here, the move operation is .. is something that is really cheep.
+Dialogue: 0,0:37:34.76,0:37:44.59,Default,,0000,0000,0000,,so if you want to move a million elements matrix out of an operation, it cost two DWORD assignment. that that's affordable.
+Dialogue: 0,0:37:45.24,0:37:46.16,Default,,0000,0000,0000,,ok
+Dialogue: 0,0:37:46.27,0:37:47.80,Default,,0000,0000,0000,,so .. errr.
+Dialogue: 0,0:37:49.63,0:37:59.10,Default,,0000,0000,0000,,this leads me to the conclusion that no garbage collection is needed for this simple implicit and efficient resource management
+Dialogue: 0,0:37:59.10,0:38:00.03,Default,,0000,0000,0000,,we can do that
+Dialogue: 0,0:38:00.35,0:38:02.43,Default,,0000,0000,0000,,and so , we had a set of techniques
+Dialogue: 0,0:38:02.91,0:38:05.29,Default,,0000,0000,0000,,fist we store data in containers
+Dialogue: 0,0:38:05.49,0:38:09.52,Default,,0000,0000,0000,,and they should reflect the fundamental abstraction in their interface
+Dialogue: 0,0:38:09.72,0:38:11.69,Default,,0000,0000,0000,,and they handles lifetime management.
+Dialogue: 0,0:38:12.04,0:38:17.33,Default,,0000,0000,0000,,and you handle all resources with resource handle. not just memory
+Dialogue: 0,0:38:17.72,0:38:24.42,Default,,0000,0000,0000,,this is important. I don't want to leak sockets. I don't want to leak file handles, etc etc etc.
+Dialogue: 0,0:38:24.67,0:38:28.11,Default,,0000,0000,0000,,your system have a lot of resources. some of which I never heard of
+Dialogue: 0,0:38:28.48,0:38:32.86,Default,,0000,0000,0000,,they are just something in your system, has to be acquired and released.
+Dialogue: 0,0:38:33.00,0:38:35.57,Default,,0000,0000,0000,,that's resource, all of those have to be managed.
+Dialogue: 0,0:38:37.05,0:38:41.43,Default,,0000,0000,0000,,if you can't get this working, you can start using smart pointers
+Dialogue: 0,0:38:41.43,0:38:45.01,Default,,0000,0000,0000,,unique pointers are very good at holding things to scopes
+Dialogue: 0,0:38:45.20,0:38:50.57,Default,,0000,0000,0000,,they are also very good at hold unique ownership, hand unique ownership over to somebody else.
+Dialogue: 0,0:38:50.91,0:38:58.97,Default,,0000,0000,0000,,share pointers for the case is  where you can't work out the ownership, it is really uncertain who is the last user.
+Dialogue: 0,0:38:59.30,0:39:05.82,Default,,0000,0000,0000,,try not to get there, but when you get there, smart pointers share pointers will do the job.
+Dialogue: 0,0:39:06.26,0:39:09.03,Default,,0000,0000,0000,,and finally , if you have gotten yourself into a mess -
+Dialogue: 0,0:39:09.69,0:39:12.39,Default,,0000,0000,0000,,which a lot of us has - especially with old code
+Dialogue: 0,0:39:12.39,0:39:13.71,Default,,0000,0000,0000,,lots of pointers
+Dialogue: 0,0:39:13.71,0:39:15.94,Default,,0000,0000,0000,,no real understanding  of who owns what
+Dialogue: 0,0:39:15.94,0:39:25.94,Default,,0000,0000,0000,,no really clearly actual clearly set of rules for error handling and resource management
+Dialogue: 0,0:39:26.30,0:39:27.56,Default,,0000,0000,0000,,this is not uncommon
+Dialogue: 0,0:39:27.69,0:39:31.54,Default,,0000,0000,0000,,or if there is is some clearly apically rules that may not be followed
+Dialogue: 0,0:39:31.70,0:39:34.05,Default,,0000,0000,0000,,in that case, you can plug-in a garbage collector.
+Dialogue: 0,0:39:34.42,0:39:36.65,Default,,0000,0000,0000,,and get what's known as litter collection.
+Dialogue: 0,0:39:36.65,0:39:41.60,Default,,0000,0000,0000,,their shouldn't be much garbage . because we already built with  most of there
+Dialogue: 0,0:39:41.65,0:39:43.85,Default,,0000,0000,0000,,so it's relatively cheep.
+Dialogue: 0,0:39:44.03,0:39:47.29,Default,,0000,0000,0000,,c++11 specifics an interface for this
+Dialogue: 0,0:39:50.76,0:39:53.87,Default,,0000,0000,0000,,it can still leak non memory resources
+Dialogue: 0,0:39:54.10,0:39:58.59,Default,,0000,0000,0000,,i can be efficient and effective , and you can go if you want to.
+Dialogue: 0,0:39:58.85,0:40:06.62,Default,,0000,0000,0000,,but the point is , the usual order of preference has be reverse here.
+Dialogue: 0,0:40:07.04,0:40:09.93,Default,,0000,0000,0000,,it is not the idea is garbage collection
+Dialogue: 0,0:40:10.00,0:40:13.08,Default,,0000,0000,0000,,and if you don't have garbage collection, we will do something else, no.
+Dialogue: 0,0:40:13.43,0:40:16.39,Default,,0000,0000,0000,,the idea is perfect resource safety.
+Dialogue: 0,0:40:16.70,0:40:22.06,Default,,0000,0000,0000,,with minimal overheads and minimal resource retention times
+Dialogue: 0,0:40:22.44,0:40:30.32,Default,,0000,0000,0000,,and then eventually if everything else fails , we can plug-in an garbage collector. at this point, garbage collection becomes cheep.
+Dialogue: 0,0:40:30.89,0:40:33.15,Default,,0000,0000,0000,,so, em...
+Dialogue: 0,0:40:35.59,0:40:39.57,Default,,0000,0000,0000,,I sort of uncomfortable when I don't show code for awhile.
+Dialogue: 0,0:40:39.89,0:40:45.68,Default,,0000,0000,0000,,so let me show a little bit some of the facilities we had in c++11
+Dialogue: 0,0:40:45.95,0:40:49.04,Default,,0000,0000,0000,,with the general purpose of making simple things simple.
+Dialogue: 0,0:40:49.40,0:40:56.21,Default,,0000,0000,0000,,so here, I want to find all v(s) in C .
+Dialogue: 0,0:40:56.91,0:41:02.34,Default,,0000,0000,0000,,and C is suppose to be a container. v suppose to be a value that might be in the container.
+Dialogue: 0,0:41:02.56,0:41:04.42,Default,,0000,0000,0000,,and how do I want to  return that?
+Dialogue: 0,0:41:04.42,0:41:09.62,Default,,0000,0000,0000,,I want to return at vector of pointers to the elements in there.
+Dialogue: 0,0:41:09.77,0:41:11.37,Default,,0000,0000,0000,,so, I know what the pointer is.
+Dialogue: 0,0:41:11.43,0:41:15.91,Default,,0000,0000,0000,,so basically I'm gather in the addresses of ponters to
+Dialogue: 0,0:41:15.16,0:41:21.85,Default,,0000,0000,0000,,all the elements had value v, in a container. that's fine.
+Dialogue: 0,0:41:22.10,0:41:23.60,Default,,0000,0000,0000,,that's what I want to do.
+Dialogue: 0,0:41:23.85,0:41:28.35,Default,,0000,0000,0000,,then I implemented it by setting a local variable,
+Dialogue: 0,0:41:28.35,0:41:30.10,Default,,0000,0000,0000,,and I filled it up, i use the new for loop,
+Dialogue: 0,0:41:30.35,0:41:35.85,Default,,0000,0000,0000,,the "range for" loop, and I said , for x(es) in C,
+Dialogue: 0,0:41:36.10,0:41:40.40,Default,,0000,0000,0000,,and x is of course of the reference type of the elements in C,
+Dialogue: 0,0:41:40.65,0:41:43.87,Default,,0000,0000,0000,,the compiler knows that so I don't have to call to tell it,
+Dialogue: 0,0:41:44.05,0:41:47.29,Default,,0000,0000,0000,,that's what "auto" says, and its reference,
+Dialogue: 0,0:41:47.30,0:41:51.44,Default,,0000,0000,0000,,because I want to collect information of where they were.
+Dialogue: 0,0:41:51.44,0:41:58.98,Default,,0000,0000,0000,,if X equals v, push its pointer to it onto "res",
+Dialogue: 0,0:41:59.00,0:42:01.35,Default,,0000,0000,0000,,when we finish, we return res.
+Dialogue: 0,0:42:01.35,0:42:04.44,Default,,0000,0000,0000,,so this is like the matrix example
+Dialogue: 0,0:42:04.45,0:42:07.17,Default,,0000,0000,0000,,basically I just make a collection of things
+Dialogue: 0,0:42:07.42,0:42:12.40,Default,,0000,0000,0000,,and I pass it by value, return it by value.and vector,
+Dialogue: 0,0:42:12.40,0:42:17.00,Default,,0000,0000,0000,,in c++11, vector it has move constructor.
+Dialogue: 0,0:42:17.00,0:42:18.96,Default,,0000,0000,0000,,so this is actually very efficient code.
+Dialogue: 0,0:42:18.97,0:42:22.64,Default,,0000,0000,0000,,don't try this on c++98.
+Dialogue: 0,0:42:22.64,0:42:25.23,Default,,0000,0000,0000,,because it will be a performance budget.
+Dialogue: 0,0:42:25.23,0:42:26.41,Default,,0000,0000,0000,,but all the rest here,
+Dialogue: 0,0:42:26.41,0:42:30.71,Default,,0000,0000,0000,,you can write c++11 so you are saved from that problem.
+Dialogue: 0,0:42:30.71,0:42:32.45,Default,,0000,0000,0000,,and we use it (NOTE: the function find_all),
+Dialogue: 0,0:42:32.45,0:42:37.05,Default,,0000,0000,0000,,take a string. a string is container of characters.right.
+Dialogue: 0,0:42:37.06,0:42:40.15,Default,,0000,0000,0000,,and then I say ... err.
+Dialogue: 0,0:42:40.16,0:42:46.80,Default,,0000,0000,0000,,for all p(s) in the result of find_all ,
+Dialogue: 0,0:42:46.80,0:42:50.49,Default,,0000,0000,0000,,so I just going through the vector,
+Dialogue: 0,0:42:50.49,0:42:52.26,Default,,0000,0000,0000,,which happens to be a vector of pointers,
+Dialogue: 0,0:42:53.17,0:42:56.01,Default,,0000,0000,0000,,and if it doesn't points to an 'a',
+Dialogue: 0,1:00:02.80,1:00:09.14,Default,,0000,0000,0000,,it is also known as constraints,but after people have talking about concepts for a decade
+Dialogue: 0,1:00:09.14,1:00:13.31,Default,,0000,0000,0000,,in variably they became concepts.
+Dialogue: 0,1:00:13.31,1:00:21.01,Default,,0000,0000,0000,,but since they bundle less than 1/10 of the complexity of the old c++0x concepts,
+Dialogue: 0,1:00:21.01,1:00:25.86,Default,,0000,0000,0000,,it became concept lite. sorry to Coca-Cola what ever.
+Dialogue: 0,1:00:25.86,1:00:33.37,Default,,0000,0000,0000,,basically we try to answer the question how doe we specify requirements on template argument,
+Dialogue: 0,1:00:33.37,1:00:38.43,Default,,0000,0000,0000,,we want to state the intent and we want point-of-use checking.
+Dialogue: 0,1:00:38.44,1:00:46.34,Default,,0000,0000,0000,,so basically we are provide set of functions that states what we are requiring of an algorithm.
+Dialogue: 0,1:00:46.34,1:00:51.88,Default,,0000,0000,0000,,so if i have an algorithm for sorts, it will ask for an container.
+Dialogue: 0,1:00:51.88,1:01:02.76,Default,,0000,0000,0000,,if i had an algorithm that take square root, it ask for a double of positive number.
+Dialogue: 0,1:01:02.76,1:01:12.27,Default,,0000,0000,0000,,this is voted as c++14 technical report. technical specification , I believe it's the technical term.
+Dialogue: 0,1:01:12.27,1:01:16.41,Default,,0000,0000,0000,,I designed by me, Gonçalo dos Reis and Andrew Sutton.
+Dialogue: 0,1:01:16.41,1:01:21.54,Default,,0000,0000,0000,,Andrew Sutton has the basic implementation of all the basic stuff and most of the details .
+Dialogue: 0,1:01:21.55,1:01:30.72,Default,,0000,0000,0000,,basically for those of you who have lift through the c++0x concepts,
+Dialogue: 0,1:01:30.72,1:01:37.46,Default,,0000,0000,0000,,there are not concept maps, there are no new syntax, and there are no scope and look up issues.
+Dialogue: 0,1:01:37.46,1:01:40.23,Default,,0000,0000,0000,,the specification is very much simpler.
+Dialogue: 0,1:01:40.23,1:01:44.97,Default,,0000,0000,0000,,so, the first thing we have to ask ourself when working on those,
+Dialogue: 0,1:01:44.97,1:01:50.14,Default,,0000,0000,0000,,what are concepts? and one of the notions that we came up with what is concepts are fundamental.
+Dialogue: 0,1:01:50.14,1:01:57.38,Default,,0000,0000,0000,,people were writing specifications that were very very detail in theory.
+Dialogue: 0,1:01:57.38,1:02:04.65,Default,,0000,0000,0000,,there literally  was 120 concepts in c++ standard library. and look at it,
+Dialogue: 0,1:02:04.66,1:02:15.23,Default,,0000,0000,0000,,how many concepts are there in the algebra ? a dozen ? is c++ standard library 10 times  complicated as algebra?
+Dialogue: 0,1:02:15.23,1:02:19.94,Default,,0000,0000,0000,,I hope not. it certainly does not have 10 time as many fundamental concepts.
+Dialogue: 0,1:02:19.94,1:02:30.61,Default,,0000,0000,0000,,so we have to concentrate on building concepts in a language as what you have that a fundamental application area.
+Dialogue: 0,1:02:30.62,1:02:38.06,Default,,0000,0000,0000,,you has to remember that concept comes to classes that describes that area, you don't have a free choice really.
+Dialogue: 0,1:02:38.06,1:02:44.93,Default,,0000,0000,0000,,if you are dealing with arithmetic, you can't define what it means to subtract,
+Dialogue: 0,1:02:44.93,1:02:49.81,Default,,0000,0000,0000,,independently what it means to define addition.
+Dialogue: 0,1:02:49.81,1:02:57.20,Default,,0000,0000,0000,,you can not define multiplication independently of the first two. these things hang together.
+Dialogue: 0,1:02:57.20,1:03:03.31,Default,,0000,0000,0000,,it is not just syntax, subtractable is not a concept, it's something you can say,
+Dialogue: 0,1:03:03.32,1:03:10.69,Default,,0000,0000,0000,,but it doesn't make any sense except in the context of something that's specified , say arithmetic.
+Dialogue: 0,1:03:10.69,1:03:18.43,Default,,0000,0000,0000,,and we always have concepts. notice that, C have concepts. integer, arithmetic ,
+Dialogue: 0,1:03:18.43,1:03:29.64,Default,,0000,0000,0000,,they are just words in the standard, just like c++ forward iterator, and predicate.
+Dialogue: 0,1:03:29.64,1:03:35.81,Default,,0000,0000,0000,,just words, in the standard. we want to make it real into code.
+Dialogue: 0,1:03:35.81,1:03:42.68,Default,,0000,0000,0000,,so, basically we are looking for some thing fundamental. don't expect to find something fundamental every year.
+Dialogue: 0,1:03:42.69,1:03:51.59,Default,,0000,0000,0000,,I don't expect to once we got a body of concept to describe things, I don't expect to fond one every year.
+Dialogue: 0,1:03:51.59,1:03:54.96,Default,,0000,0000,0000,,it is not the minimal requirements for an implementation.
+Dialogue: 0,1:03:54.96,1:04:02.61,Default,,0000,0000,0000,,if every algorithm is specified as minimal requirement for it's implementation.we have a problem.
+Dialogue: 0,1:04:02.61,1:04:08.11,Default,,0000,0000,0000,,if we want to improve the implementation we have to change the interface.that's bridle.
+Dialogue: 0,1:04:08.36,1:04:14.82,Default,,0000,0000,0000,,what we need to do, is specify interfaces in terms of general concepts,
+Dialogue: 0,1:04:14.08,1:04:19.39,Default,,0000,0000,0000,,so that we can improve the implementations without affecting the users,
+Dialogue: 0,1:04:19.39,1:04:25.56,Default,,0000,0000,0000,,we also want to have so few concepts that we actually have a chance of remembering them.
+Dialogue: 0,1:04:25.56,1:04:32.60,Default,,0000,0000,0000,,I couldn't remember that sole of concepts in c++0x
+Dialogue: 0,1:04:33.30,1:04:42.04,Default,,0000,0000,0000,,I do expect to be able to remember the concepts in c++14, or 17, what ever. because there will be few hands of them.
+Dialogue: 0,1:04:42.10,1:04:53.10,Default,,0000,0000,0000,,Andrew Sutton and me , work on something and we got the STL down to 16 concepts. I believe current version is that thing.
+Dialogue: 0,1:04:55.90,1:04:59.20,Default,,0000,0000,0000,,A concept is a predicate on one or more arguments.
+Dialogue: 0,1:05:00.30,1:05:04.81,Default,,0000,0000,0000,,we say that T suppose to be a sequence, simply at compile time,
