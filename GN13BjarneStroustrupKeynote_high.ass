@@ -7,11 +7,11 @@ WrapStyle: 0
 ScaledBorderAndShadow: yes
 Collisions: Normal
 Video Zoom Percent: 0.875
-Scroll Position: 855
-Active Line: 871
+Scroll Position: 951
+Active Line: 967
 Video File: GN13BjarneStroustrupKeynote_high.mp4
 Video Aspect Ratio: c1.77778
-Video Position: 98249
+Video Position: 110335
 Audio URI: GN13BjarneStroustrupKeynote_high.mp4
 PlayResX: 1024
 PlayResY: 576
@@ -897,4 +897,100 @@ Dialogue: 0,0:54:27.75,0:54:28.74,Default,,0,0,0,,let me think about
 Dialogue: 0,0:54:28.74,0:54:31.52,Default,,0,0,0,, a hundred algorithms now that's standard
 Dialogue: 0,0:54:31.52,0:54:36.24,Default,,0,0,0,,and I 'll hope you'll writing your own and add to it(the standard)
 Dialogue: 0,0:54:36.24,0:54:38.24,Default,,0,0,0,, we don't see too much of that as we should.
-Dialogue: 0,0:54:38.24,0:54:40.24,Default,,0,0,0,,
+Dialogue: 0,0:54:38.24,0:54:40.24,Default,,0,0,0,,basically
+Dialogue: 0,0:54:40.24,0:54:44.90,Default,,0,0,0,,we want simple and efficient and general implementations.
+Dialogue: 0,0:54:45.19,0:54:45.53,Default,,0,0,0,,here
+Dialogue: 0,0:54:45.53,0:54:52.21,Default,,0,0,0,,here  we got find, if you like C syntax, it is beautiful, if you don't , that's what you've got anyway.
+Dialogue: 0,0:54:53.51,0:54:57.26,Default,,0,0,0,,and also we want to parametrized with operations
+Dialogue: 0,0:54:57.26,0:54:57.90,Default,,0,0,0,,that is
+Dialogue: 0,0:54:57.90,0:55:06.01,Default,,0,0,0,,we parametrized over the container.  we parametrized over the element type, and we parametrized over the actions to be taken
+Dialogue: 0,0:55:06.01,0:55:12.14,Default,,0,0,0,,here is the predicate passed to find_if, I want to find anything that meets predicate less_than\{"Griffin"\}
+Dialogue: 0,0:55:13.55,0:55:14.63,Default,,0,0,0,,and
+Dialogue: 0,0:55:15.07,0:55:21.20,Default,,0,0,0,,so we generalized find_if that was shown before, if simply uses the predicate
+Dialogue: 0,0:55:21.20,0:55:27.56,Default,,0,0,0,,while we haven't reaches the end , we didn't find predicate and then goes to next one and try again.
+Dialogue: 0,0:55:27.56,0:55:31.54,Default,,0,0,0,,if the point you finish, you return.
+Dialogue: 0,0:55:31.54,0:55:41.11,Default,,0,0,0,,ok, there is spin in c++ in various ways since late 80s, early 90s.
+Dialogue: 0,0:55:41.11,0:55:50.66,Default,,0,0,0,,so we write a lot of function objects, that's the way we represent operations, predicates, etc.
+Dialogue: 0,0:55:50.66,0:55:52.87,Default,,0,0,0,,they can carry {\b1\3c&H0000FF&}states{\b0\3c0&0}, that's {\b1}important{\b0}.
+Dialogue: 0,0:55:53.01,0:55:59.77,Default,,0,0,0,,there are easily inlineed , they actually work better in simple cases than an indirect function call.
+Dialogue: 0,0:56:00.05,0:56:01.05,Default,,0,0,0,,and so here
+Dialogue: 0,0:56:01.23,0:56:07.12,Default,,0,0,0,,less_than(strings) that suppose to take a string you'll compare it to , and then compare when you ask it.
+Dialogue: 0,0:56:07.39,0:56:10.34,Default,,0,0,0,,and that's how it was done.
+Dialogue: 0,0:56:10.61,0:56:12.10,Default,,0,0,0,,here
+Dialogue: 0,0:56:12.10,0:56:18.31,Default,,0,0,0,,take the "Griffin" that's what I want to compare to, and whenever I want to compare, it calls the object. 
+Dialogue: 0,0:56:18.59,0:56:23.04,Default,,0,0,0,,if you get tired to write these function objects, we can use lambda instead. 
+Dialogue: 0,0:56:23.30,0:56:28.62,Default,,0,0,0,,which is basically a notation that says, give me a function object and use it right here.
+Dialogue: 0,0:56:28.97,0:56:29.76,Default,,0,0,0,,so here
+Dialogue: 0,0:56:29.76,0:56:38.67,Default,,0,0,0,,I want to , to , to do the  find_all, and I want to compare to the value "Griffin"
+Dialogue: 0,0:56:38.95,0:56:39.46,Default,,0,0,0,,done.
+Dialogue: 0,0:56:40.07,0:56:45.00,Default,,0,0,0,,if you get tired of writing all these begins, you don't have to
+Dialogue: 0,0:56:45.23,0:56:49.64,Default,,0,0,0,,you can simply define your own versions that works over a container.
+Dialogue: 0,0:56:49.82,0:56:58.41,Default,,0,0,0,,it's not perfectly as general as using pairs of iterators, it is notationally much nicer.
+Dialogue: 0,0:56:58.43,0:57:00.16,Default,,0,0,0,,so here is the find_if()
+Dialogue: 0,0:57:00.16,0:57:07.17,Default,,0,0,0,,find_if in the container c, that look for things that are odd
+Dialogue: 0,0:57:08.55,0:57:10.61,Default,,0,0,0,,ok
+Dialogue: 0,0:57:10.73,0:57:11.36,Default,,0,0,0,,err
+Dialogue: 0,0:57:11.36,0:57:14.66,Default,,0,0,0,,back to the problem of specifying interfaces.
+Dialogue: 0,0:57:14.66,0:57:24.23,Default,,0,0,0,,I find that duck typing is in-sufficient,it gives all of those bad error messages in addiction to what ever the good it does.
+Dialogue: 0,0:57:24.23,0:57:27.41,Default,,0,0,0,,it leaves error detection too late
+Dialogue: 0,0:57:27.41,0:57:29.99,Default,,0,0,0,,and it gives compiler writers  too hard job
+Dialogue: 0,0:57:29.99,0:57:32.18,Default,,0,0,0,,because there are no proper interfaces
+Dialogue: 0,0:57:32.43,0:57:36.90,Default,,0,0,0,,these is no way else says, this is what the algorithms requires over its' arguments.
+Dialogue: 0,0:57:37.35,0:57:42.33,Default,,0,0,0,,this is not sit some where , there is no way for us to say it in c++11.
+Dialogue: 0,0:57:44.97,0:57:51.30,Default,,0,0,0,,that also encourage people to look at the implementation details, because they will look at them anyway.
+Dialogue: 0,0:57:52.08,0:57:56.64,Default,,0,0,0,,there is no interface that protected them from the details.
+Dialogue: 0,0:57:56.64,0:57:58.14,Default,,0,0,0,,and that means that ...
+Dialogue: 0,0:57:58.14,0:58:11.56,Default,,0,0,0,,every time you change the implementation of an algorithm, some user might be affected in an surprising way, so that users interest what's inside those abstractions. they are no data abstract.
+Dialogue: 0,0:58:12.19,0:58:17.19,Default,,0,0,0,,that leads to people start generalize their implementations so that ...
+Dialogue: 0,0:58:17.67,0:58:19.12,Default,,0,0,0,,users 
+Dialogue: 0,0:58:19.12,0:58:20.60,Default,,0,0,0,,so that they have a great user base. 
+Dialogue: 0,0:58:20.76,0:58:23.61,Default,,0,0,0,,this gets to a mass some times.
+Dialogue: 0,0:58:23.96,0:58:27.99,Default,,0,0,0,,and further more it doesn't integrate too well with other parts of the language.
+Dialogue: 0,0:58:27.99,0:58:34.44,Default,,0,0,0,,you have to teach this kinds of coding in a different way than other kinds of coding.
+Dialogue: 0,0:58:34.65,0:58:38.71,Default,,0,0,0,,and you have to to to to think about in a different way.
+Dialogue: 0,0:58:38.71,0:58:39.54,Default,,0,0,0,,that's not good.
+Dialogue: 0,0:58:39.54,0:58:45.13,Default,,0,0,0,,we are not good at keeping one style here, and one style there. it should be better integrated.
+Dialogue: 0,0:58:45.13,0:58:51.75,Default,,0,0,0,,so, I think we have to rethink generic code, so that it become similar to the way we think about other code. 
+Dialogue: 0,0:58:51.75,0:58:57.36,Default,,0,0,0,,and we need interfaces to get better error messages,  better specification of our algorithms.
+Dialogue: 0,0:58:57.36,0:58:58.22,Default,,0,0,0,,so
+Dialogue: 0,0:58:58.36,0:59:00.31,Default,,0,0,0,,here is what I like.
+Dialogue: 0,0:59:00.37,0:59:01.84,Default,,0,0,0,,here is some traditional code
+Dialogue: 0,0:59:01.93,0:59:03.79,Default,,0,0,0,,we have a square root of double
+Dialogue: 0,0:59:03.79,0:59:05.12,Default,,0,0,0,,we return to double
+Dialogue: 0,0:59:05.21,0:59:06.05,Default,,0,0,0,,we have a double
+Dialogue: 0,0:59:06.05,0:59:08.16,Default,,0,0,0,,we call the square root of double with the double
+Dialogue: 0,0:59:08.16,0:59:09.80,Default,,0,0,0,,every thing is fine
+Dialogue: 0,0:59:09.80,0:59:15.18,Default,,0,0,0,,that's what we learned in some versions of our long day one of programming class.
+Dialogue: 0,0:59:15.18,0:59:18.09,Default,,0,0,0,,and if we give something to square root that isn't a double
+Dialogue: 0,0:59:18.39,0:59:20.83,Default,,0,0,0,,in this case, a pointer to double
+Dialogue: 0,0:59:20.83,0:59:26.89,Default,,0,0,0,,we get an error{\k0} at compile time right there, simple, straight forward.  we all understood that. very simple.
+Dialogue: 0,0:59:26.89,0:59:30.09,Default,,0,0,0,,now I want to see the same thing with generic code
+Dialogue: 0,0:59:30.09,0:59:32.57,Default,,0,0,0,,here is a sort, that sorts containers.
+Dialogue: 0,0:59:33.06,0:59:34.23,Default,,0,0,0,, here's a container.
+Dialogue: 0,0:59:34.80,0:59:35.99,Default,,0,0,0,,fine
+Dialogue: 0,0:59:38.64,0:59:40.13,Default,,0,0,0,,we sort the container.
+Dialogue: 0,0:59:40.24,0:59:40.59,Default,,0,0,0,,here
+Dialogue: 0,0:59:40.59,0:59:43.03,Default,,0,0,0,,when it's time to sort something that's not a container.
+Dialogue: 0,0:59:43.13,0:59:45.56,Default,,0,0,0,,in this case is a pointer of a container.
+Dialogue: 0,0:59:45.92,0:59:47.35,Default,,0,0,0,,and we should get an error
+Dialogue: 0,0:59:47.35,0:59:51.14,Default,,0,0,0,,we should get an error right here, and it should be comprehensive. 
+Dialogue: 0,0:59:51.14,0:59:57.41,Default,,0,0,0,, so I would like to see a generic programming that's very similar to ordinary programming.
+Dialogue: 0,0:59:58.20,0:59:59.15,Default,,0,0,0,,so
+Dialogue: 0,0:59:59.43,1:00:03.11,Default,,0,0,0,,this is what we have working with, something called concepts lite.
+Dialogue: 0,1:00:03.11,1:00:04.75,Default,,0,0,0,,it is also known as constraints
+Dialogue: 0,1:00:04.75,1:00:13.21,Default,,0,0,0,,but after people have talking about concepts for a decade, in variably they became concepts.
+Dialogue: 0,1:00:13.21,1:00:22.56,Default,,0,0,0,,but since they bundle less than 1/10 of the complexity of the old c++0x concepts, it became concept lite. 
+Dialogue: 0,1:00:22.98,1:00:25.79,Default,,0,0,0,,sorry to Coca-Cola what ever.
+Dialogue: 0,1:00:26.40,1:00:27.87,Default,,0,0,0,,err, so , basically 
+Dialogue: 0,1:00:27.87,1:00:38.18,Default,,0,0,0,,we are trying to answer the question how doe we specify requirements on template argument, we want to state the intent and we want point-of-use checking. 
+Dialogue: 0,1:00:38.27,1:00:38.58,Default,,0,0,0,, so
+Dialogue: 0,1:00:38.58,1:00:46.40,Default,,0,0,0,,we are basically providing set of functions that states what we are requiring of an algorithm.
+Dialogue: 0,1:00:46.63,1:00:47.36,Default,,0,0,0,,so
+Dialogue: 0,1:00:47.97,1:00:51.97,Default,,0,0,0,,if i have an algorithm for sorts, it will ask for an container
+Dialogue: 0,1:00:52.85,1:01:02.67,Default,,0,0,0,,if i had an algorithm that take square root, it ask for a double of positive number
+Dialogue: 0,1:01:03.58,1:01:04.24,Default,,0,0,0,,and
+Dialogue: 0,1:01:05.65,1:01:09.11,Default,,0,0,0,,this is voted as c++14 technical report
+Dialogue: 0,1:01:09.11,1:01:12.15,Default,,0,0,0,,technical specification, I believe it's the technical term.
+Dialogue: 0,1:01:12.40,1:01:16.49,Default,,0,0,0,,It designed by me, Gonçalo dos Reis and Andrew Sutton.
+Dialogue: 0,1:01:16.49,1:01:21.51,Default,,0,0,0,,Andrew Sutton has the basic implementation of all the basic stuff and most of the details
+Dialogue: 0,1:01:21.51,1:01:23.51,Default,,0,0,0,,
