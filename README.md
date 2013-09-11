@@ -1,7 +1,7 @@
 这个是 GoingNative 2013 的字幕。
 
 
-Day1 keynote , Essences of c++, Bjarne Stroustrup.
+Day1 keynote , Essences of c++, Bjarne Stroustrup. [视频地址](http://channel9.msdn.com/Events/GoingNative/2013/Opening-Keynote-Bjarne-Stroustrup)
 
 
 
