@@ -16,74 +16,74 @@ Style: Default,Tahoma,24,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,&H00C0C0C0,-1,0,0,0,10
 [Events]
 Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:09.04,Default,,0000,0000,0000,,{\fn新宋体\fs36\b1} {\c&HD201D6&} 本字幕由 avplayer.org 社区出品
-Dialogue: 0,0:00:00.20,0:00:04.58,Default,,0000,0000,0000,,gentleman please welcome Charles Torre
-Dialogue: 0,0:00:09.12,0:00:11.28,Default,,0000,0000,0000,,excellent. thanks for showing up
-Dialogue: 0,0:00:11.38,0:00:13.76,Default,,0000,0000,0000,,it's great to able to do goingnative again.
-Dialogue: 0,0:00:13.82,0:00:18.76,Default,,0000,0000,0000,,last year was awesome, wonderful to see all you people, all you programmers in the audience
-Dialogue: 0,0:00:19.28,0:00:20.68,Default,,0000,0000,0000,,there is people on-line
-Dialogue: 0,0:00:20.68,0:00:23.34,Default,,0000,0000,0000,,thanks to the channel9 team for streaming this live,
-Dialogue: 0,0:00:23.42,0:00:25.88,Default,,0000,0000,0000,,very appreciate that. so you can ask questions on-line.
-Dialogue: 0,0:00:25.97,0:00:29.56,Default,,0000,0000,0000,,But we gona take questions from people on this rooms priority you came.
-Dialogue: 0,0:00:29.72,0:00:30.65,Default,,0000,0000,0000,,That's excellent.
-Dialogue: 0,0:00:31.22,0:00:34.51,Default,,0000,0000,0000,,We have a great 3 days for you.
-Dialogue: 0,0:00:34.52,0:00:37.71,Default,,0000,0000,0000,,today we gona say pretty much iso for day1 and day2.
-Dialogue: 0,0:00:37.73,0:00:42.53,Default,,0000,0000,0000,,mainly focus on standard c++.
-Dialogue: 0,0:00:42.92,0:00:46.90,Default,,0000,0000,0000,,day3 we gonna kind of  some windows
-Dialogue: 0,0:00:47.05,0:00:50.74,Default,,0000,0000,0000,,some more vc++ with iso could be excellent
-Dialogue: 0,0:00:52.84,0:00:57.36,Default,,0000,0000,0000,,I'd like to introduce our key note speaker.
-Dialogue: 0,0:00:57.39,0:00:59.79,Default,,0000,0000,0000,,so wonderful to have Bjarne Stroupstrup to appear.
-Dialogue: 0,0:01:00.11,0:01:02.02,Default,,0000,0000,0000,,the creator of c++
-Dialogue: 0,0:01:02.27,0:01:04.88,Default,,0000,0000,0000,,he's gonna teach us a little bit about the essences.
-Dialogue: 0,0:01:05.05,0:01:06.83,Default,,0000,0000,0000,,thanks for come-ing !
+Dialogue: 0,0:00:00.20,0:00:04.58,Default,,0000,0000,0000,,先生们，请欢迎  Charles Torre
+Dialogue: 0,0:00:09.12,0:00:11.28,Default,,0000,0000,0000,,棒极了，谢谢你们的出席
+Dialogue: 0,0:00:11.38,0:00:13.76,Default,,0000,0000,0000,,很高兴能够再次参加 GoingNative
+Dialogue: 0,0:00:13.82,0:00:18.76,Default,,0000,0000,0000,,去年能够看到大家，程序们在观众席上，真是太棒，太美妙了
+Dialogue: 0,0:00:19.28,0:00:20.68,Default,,0000,0000,0000,,还有在线收看的人们
+Dialogue: 0,0:00:20.68,0:00:23.34,Default,,0000,0000,0000,,感谢Channel9 团队提供这次直播
+Dialogue: 0,0:00:23.42,0:00:25.88,Default,,0000,0000,0000,,为此十分感激，这样你们就能够在线提出问题
+Dialogue: 0,0:00:25.97,0:00:29.56,Default,,0000,0000,0000,,但是在场的各位优先提问
+Dialogue: 0,0:00:29.72,0:00:30.65,Default,,0000,0000,0000,,太棒了
+Dialogue: 0,0:00:31.22,0:00:34.51,Default,,0000,0000,0000,,我们为你们带来三天的美好时光
+Dialogue: 0,0:00:34.52,0:00:37.71,Default,,0000,0000,0000,,今天我们说下流程，第一天和第二天几乎都是  ISO
+Dialogue: 0,0:00:37.73,0:00:42.53,Default,,0000,0000,0000,,主要集中在标准的 C++
+Dialogue: 0,0:00:42.92,0:00:46.90,Default,,0000,0000,0000,,第三天关于一些类型的 windows
+Dialogue: 0,0:00:47.05,0:00:50.74,Default,,0000,0000,0000,,和一些更多地支持 ISO 的 VC++，这棒极了
+Dialogue: 0,0:00:52.84,0:00:57.36,Default,,0000,0000,0000,,我想要介绍我们的主题演讲者
+Dialogue: 0,0:00:57.39,0:00:59.79,Default,,0000,0000,0000,,Bjarne Stroupstrup能够参加真是太好了
+Dialogue: 0,0:01:00.11,0:01:02.02,Default,,0000,0000,0000,,C++ 之父
+Dialogue: 0,0:01:02.27,0:01:04.88,Default,,0000,0000,0000,,他将要教我们 C++ 的精髓
+Dialogue: 0,0:01:05.05,0:01:06.83,Default,,0000,0000,0000,,感谢他的到来
 Dialogue: 0,0:01:07.10,0:01:10.12,Default,,0000,0000,0000,,------
-Dialogue: 0,0:01:11.20,0:01:15.13,Default,,0000,0000,0000,,OK, here. welcome, seams the mic working.
-Dialogue: 0,0:01:17.02,0:01:25.56,Default,,0000,0000,0000,,so, in the next couple of days, you are going to hear a lot about the latest and greatest in c++.
-Dialogue: 0,0:01:25.60,0:01:30.49,Default,,0000,0000,0000,,you are going to hear a lot about advanced tech and new features.
-Dialogue: 0,0:01:30.80,0:01:36.14,Default,,0000,0000,0000,,and I decide that in the keynote, I couldn't go too much into that.
-Dialogue: 0,0:01:36.21,0:01:38.62,Default,,0000,0000,0000,,so I'm going to try to do the opposite.
-Dialogue: 0,0:01:38.84,0:01:43.07,Default,,0000,0000,0000,,I'm going to try and focus on what is the essence of c++ .
-Dialogue: 0,0:01:43.36,0:01:48.96,Default,,0000,0000,0000,,what is it that's been constant over the decades.
-Dialogue: 0,0:01:49.05,0:01:55.38,Default,,0000,0000,0000,,and basically what is it that's  kept c++ alive and kicking.
-Dialogue: 0,0:01:55.45,0:02:02.54,Default,,0000,0000,0000,,of course I cann't quite insist showing some new and nice stuff
-Dialogue: 0,0:02:02.57,0:02:08.66,Default,,0000,0000,0000,,so the last 15min or so will be about something from c++14.
-Dialogue: 0,0:02:09.25,0:02:14.86,Default,,0000,0000,0000,,but basically I'll talk about aims and constraints , and the development first.
-Dialogue: 0,0:02:15.16,0:02:19.50,Default,,0000,0000,0000,,I'm trying to explain c++ in four slides.
-Dialogue: 0,0:02:19.69,0:02:27.90,Default,,0000,0000,0000,,and then going to some details of resource management, oop , ge, what challenge ahead.
-Dialogue: 0,0:02:28.05,0:02:37.85,Default,,0000,0000,0000,,so, basically, that is what we want , out of a programming language that is aim among things for system programming.
-Dialogue: 0,0:02:38.14,0:02:39.77,Default,,0000,0000,0000,,We want type safety.
-Dialogue: 0,0:02:39.94,0:02:44.05,Default,,0000,0000,0000,,That will be ideal, we can't be perfect about that
-Dialogue: 0,0:02:44.17,0:02:48.14,Default,,0000,0000,0000,,with the need to deal close to the hardware. and with the C inheritance .
-Dialogue: 0,0:02:48.25,0:02:51.54,Default,,0000,0000,0000,,but it's an idea , it's something we aim to improve.
-Dialogue: 0,0:02:51.88,0:02:53.85,Default,,0000,0000,0000,,We want resource safety.
-Dialogue: 0,0:02:54.22,0:02:56.94,Default,,0000,0000,0000,,that is not just memory.
-Dialogue: 0,0:02:57.08,0:03:01.51,Default,,0000,0000,0000,,so i'm going to argue that we we really don't want to leak anything.
-Dialogue: 0,0:03:01.60,0:03:07.71,Default,,0000,0000,0000,,and "things" can be, things like locks and file handles, not just memory.
-Dialogue: 0,0:03:07.74,0:03:09.48,Default,,0000,0000,0000,,I'm going to talk about performance
-Dialogue: 0,0:03:09.51,0:03:10.73,Default,,0000,0000,0000,,because , well,
-Dialogue: 0,0:03:10.89,0:03:12.62,Default,,0000,0000,0000,,that is important.
-Dialogue: 0,0:03:12.78,0:03:17.04,Default,,0000,0000,0000,,if it isn't important to you , that might be better language for you to do.
-Dialogue: 0,0:03:17.22,0:03:24.33,Default,,0000,0000,0000,,predictability is very important for very large component of the c++ world.
-Dialogue: 0,0:03:24.38,0:03:30.54,Default,,0000,0000,0000,,er, dealing with hardware, dealing with things that has to be happen quickly or reliably or repeatedly .
-Dialogue: 0,0:03:30.74,0:03:33.06,Default,,0000,0000,0000,,and we want languages that can be taught.
-Dialogue: 0,0:03:33.38,0:03:39.56,Default,,0000,0000,0000,,we want something that is no more complex than the needs to be for the tasks is doing.
-Dialogue: 0,0:03:39.78,0:03:43.02,Default,,0000,0000,0000,,and of course we want to be able to read what we are doing.
-Dialogue: 0,0:03:43.11,0:03:46.16,Default,,0000,0000,0000,,you can writ unreadable code in any language of course.
-Dialogue: 0,0:03:46.40,0:03:51.80,Default,,0000,0000,0000,,but, we want to be able to write some thing on a good day
-Dialogue: 0,0:03:51.93,0:03:56.23,Default,,0000,0000,0000,,that people say, "wow, this is realy nice and clean an clear."
-Dialogue: 0,0:03:56.47,0:04:02.96,Default,,0000,0000,0000,,these are the aims we much better added today than we were 20 years ago
-Dialogue: 0,0:04:03.16,0:04:08.48,Default,,0000,0000,0000,,and will be actually much better next year when we get c++14
-Dialogue: 0,0:04:09.12,0:04:11.76,Default,,0000,0000,0000,,and , we want...
-Dialogue: 0,0:04:11.83,0:04:20.36,Default,,0000,0000,0000,,the primary concerns of mine, is system programming, embedded systems, resource constrain systems, and large systems.
-Dialogue: 0,0:04:20.54,0:04:22.26,Default,,0000,0000,0000,,that is ... err...
-Dialogue: 0,0:04:22.36,0:04:28.08,Default,,0000,0000,0000,,so, strictly, the domain of high qualified professional programmers.
-Dialogue: 0,0:04:28.41,0:04:34.35,Default,,0000,0000,0000,,and it may very well means that if you have a tool for that, it's good for a lot of all things.
-Dialogue: 0,0:04:34.38,0:04:37.51,Default,,0000,0000,0000,,that was one of my surprises early on was
-Dialogue: 0,0:04:37.61,0:04:41.37,Default,,0000,0000,0000,,.. so many systems has a clue to it
-Dialogue: 0,0:04:41.37,0:04:44.70,Default,,0000,0000,0000,,where what I mostly interest in is essential
-Dialogue: 0,0:04:44.80,0:04:50.61,Default,,0000,0000,0000,,and then c++ is so general, that it well do the rest also.
-Dialogue: 0,0:04:50.80,0:04:59.89,Default,,0000,0000,0000,,so, c++ is expert friendly, definitely. and, the problem is , that's not enough.
-Dialogue: 0,0:05:00.07,0:05:05.13,Default,,0000,0000,0000,,if it is only expert friendly,  if it just expert friendly, that's nothing for novices.
-Dialogue: 0,0:05:05.60,0:05:11.16,Default,,0000,0000,0000,,we must involve the language into somthing that is a bit more friendly to novices
+Dialogue: 0,0:01:11.20,0:01:15.13,Default,,0000,0000,0000,,好的，欢迎。 领口处的麦克风工作正常
+Dialogue: 0,0:01:17.02,0:01:25.56,Default,,0000,0000,0000,,那么在接下来的两天里，你将会听到许多关于 C++ 最新最棒的内容
+Dialogue: 0,0:01:25.60,0:01:30.49,Default,,0000,0000,0000,,你将会听到许多有关高级技术和新的特性
+Dialogue: 0,0:01:30.80,0:01:36.14,Default,,0000,0000,0000,,我决定在主题演讲中，不会太过深入
+Dialogue: 0,0:01:36.21,0:01:38.62,Default,,0000,0000,0000,,所以我将要试着去做相反的事情
+Dialogue: 0,0:01:38.84,0:01:43.07,Default,,0000,0000,0000,,我将会试着把放在重点什么是 C++ 的精髓上
+Dialogue: 0,0:01:43.36,0:01:48.96,Default,,0000,0000,0000,,那些在过去几十年不变的东西是什么
+Dialogue: 0,0:01:49.05,0:01:55.38,Default,,0000,0000,0000,,还有基本上是什么让 C++ 保持生机勃勃
+Dialogue: 0,0:01:55.45,0:02:02.54,Default,,0000,0000,0000,,当然我不能太过于强调一些新的好东西
+Dialogue: 0,0:02:02.57,0:02:08.66,Default,,0000,0000,0000,,所以在最后的 15 分钟也会有关于 C++14 的一些内容
+Dialogue: 0,0:02:09.25,0:02:14.86,Default,,0000,0000,0000,,但基本上我先谈到目标，限制和开发
+Dialogue: 0,0:02:15.16,0:02:19.50,Default,,0000,0000,0000,,我昂尝试用四个幻灯片讲解 C++
+Dialogue: 0,0:02:19.69,0:02:27.90,Default,,0000,0000,0000,,然后是资源管理，面向对象编程，泛型编程和将来面对的挑战
+Dialogue: 0,0:02:28.05,0:02:37.85,Default,,0000,0000,0000,,所以大体上， 这就是我们想要的 ，编程语言之外的目的是在为系统编程
+Dialogue: 0,0:02:38.14,0:02:39.77,Default,,0000,0000,0000,,我们想要类型安全.
+Dialogue: 0,0:02:39.94,0:02:44.05,Default,,0000,0000,0000,,这将是理想的，我们不能完美地做到
+Dialogue: 0,0:02:44.17,0:02:48.14,Default,,0000,0000,0000,,兼顾接近硬件处理的需求和 C 的继承
+Dialogue: 0,0:02:48.25,0:02:51.54,Default,,0000,0000,0000,,但这是一个理想，是我们致力于要改善的
+Dialogue: 0,0:02:51.88,0:02:53.85,Default,,0000,0000,0000,,我们想要资源安全
+Dialogue: 0,0:02:54.22,0:02:56.94,Default,,0000,0000,0000,,这不仅仅是内存
+Dialogue: 0,0:02:57.08,0:03:01.51,Default,,0000,0000,0000,,那么我将论证，我们实际上不想泄露任何东西
+Dialogue: 0,0:03:01.60,0:03:07.71,Default,,0000,0000,0000,,“东西”可以是，例如锁和文件句柄，不仅仅是内存
+Dialogue: 0,0:03:07.74,0:03:09.48,Default,,0000,0000,0000,,我将会谈到性能
+Dialogue: 0,0:03:09.51,0:03:10.73,Default,,0000,0000,0000,,因为，好吧
+Dialogue: 0,0:03:10.89,0:03:12.62,Default,,0000,0000,0000,,这是重要的
+Dialogue: 0,0:03:12.78,0:03:17.04,Default,,0000,0000,0000,,如果这对你来说不重要，那么语言为你去做可能更好
+Dialogue: 0,0:03:17.22,0:03:24.33,Default,,0000,0000,0000,,对于 C++ 世界的非常大的部分而言，可预测性是非常重要的
+Dialogue: 0,0:03:24.38,0:03:30.54,Default,,0000,0000,0000,,额， 跟硬件打交道，快速地，或者可靠地，或者重复地处理那些不得不发生的事情
+Dialogue: 0,0:03:30.74,0:03:33.06,Default,,0000,0000,0000,,我们想要能调教语言
+Dialogue: 0,0:03:33.38,0:03:39.56,Default,,0000,0000,0000,,我们不想要任务所需之外的复杂东西
+Dialogue: 0,0:03:39.78,0:03:43.02,Default,,0000,0000,0000,,当然，我们想要能读懂我们正在干什么
+Dialogue: 0,0:03:43.11,0:03:46.16,Default,,0000,0000,0000,,当然你可以用任何语言写难以理解的代码
+Dialogue: 0,0:03:46.40,0:03:51.80,Default,,0000,0000,0000,,但是我们想要写一些东西，过上
+Dialogue: 0,0:03:51.93,0:03:56.23,Default,,0000,0000,0000,,使别人会说“哇，这真是太棒了，整洁清晰”的美好一天
+Dialogue: 0,0:03:56.47,0:04:02.96,Default,,0000,0000,0000,,今天提出了比过去 20 年更好的目标
+Dialogue: 0,0:04:03.16,0:04:08.48,Default,,0000,0000,0000,,明年当我们有 C++14 的时候将会真正地变得更棒
+Dialogue: 0,0:04:09.12,0:04:11.76,Default,,0000,0000,0000,,我们想要……
+Dialogue: 0,0:04:11.83,0:04:20.36,Default,,0000,0000,0000,,我主要关注的是，系统编程， 嵌入式系统， 资源限制系统（resource constrain systems）还有 大型系统（large systems）
+Dialogue: 0,0:04:20.54,0:04:22.26,Default,,0000,0000,0000,,这是……额……
+Dialogue: 0,0:04:22.36,0:04:28.08,Default,,0000,0000,0000,,这样的话，严格地说，是高品质的专业程序员的领域
+Dialogue: 0,0:04:28.41,0:04:34.35,Default,,0000,0000,0000,,这意思也许是，如果你有一个适用它的工具，那么对其他大多数的东西都有好处。
+Dialogue: 0,0:04:34.38,0:04:37.51,Default,,0000,0000,0000,,这是我的惊喜之一，在早期是
+Dialogue: 0,0:04:37.61,0:04:41.37,Default,,0000,0000,0000,,如此多的系统提示了
+Dialogue: 0,0:04:41.37,0:04:44.70,Default,,0000,0000,0000,,我最感兴趣的精髓的地方
+Dialogue: 0,0:04:44.80,0:04:50.61,Default,,0000,0000,0000,,然后 C++  也非常全面地把剩下的也做完了。
+Dialogue: 0,0:04:50.80,0:04:59.89,Default,,0000,0000,0000,,所以，C++ 在行家眼里是浅显易懂的，清楚明白的。 问题是，这还不够
+Dialogue: 0,0:05:00.07,0:05:05.13,Default,,0000,0000,0000,,如果仅仅是行家明白它，只是行家了解它，那么新手将会对此一无所知。
+Dialogue: 0,0:05:05.60,0:05:11.16,Default,,0000,0000,0000,,we must involve the language into somthing that is a bit more friendly to narcosis
 Dialogue: 0,0:05:11.23,0:05:21.46,Default,,0000,0000,0000,,without give in an inch of / bytes and cycle for the experts, what they really needs is bytes an cycles.
 Dialogue: 0,0:05:21.67,0:05:26.91,Default,,0000,0000,0000,,so part of this is my answer to what is c++.
 Dialogue: 0,0:05:27.06,0:05:33.71,Default,,0000,0000,0000,,I .. I  .., I have my ideas that's not necessary the same as anybody else is.
