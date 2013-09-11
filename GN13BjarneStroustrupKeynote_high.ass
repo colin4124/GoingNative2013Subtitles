@@ -83,8 +83,8 @@ Dialogue: 0,0:04:41.37,0:04:44.70,Default,,0000,0000,0000,,where what I mostly i
 Dialogue: 0,0:04:44.80,0:04:50.61,Default,,0000,0000,0000,,and then c++ is so general, that it well do the rest also.
 Dialogue: 0,0:04:50.80,0:04:59.89,Default,,0000,0000,0000,,so, c++ is expert friendly, definitely. and, the problem is , that's not enough.
 Dialogue: 0,0:05:00.07,0:05:05.13,Default,,0000,0000,0000,,if it is only expert friendly,  if it just expert friendly, that's nothing for novices.
-Dialogue: 0,0:05:05.60,0:05:11.16,Default,,0000,0000,0000,,we must involve the language into somthing that is a bit more friendly to novices
-Dialogue: 0,0:05:11.23,0:05:21.46,Default,,0000,0000,0000,,without give in an inch of / bytes and cycle for the experts, what they really needs is bytes an cycles.
+Dialogue: 0,0:05:05.60,0:05:11.16,Default,,0000,0000,0000,,we must involve the language into something that is a bit more friendly to novices
+Dialogue: 0,0:05:11.23,0:05:21.46,Default,,0000,0000,0000,,without giving in an inch of / bytes and cycle for the experts, what they really needs is bytes an cycles.
 Dialogue: 0,0:05:21.67,0:05:26.91,Default,,0000,0000,0000,,so part of this is my answer to what is c++.
 Dialogue: 0,0:05:27.06,0:05:33.71,Default,,0000,0000,0000,,I .. I  .., I have my ideas that's not necessary the same as anybody else is.
 Dialogue: 0,0:05:33.92,0:05:38.59,Default,,0000,0000,0000,,there are probably a big border than what you hear in most places
@@ -93,10 +93,10 @@ Dialogue: 0,0:05:41.44,0:05:43.36,Default,,0000,0000,0000,,and I find that
 Dialogue: 0,0:05:43.39,0:05:46.60,Default,,0000,0000,0000,,in forums on the web and conferences as such
 Dialogue: 0,0:05:46.60,0:05:49.02,Default,,0000,0000,0000,,people play Blind Men and the Elephant
 Dialogue: 0,0:05:49.02,0:05:53.10,Default,,0000,0000,0000,,and they are absolutely certain that their part of the elephant is the whole beast.
-Dialogue: 0,0:05:53.34,0:05:54.36,Default,,0000,0000,0000,,there are wrong.
+Dialogue: 0,0:05:53.34,0:05:54.36,Default,,0000,0000,0000,,they are wrong.
 Dialogue: 0,0:05:54.86,0:05:58.30,Default,,0000,0000,0000,,so this is my summery of c++
 Dialogue: 0,0:05:58.30,0:05:59.97,Default,,0000,0000,0000,,if you have to do in one slide.
-Dialogue: 0,0:06:00.17,0:06:04.71,Default,,0000,0000,0000,,its a language that provides light weight abstraction facilities
+Dialogue: 0,0:06:00.17,0:06:04.71,Default,,0000,0000,0000,,it's a language that provides light weight abstraction facilities
 Dialogue: 0,0:06:04.96,0:06:09.72,Default,,0000,0000,0000,,and its key strength scenario is where you build software infrastructure
 Dialogue: 0,0:06:09.72,0:06:14.42,Default,,0000,0000,0000,,and where you have resource constraint applications.
 Dialogue: 0,0:06:14.59,0:06:15.81,Default,,0000,0000,0000,,it's not the elephant
@@ -145,7 +145,7 @@ Dialogue: 0,0:08:07.00,0:08:08.68,Default,,0000,0000,0000,,everybody wanted thei
 Dialogue: 0,0:08:08.68,0:08:11.78,Default,,0000,0000,0000,,from their particular domain.
 Dialogue: 0,0:08:11.80,0:08:13.80,Default,,0000,0000,0000,,so the business people got Cobol
 Dialogue: 0,0:08:14.01,0:08:17.24,Default,,0000,0000,0000,,where you can say business like things
-Dialogue: 0,0:08:17.87,0:08:21.95,Default,,0000,0000,0000,,copy files, write to tap and things like that.
+Dialogue: 0,0:08:17.87,0:08:21.95,Default,,0000,0000,0000,,copy files, write to tape and things like that.
 Dialogue: 0,0:08:22.30,0:08:22.78,Default,,0000,0000,0000,,err ....
 Dialogue: 0,0:08:22.81,0:08:23.03,Default,,0000,0000,0000,,and
 Dialogue: 0,0:08:23.07,0:08:23.38,Default,,0000,0000,0000,,and
@@ -167,7 +167,7 @@ Dialogue: 0,0:08:56.27,0:09:00.37,Default,,0000,0000,0000,,so instead of buildin
 Dialogue: 0,0:09:00.37,0:09:03.68,Default,,0000,0000,0000,,you provide the facility for building new things.
 Dialogue: 0,0:09:03.84,0:09:06.48,Default,,0000,0000,0000,,they called it classes, and class hierarchies
 Dialogue: 0,0:09:07.98,0:09:13.03,Default,,0000,0000,0000,,here comes the line of general purpose abstraction from the hardware
-Dialogue: 0,0:09:13.40,0:09:14.73,Default,,0000,0000,0000,,and I brow that
+Dialogue: 0,0:09:13.40,0:09:14.73,Default,,0000,0000,0000,,and I borrow that
 Dialogue: 0,0:09:14.87,0:09:16.73,Default,,0000,0000,0000,,and got the initial c++.
 Dialogue: 0,0:09:16.81,0:09:19.62,Default,,0000,0000,0000,,we've been developing that ever since
 Dialogue: 0,0:09:20.00,0:09:23.56,Default,,0000,0000,0000,,and that's been a lot of development in the world of course
@@ -185,7 +185,7 @@ Dialogue: 0,0:09:53.40,0:09:54.08,Default,,0000,0000,0000,,or both
 Dialogue: 0,0:09:57.29,0:10:03.75,Default,,0000,0000,0000,,c++ doesn't actually aim to do everything for everybody.
 Dialogue: 0,0:10:03.87,0:10:08.28,Default,,0000,0000,0000,,there are things that are less interesting and things that
 Dialogue: 0,0:10:08.68,0:10:10.07,Default,,0000,0000,0000,,you just don't need
-Dialogue: 0,0:10:10.14,0:10:11.31,Default,,0000,0000,0000,,say, the efficiency
+Dialogue: 0,0:10:10.14,0:10:11.31,Default,,0000,0000,0000,,say that, the efficiency
 Dialogue: 0,0:10:11.50,0:10:12.40,Default,,0000,0000,0000,,close to hardware things
 Dialogue: 0,0:10:13.21,0:10:14.96,Default,,0000,0000,0000,,or you don't need the abstraction.
 Dialogue: 0,0:10:15.33,0:10:16.60,Default,,0000,0000,0000,,there are alternatives
